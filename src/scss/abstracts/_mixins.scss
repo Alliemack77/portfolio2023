@@ -1,0 +1,3 @@
+@mixin transition-450-easein ($property) {
+    transition: $property 450ms ease-in;
+}

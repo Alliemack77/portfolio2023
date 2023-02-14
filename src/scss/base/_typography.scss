@@ -1,0 +1,25 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+// Font family utilities
+.ff-body { font-family: $ff-body;}
+
+// Font size utilities
+.fs-900 { font-size: $fs-900;}
+.fs-800 { font-size: $fs-800;}
+.fs-700 { font-size: $fs-700;}
+.fs-600 { font-size: $fs-600;}
+.fs-500 { font-size: $fs-500;}
+.fs-400 { font-size: $fs-400;}
+.fs-300 { font-size: $fs-300;}
+.fs-200 { font-size: $fs-200;}
+
+// Font weight utilities
+.fw-700 { font-weight: $fw-700;}
+.fw-600 { font-weight: $fw-600;}
+.fw-500 { font-weight: $fw-500;}
+.fw-400 { font-weight: $fw-400;}
+.fw-300 { font-weight: $fw-300;}
+
+.text-center { text-align: center;}
+.uppercase { text-transform: uppercase;}

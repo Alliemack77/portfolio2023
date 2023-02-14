@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/logo-lrg.png">
+    <script src="https://kit.fontawesome.com/bbb6952168.js" crossorigin="anonymous"></script>
+    
+    <!--  Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+
+    <!-- SCSS -->
+    <link rel="stylesheet" href="scss/main.scss">
+
+    <!-- JS -->
+    <script type="module" src="js/main.js"></script>
+
+    
+    <title>Allison Leggett | Web Developer & Designer</title>
+
+</head>
+<body>
+    <header class="primary-header flex container">
+        <div>
+            <p class="fs-700 fw-600">Allison Leggett</p>
+            <p class="fs-400">web developer & designer</p>
+        </div>
+        
+        <div id="navigation-container" class="">
+            <button 
+                class="mobile-nav-toggle"
+                aria-controls="primary-navigation"
+                aria-expanded="true">
+                <span class="sr-only">navigation menu toggle</span>
+            </button>
+            <nav>
+                <ul id="primary-navigation" class="primary-navigation hover-indicators flex fs-600 fw-600">
+                    <li class="nav-link active"><a href="/">home</a></li>
+                    <li class="nav-link"><a href="/contact">contact</a></li>
+                    <li class="nav-link"><a href="/projects">projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="feature">
+            <div class="container">
+                <h1>Featured Projects</h1>
+                <div class="column">
+                    <div class="feature-item">
+                        <img src="/assets/comments.jpg" alt="Interactive Comments Section">
+                        <span class="tag uppercase fs-200">component</span>
+                        <div class="feature-item__details">
+                            <p>Frontend Mentor Challenge: Interactive Comments Section</p>
+                            <p>A compact component, built in React and using the Comments Section API I created. Styling is done using my favorite pre-processor, Sass.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <img src="/assets/todos-lrg.png" alt="Daily ToDo App">
+                        <span class="tag uppercase fs-200">component</span>
+                        <div class="feature-item__details">
+                            <p>Frontend Mentor Challenge: Daily To-Do App</p>
+                            <p>A fully responsive app built with React hooks and Sass. Cross off your to-do list in style with this functional app, complete with a dark mode toggle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-wide">
+                    <div class="feature-item latest">
+                        <img src="/assets/vortex-lrg.jpg" alt="The Vortex Project">
+                        <span class="tag uppercase fs-200">blog</span>
+                        <div class="feature-item__details">
+                            <p>The Vortex Project: The Ultimate Doctor Who Experience</p>
+                            <p>Using Eleventy to build my Nerdvana. Checkout my blog dedicated to all things Doctor Who.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="feature-item">
+                        <img src="/assets/arkAll5-lrg-comp.jpg" alt="Neebs Gaming">
+                        <span class="tag uppercase fs-200">website</span>
+                        <div class="feature-item__details">
+                            <p>Neebs Gaming: A website re-designed by a fangirl!</p>
+                            <p>The website I think the best gaming channel in the world deserves.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <img src="/assets/music.jpg" alt="The Music Shop">
+                        <span class="tag uppercase fs-200">website</span>
+                        <div class="feature-item__details">
+                            <p>The Music Shop</p>
+                            <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-bar">
+            <img class="logo" src="/assets/logo-lrg.png" alt=""/>
+            <a href="https://github.com/Alliemack77">GitHub</a>
+            <a href="mailto:alliemack77@gmail.com">Email</a>
+            <a href="https://linkedin.com/in/allisonleggett">LinkedIn</a>
+        </div>
+
+    </footer>
+</body>
+</html>

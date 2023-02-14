@@ -1,0 +1,14 @@
+$clr-dark-blue: hsl(235, 19%, 25%);
+$clr-light-blue: hsl(236, 28%, 59%);
+$clr-hover: hsl(236, 20%, 50%);
+$clr-white: hsl(0, 0%, 100%);
+
+//  Background color utilities
+.bg-dark-blue {background-color: $clr-dark-blue;}
+.bg-light-blue {background-color: $clr-light-blue;}
+.bg-white {background-color: $clr-white;}
+
+//  Text color utilities
+.text-dark-blue {color: $clr-dark-blue;}
+.text-light-blue {color: $clr-light-blue;}
+.text-white {color: $clr-white;}

@@ -1,0 +1,86 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/mixins' as *;
+
+.primary-header {
+    justify-content: space-between;
+    align-items: center;
+    // border: solid red 2px;
+    padding-block: 2.25em; 
+
+    .mobile-nav-toggle {
+        display: none;
+    }
+
+    .hover-indicators > li {
+        &:hover, 
+        &:focus {
+            color: $clr-hover;
+        }
+
+        & a {
+            padding: .5em;
+            text-decoration: none;
+            transition: color 450ms;
+        }
+
+        a:visited {
+            color: inherit;
+        }
+    } 
+
+
+    @media (max-width: 48rem) {
+    
+        .mobile-nav-toggle {
+            display: block;
+            padding: 1rem;
+            border: none;
+            background: transparent;
+            position: absolute;
+            top: 3.5vh;
+            right: 5vw;
+            z-index: 100;
+            background-image: url('../../assets/toggle-open.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 4rem;
+            aspect-ratio: 1;
+            transform: rotate(-180deg);
+            @include transition-450-easein(transform);
+        }
+
+        .primary-navigation {
+            position: fixed;
+            inset: 0 0 0 20%;
+            flex-direction: column;
+            padding: 7rem 1rem;
+            background-color: $clr-dark-blue;
+            // color: $clr-white;
+            translate: 100%;
+            @include transition-450-easein(translate);
+
+
+            @supports (backdrop-filter: blur(1rem)) {
+                background-color: transparentize($clr-dark-blue, .95);
+                backdrop-filter: blur(1rem);
+            }
+        }
+
+        .nav-open .mobile-nav-toggle {
+            background-image: url('../../assets/toggle-close.png');
+            transform: rotate(90deg);
+            @include transition-450-easein(transform);
+        }
+
+        .nav-open .primary-navigation {
+            translate: 0%;
+            @include transition-450-easein(translate);
+        }
+    }
+
+    
+
+    
+
+    
+}

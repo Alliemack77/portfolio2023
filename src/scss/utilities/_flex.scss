@@ -1,0 +1,21 @@
+@use '../abstracts/variables' as *;
+
+.flex {
+    display: flex;
+    gap: $gap;
+}
+
+// changes flex-direction to column
+.direction-column {
+    flex-direction: column;
+}
+
+// centers along main axis
+.justify-center {
+    justify-content: center;
+}
+
+// centers along cross-axis
+.align-items-center {
+    align-items: center;
+}

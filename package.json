@@ -1,0 +1,19 @@
+{
+  "name": "portfolio2023",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "A portfolio of work by Allison Leggett",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "sass": "^1.57.1"
+  }
+}
