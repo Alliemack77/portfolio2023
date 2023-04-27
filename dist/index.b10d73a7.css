@@ -255,29 +255,42 @@ input, button, textarea, select {
 }
 
 .feature-item {
-  border: 2px solid red;
+  max-width: 500px;
   grid-template-rows: 1fr 1fr;
   margin-bottom: 2.5rem;
   display: grid;
 }
 
-.feature-item img {
+.feature-item__image {
+  position: relative;
+}
+
+.feature-item__image img {
+  aspect-ratio: initial;
   grid-area: 1 / 1;
   margin-block-end: 1.2rem;
+}
+
+.feature-item__details h2 {
+  margin-block-start: 1rem;
+  line-height: 1.2;
+}
+
+.feature-item__details p {
+  margin-block-start: 1rem;
+  line-height: 1.15;
 }
 
 .feature-item .tag {
   max-width: -moz-fit-content;
   max-width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   letter-spacing: 2px;
   background-color: #fff;
   border: 2px solid #34364c;
-  grid-area: 1 / 1;
-  place-self: end center;
+  margin-inline: auto;
   padding: .563rem .938rem;
-  font-weight: 500;
+  position: absolute;
+  inset: auto 0 0;
   box-shadow: -5px 5px #34364d;
 }
 
