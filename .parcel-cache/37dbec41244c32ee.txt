@@ -1,14 +1,14 @@
-4430
+4432
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\NA.js133196003386369089 0
 80C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\picocolors\LICENSE133196003371831298 0
 91C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\weak-lru-cache\LRFUExpirer.js133196003372329962 0
-79C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\components\index.scss133208092974365069 0
+79C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\components\index.scss133290193184835680 0
 61C:\Users\allie\Documents\Portfolio\portfolio2023\package.json133204648437197302 0
 111C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\runtime-js\src\helpers\node\css-loader.js133196003379882324 0
 96C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\core\test\fixtures\plugins133196003384434251 1
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\GN.js133196003384125077 0
 87C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\terser\lib\utils\index.js133196003375164837 0
-78C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\utilities\index.scss133196020391468234 0
+78C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\utilities\index.scss133290207003487848 0
 82C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\msgpackr\index.d.cts133196003374105228 0
 113C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\src\_class_apply_descriptor_update.mjs133196003379114271 0
 101C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\dommatrix.js133196003382708876 0
@@ -33,7 +33,7 @@
 97C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\svgo\lib\svgo\css-select-adapter.js133196003374626277 0
 85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\terser\bin\package.json133196003376680786 0
 86C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\weak-lru-cache\README.md133196003372818661 0
-53C:\Users\allie\Documents\Portfolio\portfolio2023\dist133270372885227038 1
+53C:\Users\allie\Documents\Portfolio\portfolio2023\dist133290233446160730 1
 102C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\diagnostic\test\markdown.test.js133196003381398891 0
 90C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\.bin\node-gyp-build-test.ps1133196003390148973 0
 79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\readdirp\index.js133195992336269730 0
@@ -93,13 +93,13 @@
 73C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@ampproject133196002018124807 1
 95C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\wav.js133196003389171579 0
 66C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\.bin133196003390148973 1
-63C:\Users\allie\Documents\Portfolio\portfolio2023\src\index.html133270372509671426 0
+63C:\Users\allie\Documents\Portfolio\portfolio2023\src\index.html133290231191000602 0
 90C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\posthtml-parser\package.json133196003373077971 0
 92C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\chokidar\lib\nodefs-handler.js133195992336329571 0
 101C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\type-fest\source\async-return-type.d.ts133196003372310027 0
 88C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\sass\types\value\list.d.ts133195992338528695 0
 66C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc133196003368812837 1
-87C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\components\_feature-item.scss133270372884029003 0
+87C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\components\_feature-item.scss133290233476498498 0
 106C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\object-observe.js133196003386528644 0
 97C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\msgpackr\dist\index-no-eval.cjs.map133196003375434115 0
 77C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\srcset\index.js133196003373367194 0
@@ -113,7 +113,7 @@
 109C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\css-width-stretch.js133196003382246625 0
 98C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\svgo\plugins\removeOffCanvasPaths.js133196003376331722 0
 92C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\detect-libc\lib\detect-libc.js133196003373566667 0
-67C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\utilities133196020202223518 1
+67C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\utilities133290206528753828 1
 71C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\js-tokens133196003372300045 1
 80C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\readdirp\README.md133195992336299646 0
 74C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\read.js133196003380051875 0
@@ -138,7 +138,7 @@
 86C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\ordered-binary\README.md133196003372818661 0
 94C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\svgo\plugins\_applyTransforms.js133196003372150454 0
 105C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\src\_sliced_to_array_loose.mjs133196003380436205 0
-68C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\components133208092814481500 1
+68C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\components133290192246022440 1
 80C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\source-map\LICENSE133196003372090601 0
 101C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\xhtmlsmil.js133196003389650354 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\BB.js133196003376491288 0
@@ -151,7 +151,7 @@
 80C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\htmlnano\docs\docs133196003377488623 1
 104C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\packager-js\src\CJSOutputFormat.js133196003379593105 0
 96C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\namer-default\package.json133196003379632995 0
-83C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\utilities\_container.scss133208098632402848 0
+83C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\utilities\_container.scss133290229144898965 0
 100C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\htmlnano\docs\docs\010-introduction.md133196003376521210 0
 96C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\type-fest\source\set-optional.d.ts133196003374935450 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\FM.js133196003383815905 0
@@ -160,6 +160,8 @@
 107C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\custom-elements.js133196003382389720 0
 85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\core\lib\public133196003385321869 1
 78C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\utilities\_flex.scss133197790443823839 0
+68C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\terser133196003376940094 1
+77C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\utilities\_row.scss133290226755208809 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\yaml\browser\seq.js133196003375124941 0
 104C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in133196003379812515 0
 84C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\import-fresh\readme.md133196003372200320 0
@@ -185,6 +187,10 @@
 81C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\components\_header.scss133208099149491293 0
 111C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133196003373965586 0
 85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\parent-module\readme.md133196003372200320 0
+79C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\components\_hero.scss133290232753500300 0
+89C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\source-map-js\lib\base64.js133195992336309624 0
+90C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\yaml\dist\Schema-88e323a7.js133196003374985319 0
+114C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\src\_class_private_field_loose_base.mjs133196003379324518 0
 74C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\browserslist133196003372978234 1
 101C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\mpeg-dash.js133196003386219475 0
 70C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\boolbase133196003372010823 1
@@ -204,7 +210,7 @@
 100C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\testfeat.js133196003388662947 0
 92C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\transformer-js\LICENSE133196003376122274 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\lib\walker133196003377438761 1
-79C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\base\_typography.scss133270356635636371 0
+79C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\base\_typography.scss133290158945560900 0
 74C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite133196003389720122 1
 82C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\path-type\index.d.ts133196003371950974 0
 85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\svgo\lib\stringifier.js133196003377119607 0
@@ -217,7 +223,7 @@
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\NO.js133196003386458832 0
 80C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\chokidar\README.md133195992336349514 0
 88C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\nth-check\lib\compile.d.ts133196003374234870 0
-79C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\abstracts\_fonts.scss133197776305134048 0
+79C:\Users\allie\Documents\Portfolio\portfolio2023\src\scss\abstracts\_fonts.scss133290172561143163 0
 86C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\domhandler\lib\node.d.ts133196003372878515 0
 79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\sass\types\legacy133195992338578549 1
 114C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\dom-serializer\node_modules\entities\lib\decode.d.ts133196003373965586 0
@@ -553,8 +559,6 @@
 92C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\type-fest\ts41\camel-case.d.ts133196003372808702 0
 75C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\parent-module133196003372160421 1
 92C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\mdn-data\css\units.schema.json133196003374755930 0
-112C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc133196003379054435 0
-78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\src133196003380785266 1
 72C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\parse-json133196003372170394 1
 87C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\terser\lib\mozilla-ast.js133196003375703404 0
 78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\type-fest\source133196003375394238 1
@@ -636,7 +640,6 @@
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\GH.js133196003384085190 0
 71C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\term-size133196003372898453 1
 121C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133196003376351663 0
-68C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\terser133196003376940094 1
 69C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\timsort133196003372728892 1
 103C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\eventsource.js133196003383347155 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\RE.js133196003387216814 0
@@ -743,8 +746,8 @@
 79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\yaml\types\set.js133196003375384254 0
 113C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_class_private_field_loose_base.js133196003374995295 0
 117C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-bdb.txt133196003380705507 0
-85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\yaml\types\timestamp.js133196003375523877 0
 78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\stable\stable.js133196003372190343 0
+85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\yaml\types\timestamp.js133196003375523877 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\immutable\dist\immutable.min.js133195992336950257 0
 80C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\timsort\.npmignore133196003371950974 0
 94C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\source-map-js\lib\source-node.js133195992336369459 0
@@ -764,9 +767,6 @@
 104C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-select\lib\pseudo-selectors\pseudos.js133196003372958280 0
 101C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\webcodecs.js133196003389231430 0
 94C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\yaml\dist\resolveSeq-d03cb037.js133196003374885590 0
-89C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\source-map-js\lib\base64.js133195992336309624 0
-90C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\yaml\dist\Schema-88e323a7.js133196003374985319 0
-114C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\src\_class_private_field_loose_base.mjs133196003379324518 0
 103C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\src\_array_like_to_array.mjs133196003378835021 0
 85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\nullthrows\package.json133196003374095243 0
 79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\parcel\lib\bin.js133196003381313852 0
@@ -1240,9 +1240,6 @@
 100C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_iterable_to_array.js133196003376810451 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\stable\package.json133196003371831298 0
 79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\svgo\package.json133196003377917473 0
-101C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\proximity.js133196003387146994 0
-79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\graph\lib133196003377767873 1
-78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\stable\README.md133196003372050719 0
 91C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\cosmiconfig\dist\loaders.d.ts133196003375144889 0
 76C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\svgo\README.md133196003377957364 0
 132C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\nested\baz.js133196003374755930 0
@@ -1344,6 +1341,9 @@
 87C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\supports-color\browser.js133196003371960947 0
 84C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\supports-color\license133196003371861211 0
 78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\src\dbi.cpp133196003378595725 0
+101C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\proximity.js133196003387146994 0
+79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\graph\lib133196003377767873 1
+78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\stable\README.md133196003372050719 0
 119C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\dom-serializer\node_modules\entities\lib\maps\legacy.json133196003372838606 0
 79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\node_modules133196003368822809 1
 82C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\stable\stable.min.js133196003372329962 0
@@ -1535,7 +1535,7 @@
 80C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\entities\readme.md133196003374204952 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\readdirp\index.d.ts133195992336319593 0
 134C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\index.js133196003375743292 0
-81C:\Users\allie\Documents\Portfolio\portfolio2023\dist\music-breakout.8c94482d.jpg133270372512035245 0
+81C:\Users\allie\Documents\Portfolio\portfolio2023\dist\music-breakout.8c94482d.jpg133290232453698139 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\dotenv\package.json133196003373227562 0
 84C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\react-refresh\babel.js133196003372539402 0
 96C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\reporter-cli\src\render.js133196003381608329 0
@@ -1659,7 +1659,7 @@
 79C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\path-type\license133196003372200320 0
 111C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\css-scroll-behavior.js133196003381578411 0
 94C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\picocolors\picocolors.browser.js133196003371941000 0
-83C:\Users\allie\Documents\Portfolio\portfolio2023\dist\portfolio2023.59712999.js.map133204623276160471 0
+83C:\Users\allie\Documents\Portfolio\portfolio2023\dist\portfolio2023.59712999.js.map133290198534888715 0
 88C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\picocolors\picocolors.d.ts133196003372489547 0
 86C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\picocolors\picocolors.js133196003372050719 0
 100C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\css-sel3.js133196003381618310 0
@@ -1903,8 +1903,8 @@
 104C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\offline-apps.js133196003386678303 0
 76C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\README.md133196003380535928 0
 101C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\es6-class.js133196003383087855 0
-83C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\rollup.config.js133196003380071821 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\TM.js133196003388792599 0
+83C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\rollup.config.js133196003380071821 0
 75C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\write.js133196003380111717 0
 85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\fs\src\index.js133196003382306483 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\lib\syntax\node\Raw.js133196003378874912 0
@@ -2028,6 +2028,8 @@
 102C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb133196003380745377 1
 127C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\index.js133196003376032525 0
 151C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules133196003375035181 1
+112C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc133196003379054435 0
+78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\src133196003380785266 1
 114C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\page-transition-events.js133196003386777985 0
 111C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133196003374646224 0
 113C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.1133196003374855675 0
@@ -2183,7 +2185,7 @@
 106C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\workers\src\threads\ThreadsWorker.js133196003377807776 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\htmlparser2\LICENSE133196003371901121 0
 98C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\htmlparser2\lib\FeedHandler.d.ts.map133196003372838606 0
-80C:\Users\allie\Documents\Portfolio\portfolio2023\dist\todo-breakout.374f175b.jpg133270372511963382 0
+80C:\Users\allie\Documents\Portfolio\portfolio2023\dist\todo-breakout.374f175b.jpg133290232453708110 0
 92C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\htmlparser2\lib\FeedHandler.js133196003372020799 0
 89C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\domelementtype\package.json133196003372499527 0
 86C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\htmlparser2\lib\index.js133196003372160421 0
@@ -2293,7 +2295,7 @@
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\BF.js133196003376730649 0
 104C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\core\test\fixtures\invalid-engines133196003386039951 1
 78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\get-port\license133196003379543249 0
-72C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.b10d73a7.css133270372885214806 0
+72C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.b10d73a7.css133290233446130843 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\fill-range\index.js133195992336269730 0
 102C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\features\web-serial.js133196003389201505 0
 80C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\fill-range\LICENSE133195992336289684 0
@@ -2471,8 +2473,8 @@
 114C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\lib\syntax\pseudo\common\nthWithOfClause.js133196003378356297 0
 100C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\csso\lib\restructure\7-mergeRuleset.js133196003372698979 0
 111C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\package-manager\src\promiseFromProcess.js133196003382116971 0
-93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\TL.js133196003388762684 0
 91C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\csso\lib\restructure\utils.js133196003375952743 0
+93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\TL.js133196003388762684 0
 85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\braces\lib\stringify.js133195992336359491 0
 109C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\csso\lib\restructure\prepare\processSelector.js133196003375434115 0
 105C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\csso\lib\restructure\prepare\specificity.js133196003375593688 0
@@ -2549,7 +2551,7 @@
 109C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\core\src\requests\WriteBundleRequest.js133196003385920285 0
 78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\LICENSE133196003371831298 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\lib\common133196003379253906 1
-82C:\Users\allie\Documents\Portfolio\portfolio2023\dist\vortex-breakout.6a21711c.jpg133270372512035245 0
+82C:\Users\allie\Documents\Portfolio\portfolio2023\dist\vortex-breakout.6a21711c.jpg133290232453698139 0
 84C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\lib\convertor133196003376700739 1
 74C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers133196003378785168 1
 109C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\core\src\requests\BundleGraphRequest.js133196003384005403 0
@@ -2629,7 +2631,7 @@
 82C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\browserslist\LICENSE133196003371861211 0
 100C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\lib\syntax\node\StyleSheet.js133196003379154180 0
 88C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\core\src\worker.js133196003385900332 0
-64C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.html133270372512025239 0
+64C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.html133290232454216744 0
 102C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\lib\syntax\node\UnicodeRange.js133196003379543249 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\css-tree\lib\syntax\node\Url.js133196003379563182 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\caniuse-lite\data\regions\US.js133196003388982087 0
@@ -2770,7 +2772,7 @@
 85C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\color-convert\README.md133196003372539402 0
 90C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\abortcontroller-polyfill\src133196003374416841 1
 84C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\color-convert\route.js133196003372649119 0
-75C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.18dbc454.js.map133270372512055185 0
+75C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.18dbc454.js.map133290232453927516 0
 98C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\transformer-babel\lib\jsx.js133196003377757902 0
 78C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\clone\.npmignore133196003371960947 0
 86C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_jsx.js133196003376979989 0
@@ -3603,7 +3605,6 @@
 108C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_skip_first_generator_next.js133196003377767873 0
 98C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_sliced_to_array.js133196003377797799 0
 98C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_super_prop_base.js133196003377867608 0
-88C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\compressor-raw\src133196003380685527 1
 112C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_tagged_template_literal_loose.js133196003377917473 0
 88C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_throw.js133196003377947392 0
 91C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@swc\helpers\lib\_to_array.js133196003377967337 0
@@ -3941,9 +3942,9 @@
 87C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\reporter-cli\test133196003381568431 1
 102C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\reporter-cli\src\bundleReport.js133196003381428809 0
 95C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\reporter-cli\src\emoji.js133196003381588378 0
-99C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\reporter-cli\src\logLevels.js133196003381598356 0
-97C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\compressor-raw\package.json133196003380725421 0
 140C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main\package.json133196003379124247 0
+97C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\compressor-raw\package.json133196003380725421 0
+99C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\reporter-cli\src\logLevels.js133196003381598356 0
 95C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\reporter-cli\src\utils.js133196003381618310 0
 95C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\plugin\src\PluginAPI.d.ts133196003376301796 0
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\plugin\lib\PluginAPI.js133196003376112310 0
@@ -4059,7 +4060,7 @@
 153C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\a\index.js133196003376610977 0
 149C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\a\index.js133196003376391561 0
 146C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false\src\index.js133196003377019926 0
-79C:\Users\allie\Documents\Portfolio\portfolio2023\dist\toggle-close.52946c4c.png133270372512025239 0
+79C:\Users\allie\Documents\Portfolio\portfolio2023\dist\toggle-close.52946c4c.png133290232454117017 0
 144C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback\package.json133196003379054435 0
 92C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\core\lib\serializer.js133196003385232121 0
 146C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-exclude\main.js133196003377339088 0
@@ -4233,6 +4234,7 @@
 92C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\config-default\LICENSE133196003381303885 0
 97C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\config-default\package.json133196003381389901 0
 88C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\compressor-raw\lib133196003380665588 1
+88C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\compressor-raw\src133196003380685527 1
 105C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\compressor-raw\lib\RawCompressor.js133196003380665588 0
 83C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@parcel\codeframe\lib133196003375653550 1
 102C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@mischnic\json-sourcemap\dist\index.d.ts133196003374945438 0
@@ -4314,7 +4316,7 @@
 105C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@jridgewell\set-array\dist\set-array.umd.js133196003371970923 0
 90C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@jridgewell\resolve-uri\dist133196003372708960 1
 93C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@jridgewell\resolve-uri\LICENSE133196003371831298 0
-84C:\Users\allie\Documents\Portfolio\portfolio2023\dist\comments-breakout.c84490e3.jpg133270372512025239 0
+84C:\Users\allie\Documents\Portfolio\portfolio2023\dist\comments-breakout.c84490e3.jpg133290232453877656 0
 106C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.mjs133196003372669069 0
 110C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.mjs.map133196003372220258 0
 109C:\Users\allie\Documents\Portfolio\portfolio2023\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.umd.js133196003371970923 0
@@ -4408,19 +4410,19 @@
 83C:\Users\allie\Documents\Portfolio\portfolio2023\dist\arkAll5-lrg-comp.470365db.jpg133270272005255385 0
 82C:\Users\allie\Documents\Portfolio\portfolio2023\dist\comments-tablet.717f0f6b.jpg133270346319949740 0
 75C:\Users\allie\Documents\Portfolio\portfolio2023\dist\comments.45087fc9.jpg133270272005285346 0
-71C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.18dbc454.js133270372512025239 0
+71C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.18dbc454.js133290232453907575 0
 71C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.44983732.js133204623276140507 0
 75C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.44983732.js.map133204623276160471 0
-76C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.b10d73a7.css.map133270372885224784 0
+76C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.b10d73a7.css.map133290233446150839 0
 71C:\Users\allie\Documents\Portfolio\portfolio2023\dist\index.f5c48570.js133204632374174905 0
-75C:\Users\allie\Documents\Portfolio\portfolio2023\dist\logo-lrg.6564652e.png133270372512025239 0
+75C:\Users\allie\Documents\Portfolio\portfolio2023\dist\logo-lrg.6564652e.png133290232453688151 0
 78C:\Users\allie\Documents\Portfolio\portfolio2023\dist\music-thumb.e218d56c.jpg133270310165371059 0
-81C:\Users\allie\Documents\Portfolio\portfolio2023\dist\neebs-breakout.fa218d86.jpg133270372512035245 0
+81C:\Users\allie\Documents\Portfolio\portfolio2023\dist\neebs-breakout.fa218d86.jpg133290232454117017 0
 79C:\Users\allie\Documents\Portfolio\portfolio2023\dist\neebs-tablet.11d62e99.jpg133270346319959726 0
-79C:\Users\allie\Documents\Portfolio\portfolio2023\dist\portfolio2023.59712999.js133204623276140507 0
+79C:\Users\allie\Documents\Portfolio\portfolio2023\dist\portfolio2023.59712999.js133290198534868752 0
 77C:\Users\allie\Documents\Portfolio\portfolio2023\dist\todo-thumb.2df73fe4.jpg133270324127915913 0
 79C:\Users\allie\Documents\Portfolio\portfolio2023\dist\todos-tablet.1bd20ad2.jpg133270346320069423 0
-78C:\Users\allie\Documents\Portfolio\portfolio2023\dist\toggle-open.0a8ee99f.png133270372512025239 0
+78C:\Users\allie\Documents\Portfolio\portfolio2023\dist\toggle-open.0a8ee99f.png133290232453708110 0
 81C:\Users\allie\Documents\Portfolio\portfolio2023\dist\vortex-feature.a2bd7cb7.jpg133270346320528192 0
 77C:\Users\allie\Documents\Portfolio\portfolio2023\assets\comments-breakout.jpg133270342309618991 0
 69C:\Users\allie\Documents\Portfolio\portfolio2023\assets\dev-group.jpg132972909405188038 0

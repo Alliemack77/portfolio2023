@@ -1,0 +1,9 @@
+.row {
+
+    @media (min-width: 900px) {
+        display: flex;
+        // flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+}

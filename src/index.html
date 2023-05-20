@@ -8,9 +8,13 @@
     <script src="https://kit.fontawesome.com/bbb6952168.js" crossorigin="anonymous"></script>
     
     <!--  Google Fonts  -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
 
 
     <!-- SCSS -->
@@ -26,7 +30,7 @@
 <body>
     <header class="primary-header flex container">
         <div>
-            <p class="fs-700 fw-600">Allison Leggett</p>
+            <p class="fs-500 fw-600">Allison Leggett</p>
             <p class="fs-400">web developer & designer</p>
         </div>
         
@@ -38,10 +42,10 @@
                 <span class="sr-only">navigation menu toggle</span>
             </button>
             <nav>
-                <ul id="primary-navigation" class="primary-navigation hover-indicators flex fs-600 fw-600">
-                    <li class="nav-link active"><a href="/">home</a></li>
-                    <li class="nav-link"><a href="/contact">contact</a></li>
-                    <li class="nav-link"><a href="/projects">projects</a></li>
+                <ul id="primary-navigation" class="primary-navigation hover-indicators flex fs-500">
+                    <li class="nav-link active"><a href="/">Home</a></li>
+                    <li class="nav-link"><a href="/contact">Contact</a></li>
+                    <li class="nav-link"><a href="/projects">Projects</a></li>
                 </ul>
             </nav>
         </div>
@@ -50,60 +54,56 @@
     <main>
         <section class="feature">
             <div class="container">
-                <h1>Featured Projects</h1>
-                <div class="column">
-                    <div class="feature-item">
-                        <div class="feature-item__image">
-                            <img src="../assets/comments-breakout.jpg" alt="Interactive Comments Section">
-                            <span class="tag uppercase fs-200 fw-500">component</span>
-                        </div>
-                        <div class="feature-item__details">
-                            <h2 class="fs-600 fw-600">Frontend Mentor Challenge: Interactive Comments Section</h2>
-                            <p>A compact component, built in React and using the Comments Section API I created. Styling is done using my favorite pre-processor, Sass.</p>
+                <h1 class="sr-only">Featured Projects</h1>
+                <div class="row">
+                    <div class="hero">
+                        <div class="hero__details">
+                            <p class="uppercase fs-400 fw-600 text-white">blog</p>
+                            <h2 class="fs-800 fw-700 ff-heading text-white">The Vortex Project: The Ultimate Doctor Who Experience</h2>
+                            <p class="text-white">Using Eleventy to build my personal Nerdvana. This project is still a work in progress. Checkout my blog dedicated to all things Doctor Who.</p>
                         </div>
                     </div>
-                    <div class="feature-item">
-                        <div class="feature-item__image">
-                            <img src="../assets/todo-breakout.jpg" alt="Daily ToDo App">
-                            <span class="tag uppercase fs-200 fw-500">component</span>
+        
+                    <div class="features">
+                        <div class="feature-item">
+                            <div class="feature-item__image">
+                                <img src="../assets/comments-breakout.jpg" alt="Interactive Comments Section">
+                                <span class="tag uppercase fs-200 fw-500">component</span>
+                            </div>
+                            <div class="feature-item__details">
+                                <h2 class="fs-700  ff-heading">Frontend Mentor Challenge: Interactive Comments Section</h2>
+                                <p>A compact component, built in React and using the Comments Section API I created. Styling is done using my favorite pre-processor, Sass.</p>
+                            </div>
                         </div>
-                        <div class="feature-item__details">
-                            <h2 class="fs-600 fw-600">Frontend Mentor Challenge: Daily To-Do App</h2>
-                            <p>A fully responsive app built with React hooks and Sass. Cross off your to-do list in style with this functional app, complete with a dark mode toggle.</p>
+                        <div class="feature-item">
+                            <div class="feature-item__image">
+                                <img src="../assets/todo-breakout.jpg" alt="Daily ToDo App">
+                                <span class="tag uppercase fs-200 fw-500">component</span>
+                            </div>
+                            <div class="feature-item__details">
+                                <h2 class="fs-700 fw-700 ff-heading">Frontend Mentor Challenge: Daily To-Do App</h2>
+                                <p>A fully responsive app built with React hooks and Sass. Cross off your to-do list in style with this functional app, complete with a dark mode toggle.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="column-wide">
-                    <div class="feature-item latest">
-                        <div class="feature-item__image">
-                            <img src="../assets/vortex-breakout.jpg" alt="The Vortex Project">
-                            <span class="tag uppercase fs-200 fw-500">blog</span>
+                        <div class="feature-item">
+                            <div class="feature-item__image">
+                                <img src="../assets/neebs-breakout.jpg" alt="Neebs Gaming">
+                                <span class="tag uppercase fs-200 fw-500">website</span>
+                            </div>
+                            <div class="feature-item__details">
+                                <h2 class="fs-700 fw-700 ff-heading">Neebs Gaming: A website re-designed by a fangirl!</h2>
+                                <p>The website I think the best gaming channel in the world deserves. This redesign focuses on creator content, community, and merch.</p>
+                            </div>
                         </div>
-                        <div class="feature-item__details">
-                            <h2 class="fs-600 fw-600">The Vortex Project: The Ultimate Doctor Who Experience</h2>
-                            <p>Using Eleventy to build my personal Nerdvana. This project is still a work in progress. Checkout my blog dedicated to all things Doctor Who.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="feature-item">
-                        <div class="feature-item__image">
-                            <img src="../assets/neebs-breakout.jpg" alt="Neebs Gaming">
-                            <span class="tag uppercase fs-200 fw-500">website</span>
-                        </div>
-                        <div class="feature-item__details">
-                            <h2 class="fs-600 fw-600">Neebs Gaming: A website re-designed by a fangirl!</h2>
-                            <p>The website I think the best gaming channel in the world deserves. This redesign focuses on creator content, community, and merch.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-item__image">
-                            <img src="../assets/music-breakout.jpg" alt="The Music Shop">
-                            <span class="tag uppercase fs-200 fw-500">website</span>
-                        </div>
-                        <div class="feature-item__details">
-                            <h2 class="fs-600 fw-600">The Music Shop</h2>
-                            <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
+                        <div class="feature-item">
+                            <div class="feature-item__image">
+                                <img src="../assets/music-breakout.jpg" alt="The Music Shop">
+                                <span class="tag uppercase fs-200 fw-500">website</span>
+                            </div>
+                            <div class="feature-item__details">
+                                <h2 class="fs-700 fw-700 ff-heading">The Music Shop</h2>
+                                <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
