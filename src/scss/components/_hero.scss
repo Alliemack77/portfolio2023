@@ -3,20 +3,18 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    height: calc(100vh - 100px);
+    height: calc(100vh);
     
-
-    @media (min-width: 900px) {
-        flex: 0 0 75%;
-        max-width: 75%;
+    @media (min-width: 56.25em) {
+        position: sticky;
+        top: 0;
     }
     
     &__details {
         position: absolute;
         padding-inline: clamp(1.25rem, 5vw, 3rem);
         max-width: 60ch;
-        bottom: 50px;
+        bottom: 110px;
 
         h2 {
             margin-block: 1rem;

@@ -1,26 +1,50 @@
 @use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
 @use '../abstracts/mixins' as *;
 
 .primary-header {
-    justify-content: space-between;
-    align-items: center;
-    // border: solid red 2px;
-    padding-block: 2.25em; 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 1em 1em 2em; 
+    background-color: $clr-white;
 
+    .logo-mobile,
     .mobile-nav-toggle {
         display: none;
     }
 
+    .logo-mobile {
+        margin-block-end: 2rem;
+    }
+
+    #navigation-container {
+        position: relative;
+        margin-block-start: 4rem;
+    }
+    
+    .logo-desktop {
+        display: grid;
+        align-items: end;
+        max-width: 50px;
+        padding: .5rem;
+    }
+
+    .primary-navigation {
+        font-size: $fs-500;
+    }
+
     .hover-indicators > li {
+        
         &:hover, 
         &:focus {
-            color: $clr-hover;
+            color: $clr-accent;
+            transition: color 450ms ease-out;
         }
-
+        
         & a {
             padding: .5em;
             text-decoration: none;
-            transition: color 450ms;
         }
 
         a:visited {
@@ -30,15 +54,28 @@
 
 
     @media (max-width: 48rem) {
-    
+         
+        .logo-mobile {
+            display: flex;
+            justify-content: center;
+        }
+
+        #navigation-container {
+            margin-block-start: 0;
+        }
+
+        .logo-desktop {
+            display: none;
+        }
+
         .mobile-nav-toggle {
             display: block;
             padding: 1rem;
             border: none;
             background: transparent;
             position: absolute;
-            top: 3.5vh;
-            right: 5vw;
+            top: -57px;
+            right: 0;
             z-index: 100;
             background-image: url('../../assets/toggle-open.png');
             background-repeat: no-repeat;
@@ -51,12 +88,14 @@
 
         .primary-navigation {
             position: fixed;
-            inset: 0 0 0 20%;
-            flex-direction: column;
+            inset: -50 0 0 0;
+            display: flex;
+            // gap: 1rem;
             padding: 7rem 1rem;
             background-color: $clr-dark-blue;
-            // color: $clr-white;
+            color: $clr-white;
             translate: 100%;
+            z-index: 10;
             @include transition-450-easein(translate);
 
 
@@ -73,6 +112,10 @@
         }
 
         .nav-open .primary-navigation {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: $fs-800;
             translate: 0%;
             @include transition-450-easein(translate);
         }

@@ -28,33 +28,38 @@
 
 </head>
 <body>
-    <header class="primary-header flex container">
-        <div>
-            <p class="fs-500 fw-600">Allison Leggett</p>
-            <p class="fs-400">web developer & designer</p>
+    <header class="primary-header container">
+        <div class="logo-mobile">
+            <img src="../assets/logo-favicon.png" alt=""/>
         </div>
-        
-        <div id="navigation-container" class="">
-            <button 
-                class="mobile-nav-toggle"
-                aria-controls="primary-navigation"
-                aria-expanded="true">
-                <span class="sr-only">navigation menu toggle</span>
-            </button>
-            <nav>
-                <ul id="primary-navigation" class="primary-navigation hover-indicators flex fs-500">
-                    <li class="nav-link active"><a href="/">Home</a></li>
-                    <li class="nav-link"><a href="/contact">Contact</a></li>
-                    <li class="nav-link"><a href="/projects">Projects</a></li>
-                </ul>
-            </nav>
+        <div>
+            <p class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">ui/ux developer</span></p>
+            <div id="navigation-container" class="flex align-items-center jusify-center" >
+                <div class="logo-desktop">
+                    <img src="../assets/logo-favicon.png" alt=""/>
+                </div>
+                <button
+                    class="mobile-nav-toggle"
+                    aria-controls="primary-navigation"
+                    aria-expanded="true">
+                    <span class="sr-only">navigation menu toggle</span>
+                </button>
+                <nav>
+                    <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
+                        <li class="nav-link active"><a href="/">Home</a></li>
+                        <li class="nav-link"><a href="/src/web-projects.html">Web Projects</a></li>
+                        <li class="nav-link"><a href="/src/ux-designs.html">UX Design</a></li>
+                        <li class="nav-link"><a href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <main>
-        <section class="feature">
-            <div class="container">
-                <h1 class="sr-only">Featured Projects</h1>
+    <main >
+        <section class="feature container">
+            <h1 class="sr-only">Featured Projects</h1>
+            <!-- <div > -->
                 <div class="row">
                     <div class="hero">
                         <div class="hero__details">
@@ -66,55 +71,63 @@
         
                     <div class="features">
                         <div class="feature-item">
-                            <div class="feature-item__image">
-                                <img src="../assets/comments-breakout.jpg" alt="Interactive Comments Section">
-                                <span class="tag uppercase fs-200 fw-500">component</span>
-                            </div>
+                            <img class="feature-item__image" src="../assets/comments-tablet.jpg" alt="Interactive Comments Section">
+                            <p class="tag uppercase fs-200 fw-600">component</p>
                             <div class="feature-item__details">
-                                <h2 class="fs-700  ff-heading">Frontend Mentor Challenge: Interactive Comments Section</h2>
+                                <h2 class="fs-700 ff-heading"><a href="/src/project.html">FEM Challenge: Interactive Comments Section</a></h2>
                                 <p>A compact component, built in React and using the Comments Section API I created. Styling is done using my favorite pre-processor, Sass.</p>
                             </div>
                         </div>
                         <div class="feature-item">
-                            <div class="feature-item__image">
-                                <img src="../assets/todo-breakout.jpg" alt="Daily ToDo App">
-                                <span class="tag uppercase fs-200 fw-500">component</span>
-                            </div>
+                            <img class="feature-item__image" src="../assets/todo-tablet.jpg" alt="Daily ToDo App">
+                            <p class="tag uppercase fs-200 fw-600">component</p>
                             <div class="feature-item__details">
-                                <h2 class="fs-700 fw-700 ff-heading">Frontend Mentor Challenge: Daily To-Do App</h2>
+                                <h2 class="fs-700 fw-700 ff-heading">FEM Challenge: Daily To-Do App</h2>
                                 <p>A fully responsive app built with React hooks and Sass. Cross off your to-do list in style with this functional app, complete with a dark mode toggle.</p>
                             </div>
                         </div>
                         <div class="feature-item">
-                            <div class="feature-item__image">
-                                <img src="../assets/neebs-breakout.jpg" alt="Neebs Gaming">
-                                <span class="tag uppercase fs-200 fw-500">website</span>
-                            </div>
+                            <img class="feature-item__image" src="../assets/neebs-gang-tablet.jpg" alt="Neebs Gaming">
+                            <p class="tag uppercase fs-200 fw-600">website</p>
                             <div class="feature-item__details">
                                 <h2 class="fs-700 fw-700 ff-heading">Neebs Gaming: A website re-designed by a fangirl!</h2>
                                 <p>The website I think the best gaming channel in the world deserves. This redesign focuses on creator content, community, and merch.</p>
                             </div>
                         </div>
                         <div class="feature-item">
-                            <div class="feature-item__image">
-                                <img src="../assets/music-breakout.jpg" alt="The Music Shop">
-                                <span class="tag uppercase fs-200 fw-500">website</span>
-                            </div>
+                            <img class="feature-item__image" src="../assets/music-tablet.jpg" alt="The Music Shop">
+                            <p class="tag uppercase fs-200 fw-600">website</p>
                             <div class="feature-item__details">
                                 <h2 class="fs-700 fw-700 ff-heading">The Music Shop</h2>
                                 <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
                             </div>
                         </div>
+                        <div class="feature-item">
+                            <img class="feature-item__image" src="../assets/music-tablet.jpg" alt="The Music Shop">
+                            <p class="tag uppercase fs-200 fw-600">website</p>
+                            <div class="feature-item__details">
+                                <h2 class="fs-700 fw-700 ff-heading">The Music Shop</h2>
+                                <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
+                            </div>
+                        </div> 
+                        <div class="feature-item">
+                            <img class="feature-item__image" src="../assets/music-tablet.jpg" alt="The Music Shop">
+                            <p class="tag uppercase fs-200 fw-600">website</p>
+                            <div class="feature-item__details">
+                                <h2 class="fs-700 fw-700 ff-heading">The Music Shop</h2>
+                                <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
+                            </div>
+                        </div>
+                       
                     </div>
                 </div>
-                <!-- <img src="../assets/music-breakout.jpg" alt="music" > -->
-            </div>
+            <!-- </div> -->
         </section>
     </main>
     
     <footer>
-        <div class="social-bar">
-            <img class="logo" src="/assets/logo-lrg.png" alt=""/>
+        <div class="social-bar container">
+            <!-- <img class="logo" src="/assets/logo-lrg.png" alt=""/> -->
             <a href="https://github.com/Alliemack77">GitHub</a>
             <a href="mailto:alliemack77@gmail.com">Email</a>
             <a href="https://linkedin.com/in/allisonleggett">LinkedIn</a>

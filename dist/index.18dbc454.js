@@ -559,7 +559,6 @@ function hmrAccept(bundle, id) {
 },{}],"1SICI":[function(require,module,exports) {
 const navContainer = document.getElementById("navigation-container");
 const navToggle = document.querySelector(".mobile-nav-toggle");
-const navLinks = document.querySelectorAll(".nav-link");
 navToggle.addEventListener("click", ()=>{
     navContainer.classList.toggle("nav-open");
 });

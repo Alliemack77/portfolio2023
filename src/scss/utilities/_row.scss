@@ -1,9 +1,9 @@
 .row {
 
     @media (min-width: 900px) {
-        display: flex;
-        // flex-wrap: wrap;
-        gap: 1rem;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 2rem;
     }
     
 }

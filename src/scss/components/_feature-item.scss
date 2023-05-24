@@ -2,49 +2,53 @@
 @use '../abstracts/fonts' as *;
 
 .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
 
-
-    @media (min-width: 900px) {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-    
-    // display: flex;
-
+    // @media (min-width: 900px) {
+    //     flex: 0 1 30%;
+    // }
 }
 
 .feature-item {
     margin-bottom: 2.5rem;
 
-    &__image {
-        position: relative;
-
-        img {
-            margin-block-end: 1.75rem;
-            aspect-ratio: initial;
-        }
-    }
-
     &__details {
         h2 {
-            margin-block: 1rem;
             line-height: 1.2;
+            position: relative;
+        }
+
+        h2 a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        h2:hover {
+            color: $clr-accent;
+            text-decoration: underline;
         }
     
         p {
             line-height: 1.15;
+            margin-block-start: 1rem;
         }
     }
 
     .tag {
-        position: absolute;
-        inset: auto 0 -10 0 ;
-        margin-inline: auto;
-        max-width: fit-content;
-        background-color: $clr-white;
-        padding: .563rem .938rem;
+       
+        margin-block: 1em;
         letter-spacing: 2px;
-        border: solid $clr-dark-blue 2px;
-        box-shadow: -5px 5px 0px #34364D;
+        color: $clr-accent;
+
+
+        // position: absolute;
+        // inset: auto 0 -10 0 ;
+        // max-width: fit-content;
+        // background-color: $clr-white;
+        // padding: .563rem .938rem;
+        // border: solid $clr-accent 2px;
+        // box-shadow: -5px 5px 0px #34364D;
     }
 }
