@@ -1,0 +1,51 @@
+.bg-dark-blue {
+  background-color: hsl(235deg, 50%, 20%);
+}
+
+.bg-light-blue {
+  background-color: hsl(235deg, 24%, 50%);
+}
+
+.bg-white {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.text-dark-blue {
+  color: hsl(235deg, 50%, 20%);
+}
+
+.text-light-blue {
+  color: hsl(235deg, 24%, 50%);
+}
+
+.text-white {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.deco {
+  padding: 3em 0 3em;
+}
+@media (min-width: 768px) {
+  .deco {
+    border-left: solid hsla(235deg, 24%, 50%, 0.5) 1px;
+    padding: 5em 0 5em 2em;
+    margin-inline-start: 6em;
+  }
+}
+
+.page-header {
+  margin: 4em auto 9em;
+  width: max-content;
+}
+.page-header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.5rem, 7vw, 6.25rem);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */

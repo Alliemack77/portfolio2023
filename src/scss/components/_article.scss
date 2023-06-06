@@ -1,0 +1,42 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+
+.article {
+
+    &__tags {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        margin-block: 1em;
+        font-size: $fs-200;
+        font-weight: $fw-600;
+        letter-spacing: 2px;
+        color: $clr-light-blue-50;
+        text-transform: uppercase;
+
+        & svg {
+            font-size: $fs-600;
+        }
+    }
+
+    h1 {
+        max-width: 22ch;
+    }
+
+    &__image {
+        margin-block: 3em;
+    }
+
+    &__details {
+        max-width: 80ch;
+        margin-block: 2em;
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-block: 2em;
+        }
+    }
+}

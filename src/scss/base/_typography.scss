@@ -6,7 +6,7 @@
 .ff-heading { font-family: $ff-heading;}
 
 // Font size utilities
-.fs-900 { font-size: $fs-900;}
+.fs-900 { font-size: $fs-900; line-height: clamp(40px, 5vw, 56px);}
 .fs-800 { font-size: $fs-800;}
 .fs-700 { font-size: $fs-700;}
 .fs-600 { font-size: $fs-600;}

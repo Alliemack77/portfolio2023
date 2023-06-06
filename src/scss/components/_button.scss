@@ -1,0 +1,22 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+
+.btn {
+    display: inline-block;
+    max-width: fit-content;
+    padding: .563rem .938rem;
+    border: solid $clr-dark-blue 2px;
+    text-decoration: none;
+    color: $clr-white;
+    background-color: #34364D;
+    box-shadow: none;
+    transition: all 350ms ease-out;
+
+    &:hover {
+        color: inherit;
+        background-color: $clr-white;
+        box-shadow: -5px 5px 0px #34364D;
+        transition: all 350ms ease-out;
+    }
+}

@@ -1,0 +1,258 @@
+.bg-dark-blue {
+  background-color: hsl(235deg, 50%, 20%);
+}
+
+.bg-light-blue {
+  background-color: hsl(235deg, 24%, 50%);
+}
+
+.bg-white {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.text-dark-blue {
+  color: hsl(235deg, 50%, 20%);
+}
+
+.text-light-blue {
+  color: hsl(235deg, 24%, 50%);
+}
+
+.text-white {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.article__tags {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-block: 1em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: hsla(235deg, 24%, 50%, 0.5);
+  text-transform: uppercase;
+}
+.article__tags svg {
+  font-size: 1.25rem;
+}
+.article h1 {
+  max-width: 22ch;
+}
+.article__image {
+  margin-block: 3em;
+}
+.article__details {
+  max-width: 80ch;
+  margin-block: 2em;
+}
+.article__details .button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-block: 2em;
+}
+
+.btn {
+  display: inline-block;
+  max-width: fit-content;
+  padding: 0.563rem 0.938rem;
+  border: solid hsl(235deg, 50%, 20%) 2px;
+  text-decoration: none;
+  color: hsl(0deg, 0%, 100%);
+  background-color: #34364D;
+  box-shadow: none;
+  transition: all 350ms ease-out;
+}
+.btn:hover {
+  color: inherit;
+  background-color: hsl(0deg, 0%, 100%);
+  box-shadow: -5px 5px 0px #34364D;
+  transition: all 350ms ease-out;
+}
+
+.card {
+  max-width: 500px;
+  margin-bottom: 2.5rem;
+}
+.card__details h2 {
+  position: relative;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.card__details h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+.card__details h2:hover {
+  color: hsl(235deg, 100%, 61%);
+  text-decoration: underline;
+}
+.card__details p {
+  line-height: 1.15;
+  margin-block-start: 1rem;
+}
+.card .tag {
+  margin-block: 1em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: hsl(235deg, 100%, 61%);
+  text-transform: uppercase;
+}
+
+.primary-footer {
+  display: grid;
+  gap: 1rem;
+  place-content: center;
+  justify-items: center;
+  padding: 4rem;
+  background-color: hsl(235deg, 50%, 20%);
+  color: hsl(0deg, 0%, 100%);
+}
+.primary-footer svg {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 2rem;
+}
+.primary-footer p {
+  font-size: 1.5rem;
+}
+.primary-footer .logo {
+  max-width: 50px;
+}
+.primary-footer .social-bar {
+  display: flex;
+  gap: 2rem;
+}
+
+.primary-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 1em 1em 2em;
+  background-color: hsl(0deg, 0%, 100%);
+}
+.primary-header .logo-mobile,
+.primary-header .mobile-nav-toggle {
+  display: none;
+}
+.primary-header .logo-mobile {
+  margin-block-end: 2rem;
+}
+.primary-header #navigation-container {
+  position: relative;
+  margin-block-start: 4rem;
+}
+.primary-header .logo-desktop {
+  display: grid;
+  align-items: end;
+  max-width: 50px;
+  padding: 0.5rem;
+}
+.primary-header .primary-navigation {
+  font-size: 1.125rem;
+}
+.primary-header .hover-indicators > li:hover, .primary-header .hover-indicators > li:focus {
+  color: hsl(235deg, 100%, 61%);
+  transition: color 450ms ease-out;
+}
+.primary-header .hover-indicators > li a {
+  padding: 0.5em;
+  text-decoration: none;
+}
+.primary-header .hover-indicators > li a:visited {
+  color: inherit;
+}
+@media (max-width: 48rem) {
+  .primary-header .logo-mobile {
+    display: flex;
+    justify-content: center;
+  }
+  .primary-header #navigation-container {
+    margin-block-start: 0;
+  }
+  .primary-header .logo-desktop {
+    display: none;
+  }
+  .primary-header .mobile-nav-toggle {
+    display: block;
+    padding: 1rem;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: -57px;
+    right: 0;
+    z-index: 100;
+    background-image: url("../../assets/toggle-open.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 4rem;
+    aspect-ratio: 1;
+    transform: rotate(-180deg);
+    transition: transform 450ms ease-in;
+  }
+  .primary-header .primary-navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    inset: -50 0 0 0;
+    display: flex;
+    padding: 7rem 1rem;
+    background-color: hsl(235deg, 50%, 20%);
+    color: hsl(0deg, 0%, 100%);
+    translate: 100%;
+    z-index: 10;
+    transition: translate 450ms ease-in;
+  }
+  @supports (backdrop-filter: blur(1rem)) {
+    .primary-header .primary-navigation {
+      background-color: rgba(26, 30, 77, 0.05);
+      backdrop-filter: blur(1rem);
+    }
+  }
+  .primary-header .nav-open .mobile-nav-toggle {
+    background-image: url("../../assets/toggle-close.png");
+    transform: rotate(90deg);
+    transition: transform 450ms ease-in;
+  }
+  .primary-header .nav-open .primary-navigation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    translate: 0%;
+    transition: translate 450ms ease-in;
+  }
+}
+
+.hero {
+  background-image: url(../../assets/vortex-breakout.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+@media (min-width: 56.25em) {
+  .hero {
+    position: sticky;
+    top: 0;
+  }
+}
+.hero__details {
+  position: absolute;
+  padding-inline: clamp(1.25rem, 5vw, 3rem);
+  max-width: 60ch;
+  bottom: 110px;
+}
+.hero__details h2 {
+  margin-block: 1rem;
+  line-height: 1.2;
+}
+.hero__details p {
+  line-height: 1.15;
+}
+
+/*# sourceMappingURL=index.css.map */

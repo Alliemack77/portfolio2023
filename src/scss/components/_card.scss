@@ -1,0 +1,41 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+
+.card {
+    max-width: 500px;
+    margin-bottom: 2.5rem;
+
+    &__details {
+        h2 {
+            position: relative;
+            font-family: $ff-heading;
+            font-size: $fs-700;
+            line-height: 1.2;
+        }
+
+        h2 a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        h2:hover {
+            color: $clr-accent;
+            text-decoration: underline;
+        }
+    
+        p {
+            line-height: 1.15;
+            margin-block-start: 1rem;
+        }
+    }
+
+    .tag {
+        margin-block: 1em;
+        font-size: $fs-200;
+        font-weight: $fw-600;
+        letter-spacing: 2px;
+        color: $clr-accent;
+        text-transform: uppercase;
+    }
+}

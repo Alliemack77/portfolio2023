@@ -1,0 +1,25 @@
+.bg-dark-blue {
+  background-color: hsl(235deg, 50%, 20%);
+}
+
+.bg-light-blue {
+  background-color: hsl(235deg, 24%, 50%);
+}
+
+.bg-white {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.text-dark-blue {
+  color: hsl(235deg, 50%, 20%);
+}
+
+.text-light-blue {
+  color: hsl(235deg, 24%, 50%);
+}
+
+.text-white {
+  color: hsl(0deg, 0%, 100%);
+}
+
+/*# sourceMappingURL=index.css.map */

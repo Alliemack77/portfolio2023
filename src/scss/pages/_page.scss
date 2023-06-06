@@ -1,0 +1,22 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+.deco {
+    padding: 3em 0 3em;
+
+    @media (min-width: 768px) {
+        border-left: solid $clr-light-blue-50 1px;
+        padding: 5em 0 5em 2em;
+        margin-inline-start: 6em;
+    }
+}
+
+.page-header {
+    margin: 4em auto 9em;
+    width: max-content;
+
+    h1{
+        font-family: $ff-heading;
+        font-size: $fs-1000;
+    }
+}
