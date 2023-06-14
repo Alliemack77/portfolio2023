@@ -50,7 +50,7 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(235deg, 50%, 20%);
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 
@@ -144,7 +144,7 @@ select {
 }
 
 .fs-400 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .fs-300 {
@@ -211,7 +211,7 @@ select {
   display: flex;
   gap: 2rem;
   align-items: center;
-  margin-block: 1em;
+  margin: 1em 0 3em;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -233,7 +233,6 @@ select {
 
 .article__details {
   max-width: 80ch;
-  margin-block: 2em;
 }
 
 .article__details .button-container {
@@ -263,7 +262,6 @@ select {
 }
 
 .card {
-  max-width: 500px;
   margin-bottom: 2.5rem;
 }
 
@@ -287,6 +285,14 @@ select {
 .card__details p {
   line-height: 1.15;
   margin-block-start: 1rem;
+}
+
+.card__details .icon-wrapper {
+  margin-block: 1em;
+}
+
+.card__details .icon-wrapper svg {
+  font-size: 1.5rem;
 }
 
 .card .tag {
@@ -437,11 +443,12 @@ select {
   }
 }
 .hero {
-  background-image: url(../../assets/vortex-breakout.jpg);
+  background-image: url(../../assets/dr-who-hero.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  margin-block-end: 5em;
 }
 
 @media (min-width: 56.25em) {
@@ -491,7 +498,7 @@ select {
 }
 
 .deco {
-  padding: 3em 0 3em;
+  padding: 3em 0em;
 }
 
 @media (min-width: 768px) {
@@ -499,6 +506,7 @@ select {
     border-left: solid hsla(235deg, 24%, 50%, 0.5) 1px;
     padding: 5em 0 5em 2em;
     margin-inline-start: 6em;
+    margin-block-end: 9em;
   }
 }
 .page-header {
@@ -509,6 +517,10 @@ select {
 .page-header h1 {
   font-family: "Playfair Display", serif;
   font-size: clamp(2.5rem, 7vw, 6.25rem);
+}
+
+.page-subtitle {
+  margin: 5em 0 3em;
 }
 
 .layout {

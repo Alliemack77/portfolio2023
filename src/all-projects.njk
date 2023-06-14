@@ -6,74 +6,30 @@ layout: 'base.njk'
 <section class="container">
     <div class="deco">
         <header class="page-header">
-            <h1>Web Projects</h1>
+            <h1 class="uppercase">Web Projects</h1>
             <p>My latest projects for your viewing pleasure</p>
         </header>
+        <div class="page-subtitle">
+            <h2 class="ff-heading fs-600 uppercase">Recent Projects</h2>
+            <p>What I've been up to lately</p>
+        </div>
         <div class="layout">
+            {%- for project in collections.project | reverse -%}
 
-            {%- for project in collections.project -%}
-
-                <div class="card">
-                    <img class="card__image" src={{ project.data.imageTablet }} alt="">
-                    <p class="tag">{{ project.data.eyebrow }}</p>
-                    <div class="card__details">
-                        <h2><a href="/article">{{ project.data.cardTitle}}</a></h2>
-                        <p>{{ project.data.blurb }}</p>
-                    </div>
-                </div>
-
+                {% include 'project-card.njk' %}
+               
+            {%- endfor -%}
+        </div>
+        <div class="page-subtitle">
+            <h2 class="ff-heading fs-600 uppercase">Previous Portfolio Versions</h2>
+            <p>Sometimes the portfolio is a project, too!</p>
+        </div>
+        <div class="layout">
+            {%- for portfolio in collections.portfolio | reverse -%}
+                
+                {% include 'portfolio-card.njk' %}
 
             {%- endfor -%}
-
-{# 
-            <div class="card">
-                <img class="card__image" src="../assets/comments-tablet.jpg" alt="Interactive Comments Section">
-                <p class="tag">component</p>
-                <div class="card__details">
-                    <h2><a href="/article">FEM Challenge: Interactive Comments Section</a></h2>
-                    <p>A compact component, built in React and using the Comments Section API I created. Styling is done using my favorite pre-processor, Sass.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="../assets/todo-tablet.jpg" alt="Daily ToDo App">
-                <p class="tag">component</p>
-                <div class="card__details">
-                    <h2>FEM Challenge: Daily To-Do App</h2>
-                    <p>A fully responsive app built with React hooks and Sass. Cross off your to-do list in style with this functional app, complete with a dark mode toggle.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="../assets/neebs-gang-tablet.jpg" alt="Neebs Gaming">
-                <p class="tag">website</p>
-                <div class="card__details">
-                    <h2>Neebs Gaming: A website re-designed by a fangirl!</h2>
-                    <p>The website I think the best gaming channel in the world deserves. This redesign focuses on creator content, community, and merch.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="../assets/music-tablet.jpg" alt="The Music Shop">
-                <p class="tag">website</p>
-                <div class="card__details">
-                    <h2>The Music Shop</h2>
-                    <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="../assets/music-tablet.jpg" alt="The Music Shop">
-                <p class="tag">website</p>
-                <div class="card__details">
-                    <h2>The Music Shop</h2>
-                    <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="../assets/music-tablet.jpg" alt="The Music Shop">
-                <p class="tag">website</p>
-                <div class="card__details">
-                    <h2>The Music Shop</h2>
-                    <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
-                </div>
-            </div> #}
         </div>
     </div>
 </section>

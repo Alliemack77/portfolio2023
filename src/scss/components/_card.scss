@@ -3,7 +3,7 @@
 
 
 .card {
-    max-width: 500px;
+    // max-width: 500px;
     margin-bottom: 2.5rem;
 
     &__details {
@@ -28,6 +28,15 @@
             line-height: 1.15;
             margin-block-start: 1rem;
         }
+
+        .icon-wrapper {
+            margin-block: 1em;
+            
+            svg {
+                font-size: 1.5rem;
+            }
+        }
+
     }
 
     .tag {

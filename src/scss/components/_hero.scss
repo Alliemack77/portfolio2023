@@ -1,9 +1,10 @@
 .hero {
-    background-image: url(../../assets/vortex-breakout.jpg);
+    background-image: url(../../assets/dr-who-hero.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh);
+    margin-block-end: 5em;
     
     @media (min-width: 56.25em) {
         position: sticky;

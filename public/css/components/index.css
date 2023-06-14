@@ -26,7 +26,7 @@
   display: flex;
   gap: 2rem;
   align-items: center;
-  margin-block: 1em;
+  margin: 1em 0 3em;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -44,7 +44,6 @@
 }
 .article__details {
   max-width: 80ch;
-  margin-block: 2em;
 }
 .article__details .button-container {
   display: flex;
@@ -72,7 +71,6 @@
 }
 
 .card {
-  max-width: 500px;
   margin-bottom: 2.5rem;
 }
 .card__details h2 {
@@ -92,6 +90,12 @@
 .card__details p {
   line-height: 1.15;
   margin-block-start: 1rem;
+}
+.card__details .icon-wrapper {
+  margin-block: 1em;
+}
+.card__details .icon-wrapper svg {
+  font-size: 1.5rem;
 }
 .card .tag {
   margin-block: 1em;
@@ -229,11 +233,12 @@
 }
 
 .hero {
-  background-image: url(../../assets/vortex-breakout.jpg);
+  background-image: url(../../assets/dr-who-hero.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  margin-block-end: 5em;
 }
 @media (min-width: 56.25em) {
   .hero {

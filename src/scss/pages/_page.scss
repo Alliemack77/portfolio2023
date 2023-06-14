@@ -2,12 +2,13 @@
 @use '../abstracts/fonts' as *;
 
 .deco {
-    padding: 3em 0 3em;
+    padding: 3em 0em;
 
     @media (min-width: 768px) {
         border-left: solid $clr-light-blue-50 1px;
         padding: 5em 0 5em 2em;
         margin-inline-start: 6em;
+        margin-block-end: 9em;
     }
 }
 
@@ -19,4 +20,8 @@
         font-family: $ff-heading;
         font-size: $fs-1000;
     }
+}
+
+.page-subtitle {
+    margin: 5em 0 3em;
 }

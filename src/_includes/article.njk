@@ -1,0 +1,26 @@
+---
+layout: 'base.njk'
+---
+
+<section class="container">
+    <div class="deco">
+        <article class="article">
+            <div class="article__tags">
+                <p>{{ eyebrow }}</p>
+                <i class="fa-brands {{ icons[0] }}"></i>
+                <i class="fa-brands {{ icons[1] }}"></i>
+            </div>
+            <h1 class="fs-900 ff-heading">{{ title }}</h1>
+            <img class="article__image" src="{{ imageBreakout }}" alt="{{ imageAlt }}">
+            <div class="article__details">
+                <p>{{ description }}</p>
+                <div class="button-container">
+                    <a class="btn" href="{{ urls[0] }}">{{ buttons[0] }}</a>
+                    <a class="btn" href="{{ urls[1] }}">{{ buttons[1] }}</a>
+                    <a class="btn" href="{{ urls[2] }}">{{ buttons[2] }}</a>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+ 
