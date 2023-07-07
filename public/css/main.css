@@ -266,7 +266,6 @@ select {
 }
 
 .card__details h2 {
-  position: relative;
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   line-height: 1.2;
@@ -278,7 +277,7 @@ select {
 }
 
 .card__details h2:hover {
-  color: hsl(235deg, 100%, 61%);
+  color: #3849ff;
   text-decoration: underline;
 }
 
@@ -300,36 +299,83 @@ select {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 2px;
-  color: hsl(235deg, 100%, 61%);
+  color: #3849ff;
   text-transform: uppercase;
 }
 
+.card.experiment {
+  background-color: #fff;
+  box-shadow: 0 20px 60px 0 rgba(170, 177, 251, 0.396);
+  padding: 2rem clamp(2rem, 3vw, 6rem);
+  margin: 0;
+}
+
+.card.experiment .image {
+  aspect-ratio: 1/1;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  box-shadow: 20px 20px 60px 0 rgba(170, 177, 251, 0.396);
+}
+
+.card.experiment .body {
+  justify-content: space-between;
+  color: hsl(235deg, 50%, 20%);
+}
+
+.card.experiment .body .tag {
+  color: #3849ff;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+
+a:has(.card) {
+  text-decoration: none;
+}
+
 .primary-footer {
+  background-image: url(../../assets/background.png);
+  background-position: center;
+  background-size: contain;
+  min-height: 400px;
+  width: 100%;
   display: grid;
   gap: 1rem;
   place-content: center;
   justify-items: center;
   padding: 4rem;
-  background-color: hsl(235deg, 50%, 20%);
-  color: hsl(0deg, 0%, 100%);
-}
-
-.primary-footer svg {
-  color: hsl(0deg, 0%, 100%);
-  font-size: 2rem;
-}
-
-.primary-footer p {
-  font-size: 1.5rem;
+  color: hsl(235deg, 50%, 20%);
+  text-align: center;
 }
 
 .primary-footer .logo {
-  max-width: 50px;
+  max-width: 70px;
 }
 
 .primary-footer .social-bar {
   display: flex;
   gap: 2rem;
+}
+
+.primary-footer .social-bar svg {
+  color: hsl(235deg, 24%, 50%);
+  font-size: 2rem;
+}
+
+.eleventy {
+  display: grid;
+  place-content: center;
+  padding: 4em;
+  background-color: hsl(235deg, 50%, 20%);
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+
+.eleventy a {
+  color: hsl(235deg, 100%, 70%);
+  text-decoration: none;
 }
 
 .primary-header {
@@ -366,7 +412,7 @@ select {
 }
 
 .primary-header .hover-indicators > li:hover, .primary-header .hover-indicators > li:focus {
-  color: hsl(235deg, 100%, 61%);
+  color: #3849ff;
   transition: color 450ms ease-out;
 }
 
@@ -447,21 +493,15 @@ select {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  margin-block-end: 5em;
+  height: 95vh;
+  margin-block-end: 2em;
 }
 
-@media (min-width: 56.25em) {
-  .hero {
-    position: sticky;
-    top: 0;
-  }
-}
 .hero__details {
   position: absolute;
   padding-inline: clamp(1.25rem, 5vw, 3rem);
   max-width: 60ch;
-  bottom: 110px;
+  bottom: 50px;
 }
 
 .hero__details h2 {
@@ -473,6 +513,18 @@ select {
   line-height: 1.15;
 }
 
+@media (min-width: 48em) {
+  .hero__details {
+    bottom: 200px;
+  }
+}
+@media (min-width: 56.25em) {
+  .hero {
+    position: sticky;
+    top: 0;
+    margin-block-end: 0;
+  }
+}
 .bg-dark-blue {
   background-color: hsl(235deg, 50%, 20%);
 }
@@ -497,6 +549,25 @@ select {
   color: hsl(0deg, 0%, 100%);
 }
 
+.page-header {
+  margin: 4rem auto 9rem;
+  width: max-content;
+}
+
+.page-header img {
+  margin: 0 auto 2em auto;
+  max-width: 200px;
+}
+
+.page-header .heading {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.5rem, 7vw, 6.25rem);
+}
+
+.page-subtitle {
+  margin: 5em 0 3em;
+}
+
 .deco {
   padding: 3em 0em;
 }
@@ -509,18 +580,10 @@ select {
     margin-block-end: 9em;
   }
 }
-.page-header {
-  margin: 4em auto 9em;
-  width: max-content;
-}
-
-.page-header h1 {
-  font-family: "Playfair Display", serif;
-  font-size: clamp(2.5rem, 7vw, 6.25rem);
-}
-
-.page-subtitle {
-  margin: 5em 0 3em;
+.color-block {
+  padding: 4em 0 9em 0;
+  color: hsl(0deg, 0%, 100%);
+  background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
 }
 
 .layout {
@@ -571,6 +634,7 @@ select {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 2rem;
+    margin-block-end: 2rem;
   }
 }
 .sr-only {

@@ -13,36 +13,44 @@
 
     <link rel="stylesheet" href="/css/main.css">
 
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="/js/main.js"></script>
     
-    <title>Allison Leggett | Web Developer &amp; Designer</title>
+    <title>Allison Leggett | Web Developer</title>
 
 </head>
 <body>
-    <header class="primary-header container">
-    <div class="logo-mobile">
-        <img src="../assets/logo-favicon.png" alt=""/>
-    </div>
-    <div>
-        <p class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">ui/ux developer</span></p>
-        <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <div class="logo-desktop">
+    <header class="primary-header">
+    <div class="container">
+        <a href="/">
+            <div class="logo-mobile">
                 <img src="../assets/logo-favicon.png" alt=""/>
             </div>
-            <button
-                class="mobile-nav-toggle"
-                aria-controls="primary-navigation"
-                aria-expanded="true">
-                <span class="sr-only">navigation menu toggle</span>
-            </button>
-            <nav>
-                <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
-                    <li class="nav-link active"><a href="/">Home</a></li>
-                    <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
-                    <li class="nav-link"><a href="/all-designs">UX Design</a></li>
-                    
-                </ul>
-            </nav>
+            <span class="sr-only">Home</span>
+        </a>
+        <div>
+            <p class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">ui/ux developer</span></p>
+            <div id="navigation-container" class="flex align-items-center jusify-center" >
+                <a href="/">
+                    <div class="logo-desktop">
+                        <img src="../assets/logo-favicon.png" alt=""/>
+                    </div>
+                    <span class="sr-only">Home</span>
+                </a>
+                <button
+                    class="mobile-nav-toggle"
+                    aria-controls="primary-navigation"
+                    aria-expanded="true">
+                    <span class="sr-only">navigation menu toggle</span>
+                </button>
+                <nav>
+                    <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
+                        <li class="nav-link active"><a href="/">Home</a></li>
+                        <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
+                        <li class="nav-link"><a href="/all-designs">UX Design</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </header>
@@ -50,8 +58,9 @@
         
 <section class="container">
     <header>
-        <h1 class="sr-only">Featured Projects</h1>
+        <h1 class="sr-only">Featured projects</h1>
     </header>
+    
     <div class="row">
         <div class="hero">
             <div class="hero__details">
@@ -60,7 +69,6 @@
                 <p class="text-white">Using Eleventy to build my personal Nerdvana. This project is still a work in progress. Checkout my blog dedicated to all things Doctor Who.</p>
             </div>
         </div>
-
 
         <div class="layout"><div class="card">
     <img class="card__image" src=/assets/dictionary-tablet.jpg alt=Dictionary App: A Frontend Mentor Challenge
@@ -115,15 +123,83 @@
         <p>The website I think the best gaming channel in the world deserves. This redesign focuses on creator content, community, and merch.</p>
     </div>
 </div></div>
-            
     </div>
+    
+</section>
+
+<section class="color-block">
+    <header class="page-header">
+        <img src="./assets/art-deco-1 (1).png" alt=""/>
+        <p class="uppercase text-center">Experiments</p>
+        <h2 class="heading">Fun Mini Projects</h2>
+    </header>
+
+   <div class="layout container" style="gap: 0.5rem;"><a href="https://the-dr-who-api.herokuapp.com/" target="_blank" rel="noreferrer">
+    <div class="card experiment flex direction-column">
+        <div class="image" style="background-image: url('/assets/drwhoapi.png')"></div>
+        <div class="body flex">
+            <div>
+                <p class="ff-heading fs-400 fw-700 uppercase">Mock API</p>
+                <h2 class="fs-400 fw-400">Doctor Who API</h2>
+            </div>
+            <p class="tag">01</p>
+        </div>
+    </div>
+</a><a href="https://dr-who-web-scraper.herokuapp.com/" target="_blank" rel="noreferrer">
+    <div class="card experiment flex direction-column">
+        <div class="image" style="background-image: url('/assets/webscraper.jpg')"></div>
+        <div class="body flex">
+            <div>
+                <p class="ff-heading fs-400 fw-700 uppercase">Web App</p>
+                <h2 class="fs-400 fw-400">Web Scraper</h2>
+            </div>
+            <p class="tag">02</p>
+        </div>
+    </div>
+</a><a href="https://github.com/Alliemack77/Crypto-Converter-with-React-and-Node.js" target="_blank" rel="noreferrer">
+    <div class="card experiment flex direction-column">
+        <div class="image" style="background-image: url('/assets/converter.png')"></div>
+        <div class="body flex">
+            <div>
+                <p class="ff-heading fs-400 fw-700 uppercase">Web App</p>
+                <h2 class="fs-400 fw-400">Crypto Converter</h2>
+            </div>
+            <p class="tag">03</p>
+        </div>
+    </div>
+</a><a href="https://codepen.io/alliemack/pen/YzYLONx?editors=1100" target="_blank" rel="noreferrer">
+    <div class="card experiment flex direction-column">
+        <div class="image" style="background-image: url('/assets/grad-border.jpg')"></div>
+        <div class="body flex">
+            <div>
+                <p class="ff-heading fs-400 fw-700 uppercase">component</p>
+                <h2 class="fs-400 fw-400">Gradient Border</h2>
+            </div>
+            <p class="tag">04</p>
+        </div>
+    </div>
+</a><a href="https://codepen.io/alliemack/pen/xxpBReN" target="_blank" rel="noreferrer">
+    <div class="card experiment flex direction-column">
+        <div class="image" style="background-image: url('/assets/charcard.jpg')"></div>
+        <div class="body flex">
+            <div>
+                <p class="ff-heading fs-400 fw-700 uppercase">component</p>
+                <h2 class="fs-400 fw-400">Character Cards</h2>
+            </div>
+            <p class="tag">05</p>
+        </div>
+    </div>
+</a></div>
 </section>
 
 
     </main>
     <footer id="contact" class="primary-footer">
-    <img class="logo" src="/assets/logo-lrg.png" alt=""/>
-    <p>Let's Connect.</p>
+    <a href="/">
+        <img class="logo" src="/assets/logo-lrg.png" alt=""/>
+        <span class="sr-only">Home</span>
+    </a>
+    <p class="fs-800 ">Let's Connect</p>
     <div class="social-bar">
         <a href="https://github.com/Alliemack77">
             <i class="fa-brands fa-github"></i>
@@ -139,5 +215,9 @@
         </a>
     </div>
 </footer>
+
+<div class="eleventy">
+    <p>&#169; 2023 Made with &#x2764; and <a href="https://www.11ty.dev/">11ty</a>!</p>
+</div>
 </body>
 </html>

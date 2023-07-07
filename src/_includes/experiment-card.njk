@@ -1,0 +1,12 @@
+<a href="{{  experiment.data.url }}" target="_blank" rel="noreferrer">
+    <div class="card experiment flex direction-column">
+        <div class="image" style="background-image: url('{{ experiment.data.image }}')"></div>
+        <div class="body flex">
+            <div>
+                <p class="ff-heading fs-400 fw-700 uppercase">{{ experiment.data.eyebrow }}</p>
+                <h2 class="fs-400 fw-400">{{ experiment.data.title }}</h2>
+            </div>
+            <p class="tag">{{ experiment.data.id }}</p>
+        </div>
+    </div>
+</a>

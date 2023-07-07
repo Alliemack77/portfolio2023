@@ -1,27 +1,35 @@
-<header class="primary-header container">
-    <div class="logo-mobile">
-        <img src="../assets/logo-favicon.png" alt=""/>
-    </div>
-    <div>
-        <p class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">ui/ux developer</span></p>
-        <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <div class="logo-desktop">
+<header class="primary-header">
+    <div class="container">
+        <a href="/">
+            <div class="logo-mobile">
                 <img src="../assets/logo-favicon.png" alt=""/>
             </div>
-            <button
-                class="mobile-nav-toggle"
-                aria-controls="primary-navigation"
-                aria-expanded="true">
-                <span class="sr-only">navigation menu toggle</span>
-            </button>
-            <nav>
-                <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
-                    <li class="nav-link active"><a href="/">Home</a></li>
-                    <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
-                    <li class="nav-link"><a href="/all-designs">UX Design</a></li>
-                    {# <li class="nav-link"><a href="#contact">Contact</a></li> #}
-                </ul>
-            </nav>
+            <span class="sr-only">Home</span>
+        </a>
+        <div>
+            <p class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">ui/ux developer</span></p>
+            <div id="navigation-container" class="flex align-items-center jusify-center" >
+                <a href="/">
+                    <div class="logo-desktop">
+                        <img src="../assets/logo-favicon.png" alt=""/>
+                    </div>
+                    <span class="sr-only">Home</span>
+                </a>
+                <button
+                    class="mobile-nav-toggle"
+                    aria-controls="primary-navigation"
+                    aria-expanded="true">
+                    <span class="sr-only">navigation menu toggle</span>
+                </button>
+                <nav>
+                    <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
+                        <li class="nav-link active"><a href="/">Home</a></li>
+                        <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
+                        <li class="nav-link"><a href="/all-designs">UX Design</a></li>
+                        {# <li class="nav-link"><a href="#contact">Contact</a></li> #}
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </header>

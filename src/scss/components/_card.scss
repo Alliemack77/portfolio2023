@@ -3,12 +3,10 @@
 
 
 .card {
-    // max-width: 500px;
     margin-bottom: 2.5rem;
 
     &__details {
         h2 {
-            position: relative;
             font-family: $ff-heading;
             font-size: $fs-700;
             line-height: 1.2;
@@ -36,7 +34,6 @@
                 font-size: 1.5rem;
             }
         }
-
     }
 
     .tag {
@@ -47,4 +44,38 @@
         color: $clr-accent;
         text-transform: uppercase;
     }
+
+    &.experiment {
+        background-color: #fff;
+        box-shadow: 0 20px 60px 0 rgba(170, 177, 251, 0.396);
+        padding: 2rem clamp(2rem, 3vw, 6rem);
+        margin: 0;
+
+
+        .image {
+            // aspect-ratio: 131 / 108;
+            aspect-ratio: 1/1;
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+            box-shadow: 20px 20px 60px 0  rgb(170, 177, 251, 0.396);
+        }
+
+        .body {
+            justify-content: space-between;
+            color: $clr-dark-blue;
+            
+            .tag {
+                color: $clr-accent;
+                font-size: $fs-800;
+                font-family: $ff-heading;
+                margin: 0;
+            }
+        }
+    }
+}
+
+a:has(.card) {
+    text-decoration: none;
 }

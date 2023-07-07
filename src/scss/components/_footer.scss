@@ -2,31 +2,46 @@
 @use '../abstracts/fonts' as *;
 
 .primary-footer {
+    background-image: url(../../assets/background.png);
+    background-position: center;
+    background-size: contain;
+
+    min-height: 400px;
+    width: 100%;
     display: grid;
     gap: 1rem;
     place-content: center;
     justify-items: center;
     padding: 4rem;
-    background-color: $clr-dark-blue;
-    color: $clr-white;
-    
-    svg {
-        color: $clr-white;
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: $fs-700;
-    }
+    color: $clr-dark-blue;
+    text-align: center;
 
     .logo {
-        max-width: 50px;
-        // justify-self: center;
+        max-width: 70px;
     }
 
     & .social-bar {
         display: flex;
         gap: 2rem;
+        
+        svg {
+            color: $clr-light-blue;
+            font-size: 2rem;
+        }
     }
+}
 
+.eleventy {
+    display: grid;
+    place-content: center;
+    padding: 4em;
+    background-color: $clr-dark-blue;
+    color: $clr-white;
+    text-align: center;
+
+
+    a {
+        color: hsl(235, 100%, 70%);
+        text-decoration: none;
+    }
 }

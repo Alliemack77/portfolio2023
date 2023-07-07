@@ -3,19 +3,14 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh);
-    margin-block-end: 5em;
-    
-    @media (min-width: 56.25em) {
-        position: sticky;
-        top: 0;
-    }
+    height: 95vh;
+    margin-block-end: 2em;
     
     &__details {
         position: absolute;
         padding-inline: clamp(1.25rem, 5vw, 3rem);
         max-width: 60ch;
-        bottom: 110px;
+        bottom: 50px;
 
         h2 {
             margin-block: 1rem;
@@ -25,5 +20,17 @@
         p {
             line-height: 1.15;
         }
+    }
+
+    @media (min-width: 48em) {
+        &__details {
+           bottom: 200px;
+        }
+    }
+
+    @media (min-width: 56.25em) {
+        position: sticky;
+        top: 0;
+        margin-block-end: 0;
     }
 }

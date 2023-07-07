@@ -13,37 +13,45 @@
 
     <link rel="stylesheet" href="/css/main.css">
 
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="/js/main.js"></script>
     
     <title>GitHub User Search App: A Frontend Mentor Challenge
 </title>
 
 </head>
 <body>
-    <header class="primary-header container">
-    <div class="logo-mobile">
-        <img src="../assets/logo-favicon.png" alt=""/>
-    </div>
-    <div>
-        <p class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">ui/ux developer</span></p>
-        <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <div class="logo-desktop">
+    <header class="primary-header">
+    <div class="container">
+        <a href="/">
+            <div class="logo-mobile">
                 <img src="../assets/logo-favicon.png" alt=""/>
             </div>
-            <button
-                class="mobile-nav-toggle"
-                aria-controls="primary-navigation"
-                aria-expanded="true">
-                <span class="sr-only">navigation menu toggle</span>
-            </button>
-            <nav>
-                <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
-                    <li class="nav-link active"><a href="/">Home</a></li>
-                    <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
-                    <li class="nav-link"><a href="/all-designs">UX Design</a></li>
-                    
-                </ul>
-            </nav>
+            <span class="sr-only">Home</span>
+        </a>
+        <div>
+            <p class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">ui/ux developer</span></p>
+            <div id="navigation-container" class="flex align-items-center jusify-center" >
+                <a href="/">
+                    <div class="logo-desktop">
+                        <img src="../assets/logo-favicon.png" alt=""/>
+                    </div>
+                    <span class="sr-only">Home</span>
+                </a>
+                <button
+                    class="mobile-nav-toggle"
+                    aria-controls="primary-navigation"
+                    aria-expanded="true">
+                    <span class="sr-only">navigation menu toggle</span>
+                </button>
+                <nav>
+                    <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
+                        <li class="nav-link active"><a href="/">Home</a></li>
+                        <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
+                        <li class="nav-link"><a href="/all-designs">UX Design</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </header>
@@ -75,8 +83,11 @@
  
     </main>
     <footer id="contact" class="primary-footer">
-    <img class="logo" src="/assets/logo-lrg.png" alt=""/>
-    <p>Let's Connect.</p>
+    <a href="/">
+        <img class="logo" src="/assets/logo-lrg.png" alt=""/>
+        <span class="sr-only">Home</span>
+    </a>
+    <p class="fs-800 ">Let's Connect</p>
     <div class="social-bar">
         <a href="https://github.com/Alliemack77">
             <i class="fa-brands fa-github"></i>
@@ -92,5 +103,9 @@
         </a>
     </div>
 </footer>
+
+<div class="eleventy">
+    <p>&#169; 2023 Made with &#x2764; and <a href="https://www.11ty.dev/">11ty</a>!</p>
+</div>
 </body>
 </html>

@@ -3,6 +3,8 @@
 @use '../abstracts/mixins' as *;
 
 .primary-header {
+    // border: solid red 2px;
+    // min-width: 100%;
     position: sticky;
     top: 0;
     z-index: 100;

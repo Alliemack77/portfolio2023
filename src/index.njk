@@ -1,12 +1,13 @@
 ---
-title: Allison Leggett | Web Developer & Designer
+title: Allison Leggett | Web Developer
 layout: 'base.njk'
 ---
 
 <section class="container">
     <header>
-        <h1 class="sr-only">Featured Projects</h1>
+        <h1 class="sr-only">Featured projects</h1>
     </header>
+    
     <div class="row">
         <div class="hero">
             <div class="hero__details">
@@ -16,7 +17,6 @@ layout: 'base.njk'
             </div>
         </div>
 
-
         <div class="layout">
             {%- for project in collections.featured | reverse -%}
 
@@ -24,7 +24,23 @@ layout: 'base.njk'
             
             {%- endfor -%}
         </div>
-            
     </div>
+    
+</section>
+
+<section class="color-block">
+    <header class="page-header">
+        <img src="./assets/art-deco-1 (1).png" alt=""/>
+        <p class="uppercase text-center">Experiments</p>
+        <h2 class="heading">Fun Mini Projects</h2>
+    </header>
+
+   <div class="layout container" style="gap: 0.5rem;">
+        {%- for experiment in collections.experiment | reverse -%}
+
+            {% include 'experiment-card.njk' %}
+
+        {%- endfor -%}
+   </div>
 </section>
 
