@@ -28,6 +28,14 @@
             color: $clr-light-blue;
             font-size: 2rem;
         }
+
+        a {
+            font-size: $fs-400;
+            font-weight: $fw-700;
+            text-decoration: none;
+            color: $clr-accent;
+            text-transform: uppercase;
+        }
     }
 }
 
@@ -38,10 +46,5 @@
     background-color: $clr-dark-blue;
     color: $clr-white;
     text-align: center;
-
-
-    a {
-        color: hsl(235, 100%, 70%);
-        text-decoration: none;
-    }
 }
+

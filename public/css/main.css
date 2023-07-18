@@ -10,6 +10,10 @@
   background-color: hsl(0deg, 0%, 100%);
 }
 
+.text-accent {
+  color: #3849ff;
+}
+
 .text-dark-blue {
   color: hsl(235deg, 50%, 20%);
 }
@@ -32,6 +36,10 @@
 
 .bg-white {
   background-color: hsl(0deg, 0%, 100%);
+}
+
+.text-accent {
+  color: #3849ff;
 }
 
 .text-dark-blue {
@@ -69,6 +77,10 @@ h3,
 h4,
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul[class],
@@ -144,7 +156,7 @@ select {
 }
 
 .fs-400 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 .fs-300 {
@@ -195,6 +207,10 @@ select {
   background-color: hsl(0deg, 0%, 100%);
 }
 
+.text-accent {
+  color: #3849ff;
+}
+
 .text-dark-blue {
   color: hsl(235deg, 50%, 20%);
 }
@@ -237,11 +253,17 @@ select {
 
 .article__details .button-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   gap: 2rem;
   margin-block: 2em;
 }
 
+@media (min-width: 500px) {
+  .article__details .button-container {
+    flex-direction: row;
+  }
+}
 .btn {
   display: inline-block;
   max-width: fit-content;
@@ -269,10 +291,6 @@ select {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   line-height: 1.2;
-}
-
-.card__details h2 a {
-  color: inherit;
   text-decoration: none;
 }
 
@@ -301,6 +319,7 @@ select {
   letter-spacing: 2px;
   color: #3849ff;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .card.experiment {
@@ -364,6 +383,14 @@ a:has(.card) {
   font-size: 2rem;
 }
 
+.primary-footer .social-bar a {
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #3849ff;
+  text-transform: uppercase;
+}
+
 .eleventy {
   display: grid;
   place-content: center;
@@ -373,26 +400,20 @@ a:has(.card) {
   text-align: center;
 }
 
-.eleventy a {
-  color: hsl(235deg, 100%, 70%);
-  text-decoration: none;
-}
-
 .primary-header {
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 1em 1em 2em;
+  padding: 1em 0 2em;
   background-color: hsl(0deg, 0%, 100%);
 }
 
-.primary-header .logo-mobile,
-.primary-header .mobile-nav-toggle {
-  display: none;
+.primary-header h1 {
+  margin-block-start: 1em;
 }
 
-.primary-header .logo-mobile {
-  margin-block-end: 2rem;
+.primary-header .mobile-nav-toggle {
+  display: none;
 }
 
 .primary-header #navigation-container {
@@ -442,7 +463,7 @@ a:has(.card) {
     border: none;
     background: transparent;
     position: absolute;
-    top: -57px;
+    top: -54px;
     right: 0;
     z-index: 100;
     background-image: url("../../assets/toggle-open.png");
@@ -462,17 +483,11 @@ a:has(.card) {
     inset: -50 0 0 0;
     display: flex;
     padding: 7rem 1rem;
-    background-color: hsl(235deg, 50%, 20%);
-    color: hsl(0deg, 0%, 100%);
+    background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
+    color: hsl(235deg, 50%, 20%);
     translate: 100%;
     z-index: 10;
     transition: translate 450ms ease-in;
-  }
-  @supports (backdrop-filter: blur(1rem)) {
-    .primary-header .primary-navigation {
-      background-color: rgba(26, 30, 77, 0.05);
-      backdrop-filter: blur(1rem);
-    }
   }
   .primary-header .nav-open .mobile-nav-toggle {
     background-image: url("../../assets/toggle-close.png");
@@ -494,7 +509,8 @@ a:has(.card) {
   background-size: cover;
   background-repeat: no-repeat;
   height: 95vh;
-  margin-block-end: 2em;
+  margin-block-end: 5em;
+  position: relative;
 }
 
 .hero__details {
@@ -535,6 +551,10 @@ a:has(.card) {
 
 .bg-white {
   background-color: hsl(0deg, 0%, 100%);
+}
+
+.text-accent {
+  color: #3849ff;
 }
 
 .text-dark-blue {

@@ -10,6 +10,10 @@
   background-color: hsl(0deg, 0%, 100%);
 }
 
+.text-accent {
+  color: #3849ff;
+}
+
 .text-dark-blue {
   color: hsl(235deg, 50%, 20%);
 }
@@ -45,6 +49,10 @@ h3,
 h4,
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul[class],
@@ -120,7 +128,7 @@ select {
 }
 
 .fs-400 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 .fs-300 {

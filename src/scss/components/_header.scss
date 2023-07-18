@@ -3,22 +3,24 @@
 @use '../abstracts/mixins' as *;
 
 .primary-header {
-    // border: solid red 2px;
-    // min-width: 100%;
     position: sticky;
     top: 0;
     z-index: 100;
-    padding: 1em 1em 2em; 
+    padding: 1em 0 2em; 
     background-color: $clr-white;
 
-    .logo-mobile,
+    h1 {
+        margin-block-start: 1em;
+    }
+
+    // .logo-mobile,
     .mobile-nav-toggle {
         display: none;
     }
 
-    .logo-mobile {
-        margin-block-end: 2rem;
-    }
+    // .logo-mobile {
+    //     margin-block-end: 2rem;
+    // }
 
     #navigation-container {
         position: relative;
@@ -76,7 +78,7 @@
             border: none;
             background: transparent;
             position: absolute;
-            top: -57px;
+            top: -54px;
             right: 0;
             z-index: 100;
             background-image: url('../../assets/toggle-open.png');
@@ -97,17 +99,18 @@
             inset: -50 0 0 0;
             display: flex;
             padding: 7rem 1rem;
-            background-color: $clr-dark-blue;
-            color: $clr-white;
+            // background-color: $clr-dark-blue;
+            background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
+            color: $clr-dark-blue;
             translate: 100%;
             z-index: 10;
             @include transition-450-easein(translate);
 
 
-            @supports (backdrop-filter: blur(1rem)) {
-                background-color: transparentize($clr-dark-blue, .95);
-                backdrop-filter: blur(1rem);
-            }
+            // @supports (backdrop-filter: blur(1rem)) {
+            //     background-color: transparentize($clr-dark-blue, .90);
+            //     backdrop-filter: blur(1rem);
+            // }
         }
 
         .nav-open .mobile-nav-toggle {

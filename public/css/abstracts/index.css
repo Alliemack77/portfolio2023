@@ -10,6 +10,10 @@
   background-color: hsl(0deg, 0%, 100%);
 }
 
+.text-accent {
+  color: #3849ff;
+}
+
 .text-dark-blue {
   color: hsl(235deg, 50%, 20%);
 }
