@@ -6,9 +6,9 @@
     margin-bottom: 2.5rem;
 
     &__details {
-        color: $clr-dark-blue;
 
         h2 {
+            color: $clr-dark-blue;
             font-family: $ff-heading;
             font-size: $fs-700;
             line-height: 1.2;
@@ -41,7 +41,7 @@
     &.experiment {
         background-color: #fff;
         box-shadow: 0 20px 60px 0 rgba(170, 177, 251, 0.396);
-        padding: 2rem clamp(2rem, 3vw, 6rem);
+        padding: 2rem;
         margin: 0;
 
 

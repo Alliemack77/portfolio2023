@@ -175,6 +175,7 @@ h2 .link:hover,
   background-position: 0 120%;
 }
 
+h2 .link:visited,
 .link:visited {
   color: hsl(235deg, 100%, 19%);
 }

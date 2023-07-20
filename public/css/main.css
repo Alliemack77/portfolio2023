@@ -203,6 +203,7 @@ h2 .link:hover,
   background-position: 0 120%;
 }
 
+h2 .link:visited,
 .link:visited {
   color: hsl(235deg, 100%, 19%);
 }
@@ -313,11 +314,8 @@ h2 .link:hover,
   margin-bottom: 2.5rem;
 }
 
-.card__details {
-  color: hsl(235deg, 100%, 19%);
-}
-
 .card__details h2 {
+  color: hsl(235deg, 100%, 19%);
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   line-height: 1.2;
@@ -349,7 +347,7 @@ h2 .link:hover,
 .card.experiment {
   background-color: #fff;
   box-shadow: 0 20px 60px 0 rgba(170, 177, 251, 0.396);
-  padding: 2rem clamp(2rem, 3vw, 6rem);
+  padding: 2rem;
   margin: 0;
 }
 
