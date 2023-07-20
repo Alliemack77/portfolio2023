@@ -543,10 +543,6 @@ h2 .link:hover,
     transition: translate 450ms ease-in;
   }
 }
-.hero-wrapper:hover .hero {
-  transform: scale(1.015);
-}
-
 .hero {
   background-image: url(../../assets/dr-who-hero.jpg);
   background-position: center center;
