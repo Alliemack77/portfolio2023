@@ -11,7 +11,7 @@ blurb: Portfolio 2022
 description: Portfolio 2022
 buttons: ["Live Portfolio", "GitHub Repo"]
 urls: [
-    "https://allisonmleggett.netlify.app/",
+    "https://allisonmleggett2022.netlify.app/",
     "https://github.com/Alliemack77/ALPortfolio",
 ]
 ---
