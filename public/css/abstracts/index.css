@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: hsl(235deg, 50%, 20%);
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -11,11 +11,11 @@
 }
 
 .text-accent {
-  color: #3849ff;
+  color: hsl(235deg, 100%, 61%);
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 50%, 20%);
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {

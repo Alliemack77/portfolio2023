@@ -1,10 +1,15 @@
-<a href="{{ project.url }}">
+
     <div class="card">
-        <img class="card__image" src={{ project.data.imageTablet }} alt={{ project.data.imageAlt }}>
+        <a href="{{ project.url }}">
+            <img class="card__image" src={{ project.data.imageTablet }} alt={{ project.data.imageAlt }}>
+        </a>
         <p class="tag">{{ project.data.eyebrow }}</p>
         <div class="card__details">
-            <h2>{{ project.data.cardTitle}}</h2>
+            <h2>
+                <a class="link" href="{{ project.url }}">
+                    {{ project.data.cardTitle}}
+                </a>
+            </h2>
             <p>{{ project.data.blurb }}</p>
         </div>
     </div>
-</a>

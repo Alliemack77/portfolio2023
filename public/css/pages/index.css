@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: hsl(235deg, 50%, 20%);
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -11,11 +11,11 @@
 }
 
 .text-accent {
-  color: #3849ff;
+  color: hsl(235deg, 100%, 61%);
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 50%, 20%);
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {
@@ -59,6 +59,16 @@
   padding: 4em 0 9em 0;
   color: hsl(0deg, 0%, 100%);
   background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
+  display: grid;
+  place-items: center;
+}
+.color-block .link {
+  color: hsl(235deg, 100%, 61%);
+  margin-block-start: 3em;
+  font-family: "Playfair Display", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .layout {

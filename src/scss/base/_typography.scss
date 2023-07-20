@@ -24,3 +24,15 @@
 
 .text-center { text-align: center;}
 .uppercase { text-transform: uppercase;}
+
+h2 .link:hover, 
+.link:hover {
+    color: $clr-accent;
+    background-image: url(../../assets/hover-blue.png);
+    background-repeat: repeat-x;
+    background-position: 0 120%;
+}
+
+.link:visited {
+    color: $clr-dark-blue;
+}

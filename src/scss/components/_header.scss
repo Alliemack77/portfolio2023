@@ -13,14 +13,10 @@
         margin-block-start: 1em;
     }
 
-    // .logo-mobile,
+    .logo-mobile,
     .mobile-nav-toggle {
         display: none;
     }
-
-    // .logo-mobile {
-    //     margin-block-end: 2rem;
-    // }
 
     #navigation-container {
         position: relative;
@@ -56,12 +52,22 @@
         }
     } 
 
+    // .active {
+    //     color: $clr-accent;
+    // }
+
 
     @media (max-width: 48rem) {
          
         .logo-mobile {
             display: flex;
             justify-content: center;
+            align-items: center;
+            margin-block-end: 2em;
+
+            img {
+                max-width: 50px;
+            }
         }
 
         #navigation-container {
@@ -105,12 +111,6 @@
             translate: 100%;
             z-index: 10;
             @include transition-450-easein(translate);
-
-
-            // @supports (backdrop-filter: blur(1rem)) {
-            //     background-color: transparentize($clr-dark-blue, .90);
-            //     backdrop-filter: blur(1rem);
-            // }
         }
 
         .nav-open .mobile-nav-toggle {

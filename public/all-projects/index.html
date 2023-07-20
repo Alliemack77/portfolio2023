@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/assets/logo-lrg.png">
+    <link rel="icon" type="image/x-icon" href="/assets/art-deco-3.png">
     <script src="https://kit.fontawesome.com/bbb6952168.js" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,13 +21,18 @@
 <body>
     <header class="primary-header">
     <div class="container">
-        
+        <a href="/">
+            <div class="logo-mobile">
+                <img src="/assets/art-deco-3.png" alt=""/>
+            </div>
+            <span class="sr-only">Home</span>
+        </a>
         
             <h1 class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">ui/ux developer</span></h1>
             <div id="navigation-container" class="flex align-items-center jusify-center" >
                 <a href="/">
                     <div class="logo-desktop">
-                        <img src="/assets/logo-favicon.png" alt=""/>
+                        <img src="/assets/art-deco-3.png" alt=""/>
                     </div>
                     <span class="sr-only">Home</span>
                 </a>
@@ -39,9 +44,10 @@
                 </button>
                 <nav>
                     <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
-                        <li class="nav-link active"><a href="/">Home</a></li>
+                        <li class="nav-link active"><a href="/">Featured</a></li>
                         <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
-                        <li class="nav-link"><a href="/all-designs">UX Design</a></li>
+                        
+                        <li class="nav-link"><a href="/all-experiments">Experiments</a></li>
                         
                     </ul>
                 </nav>
@@ -54,126 +60,192 @@
 <section class="container">
     <div class="deco">
         <header class="page-header">
+            
             <h1 class="heading uppercase">Web Projects</h1>
-            <p>My latest projects for your viewing pleasure</p>
+            <p>A catalog of cool projects I've built</p>
         </header>
+    
         <div class="page-subtitle">
             <h2 class="ff-heading fs-600 uppercase">Recent Projects</h2>
             <p>What I've been up to lately</p>
         </div>
-        <div class="layout"><a href="/projects/dictionary/">
+        <div class="layout">
     <div class="card">
-        <img class="card__image" src=/assets/dictionary-tablet.jpg alt=Dictionary App: A Frontend Mentor Challenge
+        <a href="/projects/dictionary/">
+            <img class="card__image" src=/assets/dictionary-tablet.jpg alt=Dictionary App: A Frontend Mentor Challenge
 >
+        </a>
         <p class="tag">web app</p>
         <div class="card__details">
-            <h2>FEM Challenge: Dictionary Web App
-</h2>
+            <h2>
+                <a class="link" href="/projects/dictionary/">
+                    FEM Challenge: Dictionary Web App
+
+                </a>
+            </h2>
             <p>React Context shines in this jaunty web app that uses the Free Dictionary API to search for all your favorite words. Go aheah, give us your favorite word.</p>
         </div>
     </div>
-</a><a href="/projects/staff-listing/">
+
     <div class="card">
-        <img class="card__image" src=/assets/staff-listing-tablet.jpg alt=Staff Listing: Building a Flexible Component
+        <a href="/projects/staff-listing/">
+            <img class="card__image" src=/assets/staff-listing-tablet.jpg alt=Staff Listing: Building a Flexible Component
 >
+        </a>
         <p class="tag">component</p>
         <div class="card__details">
-            <h2>Staff Listing: Building a Flexible Component
-</h2>
+            <h2>
+                <a class="link" href="/projects/staff-listing/">
+                    Staff Listing: Building a Flexible Component
+
+                </a>
+            </h2>
             <p>CSS container queries and grid layout are the perfect tools to use when you want to write modern, flexible, and readable CSS.</p>
         </div>
     </div>
-</a><a href="/projects/github-search/">
+
     <div class="card">
-        <img class="card__image" src=/assets/github-tablet.jpg alt=GitHub User Search App: A Frontend Mentor Challenge
+        <a href="/projects/github-search/">
+            <img class="card__image" src=/assets/github-tablet.jpg alt=GitHub User Search App: A Frontend Mentor Challenge
 >
+        </a>
         <p class="tag">web app</p>
         <div class="card__details">
-            <h2>FEM Challenge: GitHub User Search Web App
-</h2>
+            <h2>
+                <a class="link" href="/projects/github-search/">
+                    FEM Challenge: GitHub User Search Web App
+
+                </a>
+            </h2>
             <p>A Frontend Mentor Challenge.</p>
         </div>
     </div>
-</a><a href="/projects/comments-section/">
+
     <div class="card">
-        <img class="card__image" src=/assets/comments-tablet.jpg alt=Interactive Comments Section/:/ A Frontend Mentor Challenge>
+        <a href="/projects/comments-section/">
+            <img class="card__image" src=/assets/comments-tablet.jpg alt=Interactive Comments Section/:/ A Frontend Mentor Challenge>
+        </a>
         <p class="tag">component</p>
         <div class="card__details">
-            <h2>FEM Challenge: Interactive Comments Section
-</h2>
+            <h2>
+                <a class="link" href="/projects/comments-section/">
+                    FEM Challenge: Interactive Comments Section
+
+                </a>
+            </h2>
             <p>A compact component, built in React and using the Comments Section API I created. Styling is done using my favorite pre-processor, Sass.</p>
         </div>
     </div>
-</a><a href="/projects/daily-todos/">
+
     <div class="card">
-        <img class="card__image" src=/assets/todo-tablet.jpg alt=Your Daily To-Do&#39;s: A Frontend Mentor Challenge
+        <a href="/projects/daily-todos/">
+            <img class="card__image" src=/assets/todo-tablet.jpg alt=Your Daily To-Do&#39;s: A Frontend Mentor Challenge
 >
+        </a>
         <p class="tag">web app</p>
         <div class="card__details">
-            <h2>FEM Challenge: Daily To-Do App
-</h2>
+            <h2>
+                <a class="link" href="/projects/daily-todos/">
+                    FEM Challenge: Daily To-Do App
+
+                </a>
+            </h2>
             <p>A fully responsive app built with React hooks and Sass. Cross off your to-do list in style with this functional app, complete with a dark mode toggle.</p>
         </div>
     </div>
-</a><a href="/projects/vortex/">
+
     <div class="card">
-        <img class="card__image" src=/assets/dr-who-tablet.jpg alt=The Vortex Project>
+        <a href="/projects/vortex/">
+            <img class="card__image" src=/assets/dr-who-tablet.jpg alt=The Vortex Project>
+        </a>
         <p class="tag">blog</p>
         <div class="card__details">
-            <h2>The Vortex Project</h2>
+            <h2>
+                <a class="link" href="/projects/vortex/">
+                    The Vortex Project
+                </a>
+            </h2>
             <p>The ultimate Doctor Who experience.</p>
         </div>
     </div>
-</a><a href="/projects/neebs/">
+
     <div class="card">
-        <img class="card__image" src=/assets/neebs-gang-tablet.jpg alt=Neebs Gaming>
+        <a href="/projects/neebs/">
+            <img class="card__image" src=/assets/neebs-gang-tablet.jpg alt=Neebs Gaming>
+        </a>
         <p class="tag">website</p>
         <div class="card__details">
-            <h2>The Neebs Gaming website gets a re-design from a fangirl
-</h2>
+            <h2>
+                <a class="link" href="/projects/neebs/">
+                    The Neebs Gaming website gets a re-design from a fangirl
+
+                </a>
+            </h2>
             <p>The website I think the best gaming channel in the world deserves. This redesign focuses on creator content, community, and merch.</p>
         </div>
     </div>
-</a><a href="/projects/music-shop/">
+
     <div class="card">
-        <img class="card__image" src=/assets/music-tablet.jpg alt=The Music Shop>
+        <a href="/projects/music-shop/">
+            <img class="card__image" src=/assets/music-tablet.jpg alt=The Music Shop>
+        </a>
         <p class="tag">landing page</p>
         <div class="card__details">
-            <h2>The Music Shop</h2>
+            <h2>
+                <a class="link" href="/projects/music-shop/">
+                    The Music Shop
+                </a>
+            </h2>
             <p>Exploring layout and Sass in this landing page inspired by magazine layouts and Nashville nightclubs. This is a fully responsive landing page with an attitude.</p>
         </div>
     </div>
-</a><a href="/projects/beehive/">
+
     <div class="card">
-        <img class="card__image" src=/assets/beehive-tablet.jpg alt=The BeeHive>
+        <a href="/projects/beehive/">
+            <img class="card__image" src=/assets/beehive-tablet.jpg alt=The BeeHive>
+        </a>
         <p class="tag">website</p>
         <div class="card__details">
-            <h2>The BeeHive</h2>
+            <h2>
+                <a class="link" href="/projects/beehive/">
+                    The BeeHive
+                </a>
+            </h2>
             <p>A project for inclusion. Our team set out to build a more inclusive developer community, using React, Redux and Sass.</p>
         </div>
     </div>
-</a><a href="/projects/skate-shop/">
+
     <div class="card">
-        <img class="card__image" src=/assets/skate-tablet.jpg alt=The Skate Shop>
+        <a href="/projects/skate-shop/">
+            <img class="card__image" src=/assets/skate-tablet.jpg alt=The Skate Shop>
+        </a>
         <p class="tag">landing page</p>
         <div class="card__details">
-            <h2>The Skate Shop</h2>
+            <h2>
+                <a class="link" href="/projects/skate-shop/">
+                    The Skate Shop
+                </a>
+            </h2>
             <p>Exploring layout and CSS in this landing page inspired by the e-skateboard Mellow. Find your Cali vibe in this chill landing page with a groove.</p>
         </div>
     </div>
-</a></div>
+</div>
         <div class="page-subtitle">
             <h2 class="ff-heading fs-600 uppercase">Previous Portfolio Versions</h2>
             <p>Sometimes the portfolio is a project, too!</p>
         </div>
         <div class="layout"><div class="card">
-    <img class="card__image" src=/assets/portfolio22-tablet.jpg alt="">
+    <a href=https://allisonmleggett.netlify.app/>
+        <img class="card__image" src=/assets/portfolio22-tablet.jpg alt="">
+    </a>
     <div class="card__details">
         <div class="icon-wrapper">
             <i class="fa-brands fa-sass"></i>
             <i class="fa-brands fa-brands fa-react"></i>
         </div>
-        <h2 class="portfolio-title"><a href=https://allisonmleggett.netlify.app/>Portfolio 2022</a></h2>
+        <h2>
+            <a class="link" href=https://allisonmleggett.netlify.app/>Portfolio 2022</a>
+        </h2>
     </div>
 </div></div>
     </div>
@@ -182,24 +254,14 @@
     </main>
     <footer id="contact" class="primary-footer">
     <a href="/">
-        <img class="logo" src="/assets/logo-lrg.png" alt=""/>
+        <img class="logo" src="/assets/art-deco-3.png" alt=""/>
         <span class="sr-only">Home</span>
-
     </a>
     <p class="fs-800 ">Let's Connect</p>
     <div class="social-bar">
-        
-            
             <p class="ff-heading text-accent"><a href="https://github.com/Alliemack77">GitHub</a></p>
-       
-        
-            
             <p class="ff-heading text-accent"><a href="mailto:alliemack77@gmail.com">Email</a></p>
-     
-        
-            
             <p class="ff-heading text-accent"><a href="https://linkedin.com/in/allisonleggett">LinkedIn</a></p>
-        
     </div>
 </footer>
 

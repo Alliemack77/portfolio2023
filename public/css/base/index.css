@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: hsl(235deg, 50%, 20%);
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -11,11 +11,11 @@
 }
 
 .text-accent {
-  color: #3849ff;
+  color: hsl(235deg, 100%, 61%);
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 50%, 20%);
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {
@@ -28,7 +28,7 @@
 
 body {
   background-color: hsl(0deg, 0%, 100%);
-  color: hsl(235deg, 50%, 20%);
+  color: hsl(235deg, 100%, 19%);
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
@@ -165,6 +165,18 @@ select {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+h2 .link:hover,
+.link:hover {
+  color: hsl(235deg, 100%, 61%);
+  background-image: url(../../assets/hover-blue.png);
+  background-repeat: repeat-x;
+  background-position: 0 120%;
+}
+
+.link:visited {
+  color: hsl(235deg, 100%, 19%);
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -2,7 +2,9 @@
     <img class="card__image" src={{ design.data.imageTablet }} alt={{ design.data.imageAlt }}>
     <p class="tag">{{ design.data.eyebrow }}</p>
     <div class="card__details">
-        <h2><a href="{{ design.url }}">{{ design.data.title }}</a></h2>
+        <h2>
+            <a class="link" href="{{ design.url }}">{{ design.data.title }}</a>
+        </h2>
         <p>{{ design.data.blurb }}</p>
     </div>
 </div>

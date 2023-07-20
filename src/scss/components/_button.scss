@@ -19,4 +19,18 @@
         box-shadow: -5px 5px 0px #34364D;
         transition: all 350ms ease-out;
     }
+
+    &.experiments {
+        margin-top: 5rem;
+        font-family: $ff-heading;
+        font-weight: $fw-700;
+        text-transform: uppercase;
+        color: $clr-accent;
+        background-color: transparent;
+        border: none;
+
+        &:hover {
+             box-shadow: -5px 5px 0px $clr-accent;
+        }
+    }
 }

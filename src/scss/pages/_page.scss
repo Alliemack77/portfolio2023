@@ -37,9 +37,16 @@
     padding: 4em 0 9em 0;
     color: $clr-white;
     background-image: linear-gradient($clr-light-blue, $clr-white);
-    // text-align: center;
-    // display: grid;
-    // place-items: center;
-    // border: solid 2px $clr-accent;
+    display: grid;
+    place-items: center;
+
+    .link {
+        color: $clr-accent;
+        margin-block-start: 3em;
+        font-family: $ff-heading;
+        font-size: $fs-600;
+        font-weight: $fw-700;
+        text-transform: uppercase;
+    }
     
 }

@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: hsl(235deg, 50%, 20%);
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -11,11 +11,11 @@
 }
 
 .text-accent {
-  color: #3849ff;
+  color: hsl(235deg, 100%, 61%);
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 50%, 20%);
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {
@@ -66,7 +66,7 @@
   display: inline-block;
   max-width: fit-content;
   padding: 0.563rem 0.938rem;
-  border: solid hsl(235deg, 50%, 20%) 2px;
+  border: solid hsl(235deg, 100%, 19%) 2px;
   text-decoration: none;
   color: hsl(0deg, 0%, 100%);
   background-color: #34364D;
@@ -79,19 +79,29 @@
   box-shadow: -5px 5px 0px #34364D;
   transition: all 350ms ease-out;
 }
+.btn.experiments {
+  margin-top: 5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(235deg, 100%, 61%);
+  background-color: transparent;
+  border: none;
+}
+.btn.experiments:hover {
+  box-shadow: -5px 5px 0px hsl(235deg, 100%, 61%);
+}
 
 .card {
   margin-bottom: 2.5rem;
+}
+.card__details {
+  color: hsl(235deg, 100%, 19%);
 }
 .card__details h2 {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   line-height: 1.2;
-  text-decoration: none;
-}
-.card__details h2:hover {
-  color: #3849ff;
-  text-decoration: underline;
 }
 .card__details p {
   line-height: 1.15;
@@ -108,7 +118,7 @@
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #3849ff;
+  color: hsl(235deg, 100%, 61%);
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -128,17 +138,13 @@
 }
 .card.experiment .body {
   justify-content: space-between;
-  color: hsl(235deg, 50%, 20%);
+  color: hsl(235deg, 100%, 19%);
 }
 .card.experiment .body .tag {
-  color: #3849ff;
+  color: hsl(235deg, 100%, 61%);
   font-size: 2rem;
   font-family: "Playfair Display", serif;
   margin: 0;
-}
-
-a:has(.card) {
-  text-decoration: none;
 }
 
 .primary-footer {
@@ -152,7 +158,7 @@ a:has(.card) {
   place-content: center;
   justify-items: center;
   padding: 4rem;
-  color: hsl(235deg, 50%, 20%);
+  color: hsl(235deg, 100%, 19%);
   text-align: center;
 }
 .primary-footer .logo {
@@ -170,7 +176,7 @@ a:has(.card) {
   font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
-  color: #3849ff;
+  color: hsl(235deg, 100%, 61%);
   text-transform: uppercase;
 }
 
@@ -178,7 +184,7 @@ a:has(.card) {
   display: grid;
   place-content: center;
   padding: 4em;
-  background-color: hsl(235deg, 50%, 20%);
+  background-color: hsl(235deg, 100%, 25%);
   color: hsl(0deg, 0%, 100%);
   text-align: center;
 }
@@ -193,6 +199,7 @@ a:has(.card) {
 .primary-header h1 {
   margin-block-start: 1em;
 }
+.primary-header .logo-mobile,
 .primary-header .mobile-nav-toggle {
   display: none;
 }
@@ -210,7 +217,7 @@ a:has(.card) {
   font-size: 1.125rem;
 }
 .primary-header .hover-indicators > li:hover, .primary-header .hover-indicators > li:focus {
-  color: #3849ff;
+  color: hsl(235deg, 100%, 61%);
   transition: color 450ms ease-out;
 }
 .primary-header .hover-indicators > li a {
@@ -224,6 +231,11 @@ a:has(.card) {
   .primary-header .logo-mobile {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-block-end: 2em;
+  }
+  .primary-header .logo-mobile img {
+    max-width: 50px;
   }
   .primary-header #navigation-container {
     margin-block-start: 0;
@@ -258,7 +270,7 @@ a:has(.card) {
     display: flex;
     padding: 7rem 1rem;
     background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
-    color: hsl(235deg, 50%, 20%);
+    color: hsl(235deg, 100%, 19%);
     translate: 100%;
     z-index: 10;
     transition: translate 450ms ease-in;

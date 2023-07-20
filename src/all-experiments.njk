@@ -1,0 +1,28 @@
+---
+title: Experiments in Frontend Development | Allison Leggett
+layout: 'base.njk'
+---
+
+<section class="container">
+    <div class="deco">
+        <header class="page-header">
+            {# <img src="/assets/art-deco-2.png" alt=""/> #}
+            <h1 class="heading uppercase">Experiments</h1>
+            <p>Small studies in frontend development</p>
+        </header>
+    
+        {# <div class="page-subtitle">
+            <h2 class="ff-heading fs-600 uppercase">Recent Projects</h2>
+            <p>What I've been up to lately</p>
+        </div> #}
+        <div class="layout">
+            {%- for experiment in collections.experiment -%}
+
+                {% include 'experiment-card.njk' %}
+               
+            {%- endfor -%}
+        </div>
+        
+    </div>
+</section>
+   

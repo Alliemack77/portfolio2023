@@ -6,7 +6,7 @@ layout: 'base.njk'
 <section class="container">
   
      <header class="page-header">
-        <img src="./assets/art-deco-2.png" alt=""/>
+        {# <img src="./assets/art-deco-2.png" alt=""/> #}
         <p class="uppercase text-center">Featured</p>
         <h2 class="heading">Latest projects</h2>
     </header>
@@ -42,11 +42,13 @@ layout: 'base.njk'
     </header>
 
    <div class="layout container" style="gap: 0.5rem;">
-        {%- for experiment in collections.experiment | reverse -%}
+        {%- for experiment in collections.featuredExp  -%}
 
             {% include 'experiment-card.njk' %}
 
         {%- endfor -%}
    </div>
+
+   <a class="link" href="/all-experiments">Check out more experiments</a>
 </section>
 
