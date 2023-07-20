@@ -8,10 +8,14 @@
     &__details {
 
         h2 {
-            color: $clr-dark-blue;
+            // color: $clr-dark-blue;
             font-family: $ff-heading;
             font-size: $fs-700;
             line-height: 1.2;
+
+            a {
+                color: $clr-dark-blue;
+            }
         }
     
         p {

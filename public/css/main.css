@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: hsl(235deg, 100%, 19%);
+  background-color: #000861;
 }
 
 .bg-light-blue {
@@ -15,7 +15,7 @@
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
 }
 
 .text-light-blue {
@@ -27,7 +27,7 @@
 }
 
 .bg-dark-blue {
-  background-color: hsl(235deg, 100%, 19%);
+  background-color: #000861;
 }
 
 .bg-light-blue {
@@ -43,7 +43,7 @@
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
 }
 
 .text-light-blue {
@@ -56,7 +56,7 @@
 
 body {
   background-color: hsl(0deg, 0%, 100%);
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
@@ -203,13 +203,8 @@ h2 .link:hover,
   background-position: 0 120%;
 }
 
-h2 .link:visited,
-.link:visited {
-  color: hsl(235deg, 100%, 19%);
-}
-
 .bg-dark-blue {
-  background-color: hsl(235deg, 100%, 19%);
+  background-color: #000861;
 }
 
 .bg-light-blue {
@@ -225,7 +220,7 @@ h2 .link:visited,
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
 }
 
 .text-light-blue {
@@ -281,7 +276,7 @@ h2 .link:visited,
   display: inline-block;
   max-width: fit-content;
   padding: 0.563rem 0.938rem;
-  border: solid hsl(235deg, 100%, 19%) 2px;
+  border: solid #000861 2px;
   text-decoration: none;
   color: hsl(0deg, 0%, 100%);
   background-color: #34364D;
@@ -315,10 +310,13 @@ h2 .link:visited,
 }
 
 .card__details h2 {
-  color: hsl(235deg, 100%, 19%);
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   line-height: 1.2;
+}
+
+.card__details h2 a {
+  color: #000861;
 }
 
 .card__details p {
@@ -362,7 +360,7 @@ h2 .link:visited,
 
 .card.experiment .body {
   justify-content: space-between;
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
 }
 
 .card.experiment .body .tag {
@@ -383,7 +381,7 @@ h2 .link:visited,
   place-content: center;
   justify-items: center;
   padding: 4rem;
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
   text-align: center;
 }
 
@@ -508,7 +506,7 @@ h2 .link:visited,
     display: flex;
     padding: 7rem 1rem;
     background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
-    color: hsl(235deg, 100%, 19%);
+    color: #000861;
     translate: 100%;
     z-index: 10;
     transition: translate 450ms ease-in;
@@ -566,7 +564,7 @@ h2 .link:visited,
   }
 }
 .bg-dark-blue {
-  background-color: hsl(235deg, 100%, 19%);
+  background-color: #000861;
 }
 
 .bg-light-blue {
@@ -582,7 +580,7 @@ h2 .link:visited,
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
 }
 
 .text-light-blue {

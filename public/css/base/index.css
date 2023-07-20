@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: hsl(235deg, 100%, 19%);
+  background-color: #000861;
 }
 
 .bg-light-blue {
@@ -15,7 +15,7 @@
 }
 
 .text-dark-blue {
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
 }
 
 .text-light-blue {
@@ -28,7 +28,7 @@
 
 body {
   background-color: hsl(0deg, 0%, 100%);
-  color: hsl(235deg, 100%, 19%);
+  color: #000861;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
@@ -173,11 +173,6 @@ h2 .link:hover,
   background-image: url(../../assets/hover-blue.png);
   background-repeat: repeat-x;
   background-position: 0 120%;
-}
-
-h2 .link:visited,
-.link:visited {
-  color: hsl(235deg, 100%, 19%);
 }
 
 /*# sourceMappingURL=index.css.map */
