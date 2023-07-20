@@ -1,4 +1,5 @@
 ---
+date: 2023-06-26
 title: The Vortex Project
 cardTitle: The Vortex Project
 icons: ["fa-react", "fa-sass"]

@@ -1,4 +1,5 @@
 ---
+date: 2023-06-29
 title: >
     GitHub User Search App: A Frontend Mentor Challenge
 cardTitle: >

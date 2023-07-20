@@ -1,3 +1,10 @@
+.hero-wrapper {
+
+    &:hover .hero {
+        transform: scale(1.015);
+    }
+}
+
 .hero {
     background-image: url(../../assets/dr-who-hero.jpg);
     background-position: center center;
@@ -6,6 +13,7 @@
     height: 95vh;
     margin-block-end: 5em;
     position: relative;
+    transition: transform 500ms ease-in-out;
     
     &__details {
         position: absolute;

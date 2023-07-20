@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: #000861;
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -15,7 +15,7 @@
 }
 
 .text-dark-blue {
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {
@@ -27,7 +27,7 @@
 }
 
 .bg-dark-blue {
-  background-color: #000861;
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -43,7 +43,7 @@
 }
 
 .text-dark-blue {
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {
@@ -56,7 +56,7 @@
 
 body {
   background-color: hsl(0deg, 0%, 100%);
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
@@ -204,7 +204,7 @@ h2 .link:hover,
 }
 
 .bg-dark-blue {
-  background-color: #000861;
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -220,7 +220,7 @@ h2 .link:hover,
 }
 
 .text-dark-blue {
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {
@@ -276,7 +276,7 @@ h2 .link:hover,
   display: inline-block;
   max-width: fit-content;
   padding: 0.563rem 0.938rem;
-  border: solid #000861 2px;
+  border: solid hsl(235deg, 100%, 19%) 2px;
   text-decoration: none;
   color: hsl(0deg, 0%, 100%);
   background-color: #34364D;
@@ -309,6 +309,24 @@ h2 .link:hover,
   margin-bottom: 2.5rem;
 }
 
+.card .image-zoom-wrapper {
+  overflow: hidden;
+  overflow-x: hidden;
+  transition: transform 500ms ease-in-out;
+}
+
+.card .image-zoom-wrapper:hover img {
+  transform: scale(1.08);
+}
+
+.card .image-zoom-wrapper img {
+  transition: all 500ms ease-in-out;
+}
+
+.card__details {
+  max-width: 70ch;
+}
+
 .card__details h2 {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
@@ -316,12 +334,12 @@ h2 .link:hover,
 }
 
 .card__details h2 a {
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
 }
 
 .card__details p {
   line-height: 1.15;
-  margin-block-start: 1rem;
+  margin-block-start: 1em;
 }
 
 .card__details .icon-wrapper {
@@ -360,7 +378,7 @@ h2 .link:hover,
 
 .card.experiment .body {
   justify-content: space-between;
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
 }
 
 .card.experiment .body .tag {
@@ -381,7 +399,7 @@ h2 .link:hover,
   place-content: center;
   justify-items: center;
   padding: 4rem;
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
   text-align: center;
 }
 
@@ -506,7 +524,7 @@ h2 .link:hover,
     display: flex;
     padding: 7rem 1rem;
     background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
-    color: #000861;
+    color: hsl(235deg, 100%, 19%);
     translate: 100%;
     z-index: 10;
     transition: translate 450ms ease-in;
@@ -525,6 +543,10 @@ h2 .link:hover,
     transition: translate 450ms ease-in;
   }
 }
+.hero-wrapper:hover .hero {
+  transform: scale(1.015);
+}
+
 .hero {
   background-image: url(../../assets/dr-who-hero.jpg);
   background-position: center center;
@@ -533,6 +555,7 @@ h2 .link:hover,
   height: 95vh;
   margin-block-end: 5em;
   position: relative;
+  transition: transform 500ms ease-in-out;
 }
 
 .hero__details {
@@ -564,7 +587,7 @@ h2 .link:hover,
   }
 }
 .bg-dark-blue {
-  background-color: #000861;
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -580,7 +603,7 @@ h2 .link:hover,
 }
 
 .text-dark-blue {
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {
@@ -608,6 +631,10 @@ h2 .link:hover,
 
 .page-subtitle {
   margin: 5em 0 3em;
+}
+
+.page-subtitle p {
+  margin-block-start: 0.5em;
 }
 
 .deco {

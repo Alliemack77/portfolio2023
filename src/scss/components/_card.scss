@@ -5,7 +5,24 @@
 .card {
     margin-bottom: 2.5rem;
 
+    .image-zoom-wrapper {
+        overflow: hidden;
+        overflow-x: hidden;
+        transition: transform 500ms ease-in-out;
+
+        &:hover img {
+            transform: scale(1.08);
+        }
+
+        & img {
+            transition: all 500ms ease-in-out;
+        }
+    }
+
+
+
     &__details {
+        max-width: 70ch;
 
         h2 {
             // color: $clr-dark-blue;
@@ -20,7 +37,7 @@
     
         p {
             line-height: 1.15;
-            margin-block-start: 1rem;
+            margin-block-start: 1em;
         }
 
         .icon-wrapper {

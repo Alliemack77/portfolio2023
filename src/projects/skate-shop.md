@@ -1,4 +1,5 @@
 ---
+date: 2023-06-22
 title: The Skate Shop
 cardTitle: The Skate Shop
 icons: ["fa-html5", "fa-css3"]

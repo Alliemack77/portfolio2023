@@ -1,9 +1,9 @@
-$clr-white: hsl(0, 0%, 100%);
+$clr-dark-blue: hsl(235, 100%, 19%);;
 $clr-light-blue: hsl(235, 24%, 50%);
 $clr-light-blue-50: hsl(235, 24%, 50%, 0.50);
-// $clr-dark-blue: hsl(235, 50%, 20%);
-$clr-dark-blue: #000861;;
 $clr-accent: hsl(235, 100%, 61%);
+$clr-white: hsl(0, 0%, 100%);
+// $clr-dark-blue: hsl(235, 50%, 20%);
 
 //  Background color utilities
 .bg-dark-blue {background-color: $clr-dark-blue;}

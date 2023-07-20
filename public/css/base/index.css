@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: #000861;
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -15,7 +15,7 @@
 }
 
 .text-dark-blue {
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {
@@ -28,7 +28,7 @@
 
 body {
   background-color: hsl(0deg, 0%, 100%);
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.125rem;
   font-weight: 400;

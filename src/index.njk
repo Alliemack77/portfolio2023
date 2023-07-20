@@ -12,16 +12,18 @@ layout: 'base.njk'
     </header>
 
     <div class="row">
-        <div class="hero">
-            <a href="/projects/vortex">
-                <div class="hero__details">
-                    <p class="uppercase fs-400 fw-600 text-white">blog</p>
-                    <h2 class="fs-800 fw-700 ff-heading text-white">The Vortex Project: The Ultimate Doctor Who Experience</h2>
-                    <p class="text-white">Using Figma to design my personal Nerdvana. I designed this blog to study layout and component based design. Reusable assets made creating this project a blast to design.
-                    </p>
-                </div>
-            </a>
-        </div>
+        {# <div class="hero-wrapper"> #}
+            <div class="hero">
+                <a href="/projects/vortex">
+                    <div class="hero__details">
+                        <p class="uppercase fs-400 fw-600 text-white">blog</p>
+                        <h2 class="fs-800 fw-700 ff-heading text-white">The Vortex Project: The Ultimate Doctor Who Experience</h2>
+                        <p class="text-white">Using Figma to design my personal Nerdvana. I designed this blog to study layout and component based design. Reusable assets made creating this project a blast to design.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        {# </div> #}
 
         <div class="layout">
             {%- for project in collections.featured | reverse -%}

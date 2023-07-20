@@ -1,5 +1,5 @@
 .bg-dark-blue {
-  background-color: #000861;
+  background-color: hsl(235deg, 100%, 19%);
 }
 
 .bg-light-blue {
@@ -15,7 +15,7 @@
 }
 
 .text-dark-blue {
-  color: #000861;
+  color: hsl(235deg, 100%, 19%);
 }
 
 .text-light-blue {

@@ -1,4 +1,5 @@
 ---
+date: 2023-07-01
 title: >
     Dictionary App: A Frontend Mentor Challenge
 cardTitle: >
