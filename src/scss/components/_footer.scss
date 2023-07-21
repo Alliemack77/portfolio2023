@@ -46,5 +46,10 @@
     background-color: hsl(235, 100%, 25%);
     color: $clr-white;
     text-align: center;
+
+    a, 
+    a:visited {
+        color: #27E8CB;
+    }
 }
 

@@ -202,6 +202,10 @@
   color: hsl(0deg, 0%, 100%);
   text-align: center;
 }
+.eleventy a,
+.eleventy a:visited {
+  color: #27E8CB;
+}
 
 .primary-header {
   position: sticky;
