@@ -11,7 +11,7 @@ imageTablet: /assets/github-tablet.jpg
 imageBreakout: /assets/github-breakout.jpg
 imageAlt:  >
     GitHub User Search App: A Frontend Mentor Challenge
-blurb: Search GitHub for your friends and discover all new ones along the way in this Frontend Mentor Challenge. Search for yourself, we know you want to! 
+blurb: Search GitHub for your friends and discover all new ones along the way in this Frontend Mentor Challenge. Search for yourself, I know you want to! 
 description: This is my solution to the GitHub User Search challenge on Frontend Mentor. This component is built with React and uses the GitHub API to display user information. In this project I learned how to use React Context to make for easier prop sharing. I used Sass mixins and lists to create the dark and light mode themes as well as the new CSS Container Queries to adjust the layout based on the size of the component instead of the viewport.
 buttons: ["Web App","Challenge", "GitHub Repo"]
 urls: [
