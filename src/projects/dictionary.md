@@ -1,9 +1,7 @@
 ---
 date: 2023-07-01
-title: >
-    Dictionary App: A Frontend Mentor Challenge
-cardTitle: >
-    FEM Challenge: Dictionary Web App
+title: Using React Context for Data Sharing in this Dictionary Web App
+cardTitle: Using React Context for Data Sharing in this Dictionary Web App
 icons: ["fa-react", "fa-sass"]
 tags: ["project", "featured"]
 eyebrow: web app

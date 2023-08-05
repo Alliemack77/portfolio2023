@@ -1,9 +1,7 @@
 ---
 date: 2023-06-30
-title: >
-    Staff Listing: Building a Flexible Component
-cardTitle: >
-    Staff Listing: Building a Flexible Component
+title: Building Flexible Components with Grid & Container Queries
+cardTitle: Building Flexible Components with Grid & Container Queries
 icons: ["fa-html5", "fa-css3"]
 tags: ["project", "featured"]
 eyebrow: component

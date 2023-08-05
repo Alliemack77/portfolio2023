@@ -1,9 +1,7 @@
 ---
 date: 2023-06-29
-title: >
-    GitHub User Search App: A Frontend Mentor Challenge
-cardTitle: >
-    FEM Challenge: GitHub User Search Web App
+title: Easily Create Theme Toggles with Sass Mixins & Lists
+cardTitle: Easily Create Theme Toggles with Sass Mixins & Lists
 icons: ["fa-react", "fa-sass"]
 tags: ["project", "featured"]
 eyebrow: web app
