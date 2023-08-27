@@ -309,7 +309,7 @@
 }
 
 .hero {
-  background-image: url(../../assets/dr-who-hero.jpg);
+  background-image: url(../../assets/vortex-project-hero.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -327,13 +327,14 @@
 .hero__details h2 {
   margin-block: 1rem;
   line-height: 1.2;
+  color: hsl(0deg, 0%, 100%);
 }
 .hero__details p {
   line-height: 1.15;
 }
 @media (min-width: 48em) {
   .hero__details {
-    bottom: 200px;
+    bottom: 100px;
   }
 }
 @media (min-width: 56.25em) {

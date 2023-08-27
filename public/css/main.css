@@ -196,11 +196,20 @@ select {
 }
 
 h2 .link:hover,
-.link:hover {
+h2 .link:focus-within,
+.link:hover,
+.link:focus-within,
+.hero__details h2 a:hover {
   color: hsl(235deg, 100%, 61%);
   background-image: url(../../assets/hover-blue.png);
   background-repeat: repeat-x;
   background-position: 0 120%;
+}
+
+.hero__details h2 a:hover,
+.hero__details h2 a:visited {
+  color: hsl(0deg, 0%, 100%);
+  background-position: 0 100%;
 }
 
 .bg-dark-blue {
@@ -549,7 +558,7 @@ h2 .link:hover,
   }
 }
 .hero {
-  background-image: url(../../assets/dr-who-hero.jpg);
+  background-image: url(../../assets/vortex-project-hero.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -569,6 +578,7 @@ h2 .link:hover,
 .hero__details h2 {
   margin-block: 1rem;
   line-height: 1.2;
+  color: hsl(0deg, 0%, 100%);
 }
 
 .hero__details p {
@@ -577,7 +587,7 @@ h2 .link:hover,
 
 @media (min-width: 48em) {
   .hero__details {
-    bottom: 200px;
+    bottom: 100px;
   }
 }
 @media (min-width: 56.25em) {

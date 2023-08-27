@@ -25,11 +25,26 @@
 .text-center { text-align: center;}
 .uppercase { text-transform: uppercase;}
 
+
+// Card title and hero title hover
 h2 .link:hover, 
-.link:hover {
+h2 .link:focus-within,
+.link:hover,
+.link:focus-within,
+.hero__details h2 a:hover {
     color: $clr-accent;
-    background-image: url(../../assets/hover-blue.png);
+    background-image: url(../../assets/hover-blue.png); 
     background-repeat: repeat-x;
     background-position: 0 120%;
 }
+
+.hero__details h2 a:hover,
+.hero__details h2 a:visited {
+    color: $clr-white;
+    background-position: 0 100%;
+} 
+
+
+
+
 
