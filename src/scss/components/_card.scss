@@ -5,7 +5,8 @@
 .card {
     margin-bottom: 2.5rem;
 
-    .image-zoom-wrapper {
+    .image-zoom-wrapper,
+    &.video .image-zoom-wrapper {
         overflow: hidden;
         overflow-x: hidden;
         transition: transform 500ms ease-in-out;
@@ -49,15 +50,15 @@
         }
     }
 
-    .tag {
-        margin-block: 1em;
-        font-size: $fs-200;
-        font-weight: $fw-600;
-        letter-spacing: 2px;
-        color: $clr-accent;
-        text-transform: uppercase;
-        text-decoration: none;
-    }
+    // & .tag {
+    //     margin-block: 1em;
+    //     font-size: $fs-200;
+    //     font-weight: $fw-600;
+    //     letter-spacing: 2px;
+    //     color: $clr-accent;
+    //     text-transform: uppercase;
+    //     text-decoration: none;
+    // }
 
     &.experiment {
         background-color: #fff;
@@ -72,25 +73,31 @@
             background-repeat: no-repeat;
             background-size: contain;
             border-radius: 50%;
-            box-shadow: 20px 20px 60px 0  rgb(170, 177, 251, 0.396);
+            box-shadow: 0px 0px 20px 0  rgb(170, 177, 251, 0.396);
         }
 
         .body {
             justify-content: space-between;
             color: $clr-dark-blue;
-            
-            .tag {
-                color: $clr-accent;
-                font-size: $fs-800;
-                font-family: $ff-heading;
-                margin: 0;
+
+            p {
+                align-self: end;
             }
+
         }
+    }
+
+    &.video {
+        background-color: $clr-white;
+        padding: 1rem;
+
+        .image-zoom-wrapper {
+            // box-shadow: 0px 0px 20px 0  rgba(0, 21, 255, 0.396);
+        }
+
+
     }
 }
 
-// a:has(.card) {
-//     text-decoration: none;
-// }
 
 

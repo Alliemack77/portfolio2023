@@ -4,7 +4,7 @@
 
 
 .page-header {
-    margin: 4rem auto 9rem;
+    margin: 4rem auto;
     width: max-content;
 
     img {
@@ -15,6 +15,10 @@
     .heading {
         font-family: $ff-heading;
         font-size: $fs-1000;
+    }
+
+    @media (width > 768px) {
+        margin-block-end: 9rem;
     }
 }
 
@@ -37,20 +41,31 @@
     }
 }
 
-.color-block {
+.gradient-bg,
+.solid-bg {
     padding: 4em 0 9em 0;
-    color: $clr-white;
     background-image: linear-gradient($clr-light-blue, $clr-white);
-    display: grid;
-    place-items: center;
 
     .link {
-        color: $clr-accent;
         margin-block-start: 3em;
-        font-family: $ff-heading;
-        font-size: $fs-600;
-        font-weight: $fw-700;
-        text-transform: uppercase;
     }
-    
+
+    .link:hover {
+       color: $clr-accent;
+    }
+}
+
+
+
+.solid-bg {
+    margin-block-start: 10em;
+    background-image: none;
+    background-image: linear-gradient(#853f7b, #61669e);
+    background-color: #61669e;
+    color: $clr-white;
+
+    .link:hover:not(.card .link) {
+        color: $clr-white;
+    }
+
 }

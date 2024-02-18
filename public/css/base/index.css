@@ -167,6 +167,16 @@ select {
   text-transform: uppercase;
 }
 
+.tag {
+  margin-block: 1em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: hsl(235deg, 100%, 61%);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 h2 .link:hover,
 h2 .link:focus-within,
 .link:hover,

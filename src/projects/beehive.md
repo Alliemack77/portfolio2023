@@ -8,7 +8,7 @@ eyebrow: website
 imageTablet: /assets/beehive-tablet.jpg
 imageBreakout: /assets/beehive-breakout.jpg
 imageAlt: The BeeHive
-blurb: With accessibility at the forefront of this project, my team and I set out to build a more inclusive developer community using React, Redux and Sass.   
+blurb: With accessibility at the forefront of this project, my team and I set out to build a more inclusive developer community using React, Redux, and Sass.   
 description: The BeeHive is a networking platform for neurodiverse IT professionals who are looking for career support and community. I developed this project alongside four classmates as our final project at Digital Career Institute. 
 buttons: ["Live Website", "Figma Design", "GitHub Repo"]
 urls: [

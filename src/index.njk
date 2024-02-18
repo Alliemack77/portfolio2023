@@ -5,24 +5,24 @@ layout: 'base.njk'
 
 <section class="container">
   
-     <header class="page-header">
+    <header class="page-header">
         {# <img src="./assets/art-deco-2.png" alt=""/> #}
         <p class="uppercase text-center">Featured</p>
         <h2 class="heading">Latest projects</h2>
     </header>
 
     <div class="row">
-            <div class="hero">
-                <div class="hero__details">
-                    <p class="uppercase fs-400 fw-600 text-white">blog</p>
-            
-                    <h2 class="fs-800 fw-700 ff-heading text-white">
-                        <a href="/projects/vortex">The Vortex Project: The Ultimate Doctor Who Experience </a>
-                    </h2>
-                    <p class="text-white">Using Figma to design my personal Nerdvana. I designed this blog to study layout and component based design. Reusable assets made creating this project a blast to design.
-                    </p>
-                </div>
+        <div class="hero">
+            <div class="hero__details">
+                <p class=" tag">design</p>
+        
+                <h2 class="fs-800 fw-700 ff-heading text-white">
+                    <a href="/projects/vortex">The Vortex Project: The Ultimate Doctor Who Experience </a>
+                </h2>
+                <p class="text-white">Using Figma to design my personal Nerdvana. I designed this blog to study layout and component based design. Reusable assets made creating this project a blast to design.
+                </p>
             </div>
+        </div>
         <div class="layout">
             {%- for project in collections.featured | reverse -%}
 
@@ -34,8 +34,24 @@ layout: 'base.njk'
     
 </section>
 
-<section class="color-block">
+<section class="solid-bg flex direction-column justify-center align-items-center" id="videos">
     <header class="page-header">
+        {# <img src="./assets/art-deco-1.png" alt=""/> #}
+        <p class="uppercase text-center">CSS {de}Coder</p>
+        <h2 class="heading">Video Tutorials</h2>
+    </header>
+
+   <div class="layout container text-white">
+        {%- for video in collections.featuredVideo -%}
+
+            {% include 'video-card.njk' %}
+
+        {%- endfor -%}
+   </div>
+</section>
+
+<section class="gradient-bg flex direction-column justify-center align-items-center">
+    <header class="page-header text-white">
         {# <img src="./assets/art-deco-1.png" alt=""/> #}
         <p class="uppercase text-center">Experiments</p>
         <h2 class="heading">Fun Mini Projects</h2>
@@ -49,6 +65,6 @@ layout: 'base.njk'
         {%- endfor -%}
    </div>
 
-   <a class="link" href="/all-experiments">Check out more experiments</a>
+   <a class="link ff-heading fw-500 text-accent uppercase" href="/all-experiments">Check out more experiments</a>
 </section>
 

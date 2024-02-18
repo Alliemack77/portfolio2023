@@ -27,7 +27,7 @@
 }
 
 .page-header {
-  margin: 4rem auto 9rem;
+  margin: 4rem auto;
   width: max-content;
 }
 .page-header img {
@@ -37,6 +37,11 @@
 .page-header .heading {
   font-family: "Playfair Display", serif;
   font-size: clamp(2.5rem, 7vw, 6.25rem);
+}
+@media (width > 768px) {
+  .page-header {
+    margin-block-end: 9rem;
+  }
 }
 
 .page-subtitle {
@@ -58,20 +63,29 @@
   }
 }
 
-.color-block {
+.gradient-bg,
+.solid-bg {
   padding: 4em 0 9em 0;
-  color: hsl(0deg, 0%, 100%);
   background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
-  display: grid;
-  place-items: center;
 }
-.color-block .link {
-  color: hsl(235deg, 100%, 61%);
+.gradient-bg .link,
+.solid-bg .link {
   margin-block-start: 3em;
-  font-family: "Playfair Display", serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  text-transform: uppercase;
+}
+.gradient-bg .link:hover,
+.solid-bg .link:hover {
+  color: hsl(235deg, 100%, 61%);
+}
+
+.solid-bg {
+  margin-block-start: 10em;
+  background-image: none;
+  background-image: linear-gradient(#853f7b, #61669e);
+  background-color: #61669e;
+  color: hsl(0deg, 0%, 100%);
+}
+.solid-bg .link:hover:not(.card .link) {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .layout {

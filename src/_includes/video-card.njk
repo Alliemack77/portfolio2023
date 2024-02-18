@@ -1,0 +1,16 @@
+    <div class="card video">
+        <div class="image-zoom-wrapper">
+            {# <div class="image" style="background-image: url('{{ video.data.image }}')"></div> #}
+            <a href="{{  video.data.url }}" target="_blank" rel="noreferrer">
+                <img src="{{video.data.image}}" alt="">
+            </a>
+        </div>
+        <p class="tag">{{ video.data.eyebrow }}</p>
+        <div class="card__details">
+            <h2 class="fs-700">
+                <a class="link" href="{{  video.data.url }}">
+                    {{ video.data.title }}
+                </a>
+            </h2>
+        </div>
+    </div>

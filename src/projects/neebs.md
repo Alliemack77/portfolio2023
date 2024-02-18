@@ -1,9 +1,9 @@
 ---
 date: 2023-06-25
 title: >
-    The Neebs Gaming website gets a re-design from a fangirl
+    The Neebs Gaming Website Gets A Re-Design From A Fangirl
 cardTitle: >
-    The Neebs Gaming website gets a re-design from a fangirl
+    The Neebs Gaming Website Gets A Re-Design From A Fangirl
 icons: ["fa-react", "fa-sass"]
 tags: ["project", "featured"]
 eyebrow: website

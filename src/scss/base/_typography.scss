@@ -25,6 +25,16 @@
 .text-center { text-align: center;}
 .uppercase { text-transform: uppercase;}
 
+.tag {
+    margin-block: 1em;
+    font-size: $fs-200;
+    font-weight: $fw-600;
+    letter-spacing: 2px;
+    color: $clr-accent;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 
 // Card title and hero title hover
 h2 .link:hover, 

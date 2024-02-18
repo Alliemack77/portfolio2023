@@ -46,7 +46,7 @@
                     <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
                         <li class="nav-link active"><a href="/">Featured</a></li>
                         <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
-                        
+                        <li class="nav-link"><a href="/#videos">Videos</a></li>
                         <li class="nav-link"><a href="/all-experiments">Experiments</a></li>
                         
                     </ul>
@@ -59,24 +59,24 @@
         
 <section class="container">
   
-     <header class="page-header">
+    <header class="page-header">
         
         <p class="uppercase text-center">Featured</p>
         <h2 class="heading">Latest projects</h2>
     </header>
 
     <div class="row">
-            <div class="hero">
-                <div class="hero__details">
-                    <p class="uppercase fs-400 fw-600 text-white">blog</p>
-            
-                    <h2 class="fs-800 fw-700 ff-heading text-white">
-                        <a href="/projects/vortex">The Vortex Project: The Ultimate Doctor Who Experience </a>
-                    </h2>
-                    <p class="text-white">Using Figma to design my personal Nerdvana. I designed this blog to study layout and component based design. Reusable assets made creating this project a blast to design.
-                    </p>
-                </div>
+        <div class="hero">
+            <div class="hero__details">
+                <p class=" tag">design</p>
+        
+                <h2 class="fs-800 fw-700 ff-heading text-white">
+                    <a href="/projects/vortex">The Vortex Project: The Ultimate Doctor Who Experience </a>
+                </h2>
+                <p class="text-white">Using Figma to design my personal Nerdvana. I designed this blog to study layout and component based design. Reusable assets made creating this project a blast to design.
+                </p>
             </div>
+        </div>
         <div class="layout">
     <div class="card">
         <div class="image-zoom-wrapper">
@@ -125,10 +125,10 @@
         <div class="card__details">
             <h2>
                 <a class="link" href="/projects/github-search/">
-                    Easily Create Theme Toggles with Sass Mixins &amp; Lists
+                    Container Queries, React Context, &amp; GitHub API, oh my!
                 </a>
             </h2>
-            <p>Search GitHub for your friends and discover all new ones along the way in this Frontend Mentor Challenge. Search for yourself, I know you want to!</p>
+            <p>React context, Sass mixins, container queries...they all come together nicely in this fun web app. Search for yourself, I know you want to!</p>
         </div>
     </div>
 
@@ -178,7 +178,7 @@
         <div class="card__details">
             <h2>
                 <a class="link" href="/projects/neebs/">
-                    The Neebs Gaming website gets a re-design from a fangirl
+                    The Neebs Gaming Website Gets A Re-Design From A Fangirl
 
                 </a>
             </h2>
@@ -190,8 +190,48 @@
     
 </section>
 
-<section class="color-block">
+<section class="solid-bg flex direction-column justify-center align-items-center" id="videos">
     <header class="page-header">
+        
+        <p class="uppercase text-center">CSS {de}Coder</p>
+        <h2 class="heading">Video Tutorials</h2>
+    </header>
+
+   <div class="layout container text-white">    <div class="card video">
+        <div class="image-zoom-wrapper">
+            
+            <a href="https://youtu.be/zqjKE_zcWzE" target="_blank" rel="noreferrer">
+                <img src="/assets/scroll-animations.jpg" alt="">
+            </a>
+        </div>
+        <p class="tag">Video</p>
+        <div class="card__details">
+            <h2 class="fs-700">
+                <a class="link" href="https://youtu.be/zqjKE_zcWzE">
+                    CSS Only Scroll Animations Are AMAZING!
+                </a>
+            </h2>
+        </div>
+    </div>    <div class="card video">
+        <div class="image-zoom-wrapper">
+            
+            <a href="https://youtu.be/gS-WqvK5U9k" target="_blank" rel="noreferrer">
+                <img src="/assets/wrapper-alternatives.jpg" alt="">
+            </a>
+        </div>
+        <p class="tag">Video</p>
+        <div class="card__details">
+            <h2 class="fs-700">
+                <a class="link" href="https://youtu.be/gS-WqvK5U9k">
+                    Build flexible layouts (without wrapper classes) using CSS Grid
+                </a>
+            </h2>
+        </div>
+    </div></div>
+</section>
+
+<section class="gradient-bg flex direction-column justify-center align-items-center">
+    <header class="page-header text-white">
         
         <p class="uppercase text-center">Experiments</p>
         <h2 class="heading">Fun Mini Projects</h2>
@@ -202,10 +242,10 @@
         <div class="image" style="background-image: url('/assets/drwhoapi.png')"></div>
         <div class="body flex">
             <div>
-                <p class="ff-heading fs-500 fw-700 uppercase">Mock API</p>
-                <h2 class="fs-500 fw-400">Doctor Who API</h2>
+                <p class="tag">Mock API</p>
+                <h2 class="ff-heading fs-500 fw-700">Doctor Who API</h2>
             </div>
-            <p class="tag">01</p>
+            <p class="ff-heading text-accent fs-900">01</p>
         </div>
     </div>
 </a><a href="https://dr-who-web-scraper.herokuapp.com/" target="_blank" rel="noreferrer">
@@ -213,10 +253,10 @@
         <div class="image" style="background-image: url('/assets/webscraper.jpg')"></div>
         <div class="body flex">
             <div>
-                <p class="ff-heading fs-500 fw-700 uppercase">Web App</p>
-                <h2 class="fs-500 fw-400">Web Scraper</h2>
+                <p class="tag">Web App</p>
+                <h2 class="ff-heading fs-500 fw-700">Web Scraper</h2>
             </div>
-            <p class="tag">02</p>
+            <p class="ff-heading text-accent fs-900">02</p>
         </div>
     </div>
 </a><a href="https://codepen.io/alliemack/pen/YzYLONx?editors=1100" target="_blank" rel="noreferrer">
@@ -224,15 +264,15 @@
         <div class="image" style="background-image: url('/assets/grad-border.jpg')"></div>
         <div class="body flex">
             <div>
-                <p class="ff-heading fs-500 fw-700 uppercase">component</p>
-                <h2 class="fs-500 fw-400">Gradient Border</h2>
+                <p class="tag">component</p>
+                <h2 class="ff-heading fs-500 fw-700">Gradient Border</h2>
             </div>
-            <p class="tag">04</p>
+            <p class="ff-heading text-accent fs-900">03</p>
         </div>
     </div>
 </a></div>
 
-   <a class="link" href="/all-experiments">Check out more experiments</a>
+   <a class="link ff-heading fw-500 text-accent uppercase" href="/all-experiments">Check out more experiments</a>
 </section>
 
 
@@ -242,16 +282,17 @@
         <img class="logo" src="/assets/art-deco-1.png" alt=""/>
         <span class="sr-only">Home</span>
     </a>
-    <p class="fs-800 ">Let's Connect</p>
+    <p class="fs-800 ">Let's Connect!</p>
     <div class="social-bar">
             <p class="ff-heading text-accent"><a href="https://github.com/Alliemack77">GitHub</a></p>
             <p class="ff-heading text-accent"><a href="mailto:alliemack77@gmail.com">Email</a></p>
             <p class="ff-heading text-accent"><a href="https://linkedin.com/in/allisonleggett">LinkedIn</a></p>
+            <p class="ff-heading text-accent"><a href="https://www.youtube.com/@CSSdeCoder">YouTube</a></p>
     </div>
 </footer>
 
 <div class="eleventy">
-    <p>&#169; 2023 Made with &#x2764; and <a href="https://www.11ty.dev/">11ty</a>!</p>
+    <p>&#169; 2024 Made with &#x2764; and <a href="https://www.11ty.dev/">11ty</a>!</p>
 </div>
 </body>
 </html>

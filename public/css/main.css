@@ -195,6 +195,16 @@ select {
   text-transform: uppercase;
 }
 
+.tag {
+  margin-block: 1em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: hsl(235deg, 100%, 61%);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 h2 .link:hover,
 h2 .link:focus-within,
 .link:hover,
@@ -318,17 +328,17 @@ h2 .link:focus-within,
   margin-bottom: 2.5rem;
 }
 
-.card .image-zoom-wrapper {
+.card .image-zoom-wrapper, .card.video .image-zoom-wrapper {
   overflow: hidden;
   overflow-x: hidden;
   transition: transform 500ms ease-in-out;
 }
 
-.card .image-zoom-wrapper:hover img {
+.card .image-zoom-wrapper:hover img, .card.video .image-zoom-wrapper:hover img {
   transform: scale(1.08);
 }
 
-.card .image-zoom-wrapper img {
+.card .image-zoom-wrapper img, .card.video .image-zoom-wrapper img {
   transition: all 500ms ease-in-out;
 }
 
@@ -359,16 +369,6 @@ h2 .link:focus-within,
   font-size: 1.5rem;
 }
 
-.card .tag {
-  margin-block: 1em;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: hsl(235deg, 100%, 61%);
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .card.experiment {
   background-color: #fff;
   box-shadow: 0 20px 60px 0 rgba(170, 177, 251, 0.396);
@@ -382,7 +382,7 @@ h2 .link:focus-within,
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 50%;
-  box-shadow: 20px 20px 60px 0 rgba(170, 177, 251, 0.396);
+  box-shadow: 0px 0px 20px 0 rgba(170, 177, 251, 0.396);
 }
 
 .card.experiment .body {
@@ -390,11 +390,13 @@ h2 .link:focus-within,
   color: hsl(235deg, 100%, 19%);
 }
 
-.card.experiment .body .tag {
-  color: hsl(235deg, 100%, 61%);
-  font-size: 2rem;
-  font-family: "Playfair Display", serif;
-  margin: 0;
+.card.experiment .body p {
+  align-self: end;
+}
+
+.card.video {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1rem;
 }
 
 .primary-footer {
@@ -578,6 +580,9 @@ h2 .link:focus-within,
 .hero__details h2 {
   margin-block: 1rem;
   line-height: 1.2;
+}
+
+.hero__details a {
   color: hsl(0deg, 0%, 100%);
 }
 
@@ -626,7 +631,7 @@ h2 .link:focus-within,
 }
 
 .page-header {
-  margin: 4rem auto 9rem;
+  margin: 4rem auto;
   width: max-content;
 }
 
@@ -640,6 +645,11 @@ h2 .link:focus-within,
   font-size: clamp(2.5rem, 7vw, 6.25rem);
 }
 
+@media (width > 768px) {
+  .page-header {
+    margin-block-end: 9rem;
+  }
+}
 .page-subtitle {
   margin: 5em 0 3em;
 }
@@ -660,21 +670,32 @@ h2 .link:focus-within,
     margin-block-end: 9em;
   }
 }
-.color-block {
+.gradient-bg,
+.solid-bg {
   padding: 4em 0 9em 0;
-  color: hsl(0deg, 0%, 100%);
   background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
-  display: grid;
-  place-items: center;
 }
 
-.color-block .link {
-  color: hsl(235deg, 100%, 61%);
+.gradient-bg .link,
+.solid-bg .link {
   margin-block-start: 3em;
-  font-family: "Playfair Display", serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  text-transform: uppercase;
+}
+
+.gradient-bg .link:hover,
+.solid-bg .link:hover {
+  color: hsl(235deg, 100%, 61%);
+}
+
+.solid-bg {
+  margin-block-start: 10em;
+  background-image: none;
+  background-image: linear-gradient(#853f7b, #61669e);
+  background-color: #61669e;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.solid-bg .link:hover:not(.card .link) {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .layout {

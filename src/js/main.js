@@ -6,13 +6,6 @@ navToggle.addEventListener('click', () => {
     navContainer.classList.toggle('nav-open')
 })
 
-// navList.forEach((link) => {
-
-//     link.addEventListener('click', () => {
-//         console.log(link)
-//     })
-   
-// })
 
 
 

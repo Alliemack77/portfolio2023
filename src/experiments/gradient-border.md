@@ -5,6 +5,6 @@ image: /assets/grad-border.jpg
 eyebrow: component
 title: Gradient Border
 tags: ["experiment", "featuredExp"]
-id: "04"
+id: "03"
   
 ---

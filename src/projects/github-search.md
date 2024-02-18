@@ -1,7 +1,7 @@
 ---
 date: 2023-06-29
-title: Easily Create Theme Toggles with Sass Mixins & Lists
-cardTitle: Easily Create Theme Toggles with Sass Mixins & Lists
+title: Container Queries, React Context, & GitHub API, oh my!
+cardTitle: Container Queries, React Context, & GitHub API, oh my!
 icons: ["fa-react", "fa-sass"]
 tags: ["project", "featured"]
 eyebrow: web app
@@ -9,9 +9,9 @@ imageTablet: /assets/github-tablet.jpg
 imageBreakout: /assets/github-breakout.jpg
 imageAlt:  >
     GitHub User Search App: A Frontend Mentor Challenge
-blurb: Search GitHub for your friends and discover all new ones along the way in this Frontend Mentor Challenge. Search for yourself, I know you want to! 
+blurb: React context, Sass mixins, container queries...they all come together nicely in this fun web app. Search for yourself, I know you want to! 
 description: This is my solution to the GitHub User Search challenge on Frontend Mentor. This component is built with React and uses the GitHub API to display user information. In this project I learned how to use React Context to make for easier prop sharing. I used Sass mixins and lists to create the dark and light mode themes as well as the new CSS Container Queries to adjust the layout based on the size of the component instead of the viewport.
-buttons: ["Web App","Challenge", "GitHub Repo"]
+buttons: ["Web App","FEM Challenge", "GitHub Repo"]
 urls: [
     "https://fem-search-github-users.netlify.app/",
     "https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6",

@@ -95,15 +95,15 @@
 .card {
   margin-bottom: 2.5rem;
 }
-.card .image-zoom-wrapper {
+.card .image-zoom-wrapper, .card.video .image-zoom-wrapper {
   overflow: hidden;
   overflow-x: hidden;
   transition: transform 500ms ease-in-out;
 }
-.card .image-zoom-wrapper:hover img {
+.card .image-zoom-wrapper:hover img, .card.video .image-zoom-wrapper:hover img {
   transform: scale(1.08);
 }
-.card .image-zoom-wrapper img {
+.card .image-zoom-wrapper img, .card.video .image-zoom-wrapper img {
   transition: all 500ms ease-in-out;
 }
 .card__details {
@@ -127,15 +127,6 @@
 .card__details .icon-wrapper svg {
   font-size: 1.5rem;
 }
-.card .tag {
-  margin-block: 1em;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: hsl(235deg, 100%, 61%);
-  text-transform: uppercase;
-  text-decoration: none;
-}
 .card.experiment {
   background-color: #fff;
   box-shadow: 0 20px 60px 0 rgba(170, 177, 251, 0.396);
@@ -148,19 +139,19 @@
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 50%;
-  box-shadow: 20px 20px 60px 0 rgba(170, 177, 251, 0.396);
+  box-shadow: 0px 0px 20px 0 rgba(170, 177, 251, 0.396);
 }
 .card.experiment .body {
   justify-content: space-between;
   color: hsl(235deg, 100%, 19%);
 }
-.card.experiment .body .tag {
-  color: hsl(235deg, 100%, 61%);
-  font-size: 2rem;
-  font-family: "Playfair Display", serif;
-  margin: 0;
+.card.experiment .body p {
+  align-self: end;
 }
-
+.card.video {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1rem;
+}
 .primary-footer {
   background-image: url(../../assets/background.png);
   background-position: center;
@@ -327,6 +318,8 @@
 .hero__details h2 {
   margin-block: 1rem;
   line-height: 1.2;
+}
+.hero__details a {
   color: hsl(0deg, 0%, 100%);
 }
 .hero__details p {
