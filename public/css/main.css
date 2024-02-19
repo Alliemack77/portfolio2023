@@ -451,7 +451,6 @@ h2 .link:focus-within,
 }
 
 .primary-header {
-  position: sticky;
   top: 0;
   z-index: 100;
   padding: 1em 0 2em;
@@ -483,6 +482,10 @@ h2 .link:focus-within,
   font-size: 1.125rem;
 }
 
+.primary-header .hover-indicators > li {
+  color: hsl(235deg, 100%, 19%);
+}
+
 .primary-header .hover-indicators > li:hover, .primary-header .hover-indicators > li:focus {
   color: hsl(235deg, 100%, 61%);
   transition: color 450ms ease-out;
@@ -494,7 +497,7 @@ h2 .link:focus-within,
 }
 
 .primary-header .hover-indicators > li a:visited {
-  color: inherit;
+  color: hsl(235deg, 100%, 19%);
 }
 
 @media (max-width: 48rem) {
@@ -531,6 +534,11 @@ h2 .link:focus-within,
     transition: transform 450ms ease-in;
   }
   .primary-header .primary-navigation {
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -551,10 +559,6 @@ h2 .link:focus-within,
     transition: transform 450ms ease-in;
   }
   .primary-header .nav-open .primary-navigation {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
     translate: 0%;
     transition: translate 450ms ease-in;
   }

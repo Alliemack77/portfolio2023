@@ -3,7 +3,7 @@
 @use '../abstracts/mixins' as *;
 
 .primary-header {
-    position: sticky;
+    // position: sticky;
     top: 0;
     z-index: 100;
     padding: 1em 0 2em; 
@@ -35,6 +35,7 @@
     }
 
     .hover-indicators > li {
+        color: $clr-dark-blue;
         
         &:hover, 
         &:focus {
@@ -48,9 +49,11 @@
         }
 
         a:visited {
-            color: inherit;
+            color: $clr-dark-blue;
         }
     } 
+
+
 
     @media (max-width: 48rem) {
          
@@ -92,6 +95,11 @@
         }
 
         .primary-navigation {
+            flex-direction: column;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: $fs-800;
             position: fixed;
             top: 0;
             bottom: 0;
@@ -115,10 +123,9 @@
         }
 
         .nav-open .primary-navigation {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-size: $fs-800;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
             translate: 0%;
             @include transition-450-easein(translate);
         }
