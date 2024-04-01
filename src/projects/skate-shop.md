@@ -7,7 +7,7 @@ tags: ["project"]
 eyebrow: landing page
 imageTablet: /assets/skate-tablet.jpg
 imageBreakout: /assets/skate-breakout.jpg
-imageAlt: The Skate Shop
+imageAlt:
 blurb: Exploring layout and CSS in this landing page inspired by the e-skateboard Mellow. Find your Cali vibe in this chill landing page with a groove.
 description: I love learning by doing. I designed this landing page to explore building layouts with Flexbox and a mobile first workflow. The result is a fully responsive site that works on a multitude of devices. I especially love the use of clamp() with font-size to create responsive typography.
 buttons: ["Live Website", "Figma Design", "GitHub Repo"]
