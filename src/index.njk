@@ -42,9 +42,9 @@ layout: 'base.njk'
     </header>
 
    <div class="layout container text-white">
-        {%- for video in collections.featuredVideo -%}
+        {%- for video in collections.featuredVideo | reverse -%}
 
-            {% include 'video-card.njk' %}
+            {% include 'video-card.njk'  %}
 
         {%- endfor -%}
    </div>
