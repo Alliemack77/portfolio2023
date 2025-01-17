@@ -6,7 +6,7 @@ The Hero is the main article on the left side and is updated via the index.njk f
 
 ## Projects/Experiments/Portfolios/Videos Sections:
 
-Each entry has its own file within its respective folder (project/experimant/portfolio).
+Each entry has its own file within its respective folder (project/experiment/portfolio).
 
 ## Designs:
 
