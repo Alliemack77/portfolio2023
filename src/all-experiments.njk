@@ -12,9 +12,9 @@ layout: 'base.njk'
         </header>
     
         <div class="layout">
-            {%- for experiment in collections.experiment -%}
+            {%- for experiment in collections.experiment | reverse -%}
 
-                {% include 'experiment-card.njk' %}
+                {% include 'experiment-card.njk'  %}
                
             {%- endfor -%}
         </div>

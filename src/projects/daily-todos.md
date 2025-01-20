@@ -3,7 +3,7 @@ date: 2023-06-27
 title: >
     Your Daily To-Do's: A Frontend Mentor Challenge
 cardTitle: >
-    FEM Challenge: Daily To-Do App
+    Your Daily To-Do's: A Frontend Mentor Challenge
 icons: ["fa-react", "fa-sass"]
 tags: ["project", "featured"]
 eyebrow: web app

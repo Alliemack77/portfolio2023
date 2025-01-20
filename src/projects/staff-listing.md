@@ -2,7 +2,7 @@
 date: 2023-06-30
 title: Building Flexible Components with Grid & Container Queries
 cardTitle: Building Flexible Components with Grid & Container Queries
-icons: ["fa-html5", "fa-css3"]
+icons: ["fa-html5", "fa-css"]
 tags: ["project", "featured"]
 eyebrow: component
 imageTablet: /assets/staff-listing-tablet.jpg
