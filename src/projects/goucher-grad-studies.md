@@ -1,9 +1,7 @@
 ---
 date: 2025-01-18
-title: >
-    Leveraging the Power of Eleventy in Higher Education Marketing 
-cardTitle: >
-    Leveraging the Power of Eleventy in Higher Education Marketing
+title: Leveraging the Power of Eleventy in Higher Education Marketing 
+cardTitle: Leveraging the Power of Eleventy in Higher Education Marketing
 icons: ["fa-js", "fa-css"]
 tags: ["project", "featured"]
 eyebrow: website

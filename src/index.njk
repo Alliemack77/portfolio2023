@@ -6,21 +6,28 @@ layout: 'base.njk'
 <section class="container">
   
     <header class="page-header">
-        {# <img src="./assets/art-deco-2.png" alt=""/> #}
         <p class="uppercase text-center">Featured</p>
         <h2 class="heading">Latest Projects</h2>
     </header>
 
-    <div class="row">
+
+    {# <div class="row">
         <div class="hero">
+            <figure>
+                <video controls loop muted autoplay >
+                    <source src="/assets/view-transition-gif-1.mp4" type="video/mp4">
+                </video>
+                <figcaption class="sr-only">
+                    View transitions
+                </figcaption>
+            </figure>
             <div class="hero__details">
-                <p class=" tag">design</p>
+                <p class=" tag">Component</p>
         
                 <h2 class="fs-800 fw-700 ff-heading text-white">
-                    <a href="/projects/vortex">The Vortex Project: The Ultimate Doctor Who Experience </a>
+                    <a href="/projects/view-transitions">The View Transition API: Smooth transitions for better UX</a>
                 </h2>
-                <p class="text-white">Using Figma to design my personal Nerdvana. I designed this blog to study layout and component based design. Reusable assets made creating this project a blast to design.
-                </p>
+                <p class="text-white">Slide in and explore the coolest API since, well ever. Whether you're using the default crossfade or custom CSS animations, this API is like a salve for your animation weary soul.</p>
             </div>
         </div>
         <div class="layout">
@@ -30,13 +37,45 @@ layout: 'base.njk'
             
             {%- endfor -%}
         </div>
+    </div> #}
+
+    <div class="row-video">
+        <div class="hero-video">
+            <figure>
+                <video controls loop muted autoplay>
+                    <source src="/assets/view-transition-gif-1.mp4" type="video/mp4">
+                </video>
+                <figcaption>
+                    <em>Transitions created with the View Transition API.</em>
+                </figcaption>
+            </figure>
+            <div class="hero-video__details">
+                <p class=" tag">Component</p>
+        
+                <h2 class="fs-800 fw-700 ff-heading text-white">
+                    <a href="/projects/view-transitions">The View Transition API: Smooth transitions for better UX</a>
+                </h2>
+                <p class="text-white">Slide on in and explore the coolest API since, well ever. In this video tutorial I demonstrate how to create the buttery smooth transitions in the image gallery. Whether you're using the default crossfade or custom CSS animations, this API is like a salve for your animation weary soul.</p>
+            </div>
+        </div>
+        <div class="layout">
+            {%- for project in collections.featured | reverse -%}
+
+                {% include 'project-card.njk' %}
+            
+            {%- endfor -%}
+        </div>
+        <div class="flex justify-center">
+            <a style="margin-block-start: 4rem;" class="link ff-heading fw-500 text-accent uppercase" href="/all-projects">Check out more projects</a>
+        </div>
     </div>
+
+    
     
 </section>
 
 <section class="solid-bg flex direction-column justify-center align-items-center" id="videos">
     <header class="page-header">
-        {# <img src="./assets/art-deco-1.png" alt=""/> #}
         <p class="uppercase text-center">CSS {de}Coder</p>
         <h2 class="heading">Video Tutorials</h2>
     </header>
@@ -48,11 +87,11 @@ layout: 'base.njk'
 
         {%- endfor -%}
    </div>
+   <a class="link ff-heading fw-500 text-white uppercase" href="https://www.youtube.com/@CSSdeCoder">Check out more videos</a>
 </section>
 
 <section class="gradient-bg flex direction-column justify-center align-items-center">
     <header class="page-header text-white">
-        {# <img src="./assets/art-deco-1.png" alt=""/> #}
         <p class="uppercase text-center">Experiments</p>
         <h2 class="heading">Fun Mini Projects</h2>
     </header>

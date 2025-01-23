@@ -51,6 +51,10 @@ p {
   margin: 0;
 }
 
+h2 {
+  text-wrap: balance;
+}
+
 a {
   text-decoration: none;
 }
@@ -181,7 +185,8 @@ h2 .link:hover,
 h2 .link:focus-within,
 .link:hover,
 .link:focus-within,
-.hero__details h2 a:hover {
+.hero__details h2 a:hover,
+.hero-video__details h2 a:hover {
   color: hsl(235deg, 100%, 61%);
   background-image: url(../../assets/hover-blue.png);
   background-repeat: repeat-x;

@@ -41,7 +41,7 @@
   font-size: 1.25rem;
 }
 .article h1 {
-  max-width: 22ch;
+  max-width: 26ch;
 }
 .article__image {
   margin-block: 3em;
@@ -51,15 +51,10 @@
 }
 .article__details .button-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
   margin-block: 2em;
-}
-@media (min-width: 500px) {
-  .article__details .button-container {
-    flex-direction: row;
-  }
 }
 
 .btn {
@@ -172,6 +167,8 @@
 }
 .primary-footer .social-bar {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 .primary-footer .social-bar svg {
@@ -305,6 +302,7 @@
 
 .hero {
   background-image: url(../../assets/vortex-project-hero.jpg);
+  background-color: #000000;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -318,6 +316,7 @@
   padding-inline: clamp(1.25rem, 5vw, 3rem);
   max-width: 60ch;
   bottom: 50px;
+  z-index: 1;
 }
 .hero__details h2 {
   margin-block: 1rem;
@@ -340,6 +339,43 @@
     top: 0;
     margin-block-end: 0;
   }
+}
+
+.hero-video {
+  margin-block-end: 6rem;
+}
+.hero-video figure {
+  padding: 2rem;
+  background-color: hsl(235deg, 100%, 19%);
+  margin: 0;
+}
+.hero-video figure video {
+  max-width: 100%;
+}
+.hero-video figure figcaption {
+  padding-block-start: 1rem;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  font-size: 0.875rem;
+}
+.hero-video__details {
+  margin-block: 2rem;
+  max-width: 60ch;
+}
+.hero-video__details h2 {
+  color: hsl(235deg, 100%, 19%);
+  margin-block: 1rem;
+  line-height: 1.2;
+}
+.hero-video__details a {
+  color: hsl(235deg, 100%, 19%);
+}
+.hero-video__details p {
+  color: hsl(235deg, 100%, 19%);
+  line-height: 1.15;
+}
+.hero-video__details .tag {
+  color: hsl(235deg, 100%, 61%);
 }
 
 /*# sourceMappingURL=index.css.map */

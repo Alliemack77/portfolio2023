@@ -1,7 +1,7 @@
 ---
 date: 2023-06-29
-title: Container Queries, React Context, & GitHub API, oh my!
-cardTitle: Container Queries, React Context, & GitHub API, oh my!
+title: Container Queries, React Context, & GitHub API, Oh My!
+cardTitle: Container Queries, React Context, & GitHub API, Oh My!
 icons: ["fa-react", "fa-sass"]
 tags: ["project", "featured"]
 eyebrow: web app

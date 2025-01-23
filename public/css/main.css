@@ -79,6 +79,10 @@ p {
   margin: 0;
 }
 
+h2 {
+  text-wrap: balance;
+}
+
 a {
   text-decoration: none;
 }
@@ -209,7 +213,8 @@ h2 .link:hover,
 h2 .link:focus-within,
 .link:hover,
 .link:focus-within,
-.hero__details h2 a:hover {
+.hero__details h2 a:hover,
+.hero-video__details h2 a:hover {
   color: hsl(235deg, 100%, 61%);
   background-image: url(../../assets/hover-blue.png);
   background-repeat: repeat-x;
@@ -267,7 +272,7 @@ h2 .link:focus-within,
 }
 
 .article h1 {
-  max-width: 22ch;
+  max-width: 26ch;
 }
 
 .article__image {
@@ -280,17 +285,12 @@ h2 .link:focus-within,
 
 .article__details .button-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
   margin-block: 2em;
 }
 
-@media (min-width: 500px) {
-  .article__details .button-container {
-    flex-direction: row;
-  }
-}
 .btn {
   display: inline-block;
   max-width: fit-content;
@@ -420,6 +420,8 @@ h2 .link:focus-within,
 
 .primary-footer .social-bar {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -565,6 +567,7 @@ h2 .link:focus-within,
 }
 .hero {
   background-image: url(../../assets/vortex-project-hero.jpg);
+  background-color: #000000;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -579,6 +582,7 @@ h2 .link:focus-within,
   padding-inline: clamp(1.25rem, 5vw, 3rem);
   max-width: 60ch;
   bottom: 50px;
+  z-index: 1;
 }
 
 .hero__details h2 {
@@ -606,6 +610,51 @@ h2 .link:focus-within,
     margin-block-end: 0;
   }
 }
+.hero-video {
+  margin-block-end: 6rem;
+}
+
+.hero-video figure {
+  padding: 2rem;
+  background-color: hsl(235deg, 100%, 19%);
+  margin: 0;
+}
+
+.hero-video figure video {
+  max-width: 100%;
+}
+
+.hero-video figure figcaption {
+  padding-block-start: 1rem;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.hero-video__details {
+  margin-block: 2rem;
+  max-width: 60ch;
+}
+
+.hero-video__details h2 {
+  color: hsl(235deg, 100%, 19%);
+  margin-block: 1rem;
+  line-height: 1.2;
+}
+
+.hero-video__details a {
+  color: hsl(235deg, 100%, 19%);
+}
+
+.hero-video__details p {
+  color: hsl(235deg, 100%, 19%);
+  line-height: 1.15;
+}
+
+.hero-video__details .tag {
+  color: hsl(235deg, 100%, 61%);
+}
+
 .bg-dark-blue {
   background-color: hsl(235deg, 100%, 19%);
 }
@@ -646,10 +695,10 @@ h2 .link:focus-within,
 
 .page-header .heading {
   font-family: "Playfair Display", serif;
-  font-size: clamp(2.5rem, 7vw, 6.25rem);
+  font-size: clamp(1.5rem, 7vw, 6.25rem);
 }
 
-@media (width > 768px) {
+@media (width > 48em) {
   .page-header {
     margin-block-end: 9rem;
   }
@@ -666,7 +715,7 @@ h2 .link:focus-within,
   padding: 3em 0em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   .deco {
     border-left: solid hsla(235deg, 24%, 50%, 0.5) 1px;
     padding: 5em 0 5em 2em;
@@ -711,7 +760,7 @@ h2 .link:focus-within,
 .container {
   width: 100%;
   margin-inline: auto;
-  padding-inline: 1.25rem;
+  padding-inline: 1rem;
 }
 
 @media (min-width: 992px) {

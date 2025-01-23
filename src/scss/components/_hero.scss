@@ -1,27 +1,25 @@
 @use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
 
-// .hero-wrapper {
-
-//     &:hover .hero {
-//         transform: scale(1.015);
-//     }
-// }
 
 .hero {
     background-image: url(../../assets/vortex-project-hero.jpg);
+    background-color: #000000;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 95vh; 
     margin-block-end: 5em;
-    position: relative;
+    position: relative; 
     transition: transform 500ms ease-in-out;
+
     
     &__details {
-        position: absolute;
+        position: absolute; 
         padding-inline: clamp(1.25rem, 5vw, 3rem);
         max-width: 60ch;
         bottom: 50px;
+        z-index: 1; 
         
 
         h2 {
@@ -38,6 +36,7 @@
         }
     }
 
+
     @media (min-width: 48em) {
         &__details {
            bottom: 100px;
@@ -48,5 +47,51 @@
         position: sticky;
         top: 0;
         margin-block-end: 0;
+    }
+}
+
+.hero-video {
+    margin-block-end: 6rem;
+    figure {
+        padding: 2rem;
+        background-color: $clr-dark-blue;
+        // background-color: #505377;
+        
+        margin: 0;
+        
+        video {
+            max-width: 100%;
+        }
+
+        figcaption {
+            padding-block-start: 1rem;
+            color: $clr-white;
+            text-align: center;
+            font-size: $fs-300;
+        }
+    }
+
+    &__details {
+        margin-block: 2rem;
+        max-width: 60ch;
+
+        h2 {
+            color: $clr-dark-blue;
+            margin-block: 1rem;
+            line-height: 1.2;
+        }
+        
+        a {
+            color: $clr-dark-blue;
+        }
+        
+        p {
+            color: $clr-dark-blue;
+            line-height: 1.15;
+        }
+
+        .tag {
+            color: $clr-accent;
+        }
     }
 }

@@ -36,9 +36,9 @@
 }
 .page-header .heading {
   font-family: "Playfair Display", serif;
-  font-size: clamp(2.5rem, 7vw, 6.25rem);
+  font-size: clamp(1.5rem, 7vw, 6.25rem);
 }
-@media (width > 768px) {
+@media (width > 48em) {
   .page-header {
     margin-block-end: 9rem;
   }
@@ -54,7 +54,7 @@
 .deco {
   padding: 3em 0em;
 }
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   .deco {
     border-left: solid hsla(235deg, 24%, 50%, 0.5) 1px;
     padding: 5em 0 5em 2em;
