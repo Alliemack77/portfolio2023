@@ -1,7 +1,9 @@
 ---
 date: 2023-06-23
-title: The BeeHive - A Project for Inclusion
-cardTitle: The BeeHive - A Project for Inclusion
+title: >
+    The BeeHive: A Project for Inclusion
+cardTitle: >
+    The BeeHive: A Project for Inclusion
 icons: ["fa-html5", "fa-sass"]
 tags: ["project"]
 eyebrow: website
