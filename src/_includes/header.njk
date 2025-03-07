@@ -1,29 +1,24 @@
 <header class="primary-header">
     <div class="container">
-        <a href="/">
-            <div class="logo-mobile">
-                <img src="/assets/art-deco-1.png" alt=""/>
-            </div>
+        <a href="/" class="logo-mobile">
+            <img src="/assets/art-deco-1.png" alt=""/>
             <span class="sr-only">Home</span>
         </a>
-        <h1 class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span></h1>
+        <h1 class="name fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span></h1>
         <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <a href="/">
-                <div class="logo-desktop">
-                    <img src="/assets/art-deco-1.png" alt=""/>
-                </div>
+            <a href="/" class="logo-desktop">
+                <img src="/assets/art-deco-1.png" alt=""/>
                 <span class="sr-only">Home</span>
             </a>
-            <button
-                class="mobile-nav-toggle"
-                aria-controls="primary-navigation">
-                <span class="sr-only">navigation menu toggle</span>
-            </button>
-            <nav>
-                <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
+            <nav aria-labelledby="site-navigation">
+                <span  class="sr-only" id="site-navigation">Site navigation</span>
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="sr-only">Navigation</span>
+                </button>
+                <ul role="list" id="primary-navigation" class="primary-navigation hover-indicators flex">
                     <li class="nav-link"><a href="/">Featured</a></li>
                     <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
-                    <li class="nav-link"><a href="/#videos">Videos</a></li>
+                    <li class="nav-link"><a href="/all-videos">Videos</a></li>
                     <li class="nav-link"><a href="/all-experiments">Experiments</a></li>
                 </ul>
             </nav>

@@ -21,30 +21,25 @@
 <body>
     <header class="primary-header">
     <div class="container">
-        <a href="/">
-            <div class="logo-mobile">
-                <img src="/assets/art-deco-1.png" alt=""/>
-            </div>
+        <a href="/" class="logo-mobile">
+            <img src="/assets/art-deco-1.png" alt=""/>
             <span class="sr-only">Home</span>
         </a>
-        <h1 class="fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span></h1>
+        <h1 class="name fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span></h1>
         <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <a href="/">
-                <div class="logo-desktop">
-                    <img src="/assets/art-deco-1.png" alt=""/>
-                </div>
+            <a href="/" class="logo-desktop">
+                <img src="/assets/art-deco-1.png" alt=""/>
                 <span class="sr-only">Home</span>
             </a>
-            <button
-                class="mobile-nav-toggle"
-                aria-controls="primary-navigation">
-                <span class="sr-only">navigation menu toggle</span>
-            </button>
-            <nav>
-                <ul id="primary-navigation" class="primary-navigation hover-indicators flex">
+            <nav aria-labelledby="site-navigation">
+                <span  class="sr-only" id="site-navigation">Site navigation</span>
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="sr-only">Navigation</span>
+                </button>
+                <ul role="list" id="primary-navigation" class="primary-navigation hover-indicators flex">
                     <li class="nav-link"><a href="/">Featured</a></li>
                     <li class="nav-link"><a href="/all-projects">Web Projects</a></li>
-                    <li class="nav-link"><a href="/#videos">Videos</a></li>
+                    <li class="nav-link"><a href="/all-videos">Videos</a></li>
                     <li class="nav-link"><a href="/all-experiments">Experiments</a></li>
                 </ul>
             </nav>
@@ -83,6 +78,23 @@
             </div>
         </div>
         <div class="layout">
+    <div class="card">
+        <div class="image-zoom-wrapper">
+            <a href="/projects/text-to-speech/">
+                <img class="card__image" src=/assets/text-to-speech-tablet.jpg alt=>
+            </a>
+        </div>
+        <p class="tag">Web App</p>
+        <div class="card__details">
+            <h2>
+                <a class="link" href="/projects/text-to-speech/">
+                    Exploring the Possibilities with OpenAI&#39;s Text to Speech API
+                </a>
+            </h2>
+            <p>OpenAI&#39;s powerful API can generate just about anything! Add an Express backend and a React frontend and you&#39;ve got entertainment for hours!</p>
+        </div>
+    </div>
+
     <div class="card">
         <div class="image-zoom-wrapper">
             <a href="/projects/goucher-grad-studies/">
@@ -165,24 +177,6 @@
                 </a>
             </h2>
             <p>A compact component, built in React and using the Comments Section API I created. Styling is done using my favorite pre-processor, Sass.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="image-zoom-wrapper">
-            <a href="/projects/daily-todos/">
-                <img class="card__image" src=/assets/todo-app-tablet-2.jpg alt=>
-            </a>
-        </div>
-        <p class="tag">web app</p>
-        <div class="card__details">
-            <h2>
-                <a class="link" href="/projects/daily-todos/">
-                    Your Daily To-Do&#39;s: A Frontend Mentor Challenge
-
-                </a>
-            </h2>
-            <p>A fully responsive app built with React hooks and Sass. Cross off your to-do list in style with this functional app, complete with a dark mode toggle.</p>
         </div>
     </div>
 </div>

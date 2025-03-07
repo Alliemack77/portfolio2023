@@ -5,7 +5,7 @@ title: >
 cardTitle: >
     Your Daily To-Do's: A Frontend Mentor Challenge
 icons: ["fa-react", "fa-sass"]
-tags: ["project", "featured"]
+tags: ["project"]
 eyebrow: web app
 imageTablet: /assets/todo-app-tablet-2.jpg
 imageBreakout: /assets/todo-app-breakout-2.jpg

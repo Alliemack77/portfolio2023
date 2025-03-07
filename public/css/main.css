@@ -395,6 +395,10 @@ h2 .link:focus-within,
   padding: 1rem;
 }
 
+.layout.video .card.video {
+  box-shadow: 0 20px 60px 0 rgba(170, 177, 251, 0.396);
+}
+
 .primary-footer {
   background-image: url(../../assets/background.png);
   background-position: center;
@@ -449,14 +453,8 @@ h2 .link:focus-within,
 }
 
 .primary-header {
-  top: 0;
-  z-index: 100;
   padding: 1em 0 2em;
   background-color: hsl(0deg, 0%, 100%);
-}
-
-.primary-header h1 {
-  margin-block-start: 1em;
 }
 
 .primary-header .logo-mobile,
@@ -480,30 +478,24 @@ h2 .link:focus-within,
   font-size: 1.125rem;
 }
 
-.primary-header .hover-indicators > li {
+.primary-header .hover-indicators > li a {
   color: hsl(235deg, 100%, 19%);
 }
 
-.primary-header .hover-indicators > li:hover, .primary-header .hover-indicators > li:focus {
+.primary-header .hover-indicators > li a:hover, .primary-header .hover-indicators > li a:focus {
   color: hsl(235deg, 100%, 61%);
   transition: color 450ms ease-out;
 }
 
-.primary-header .hover-indicators > li a {
+.primary-header .hover-indicators > li a a {
   padding: 0.5em;
   text-decoration: none;
-}
-
-.primary-header .hover-indicators > li a:visited {
-  color: hsl(235deg, 100%, 19%);
 }
 
 @media (max-width: 48rem) {
   .primary-header .logo-mobile {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-block-end: 2em;
+    margin-block-end: 1em;
   }
   .primary-header .logo-mobile img {
     max-width: 50px;
@@ -531,8 +523,12 @@ h2 .link:focus-within,
     transform: rotate(-180deg);
     transition: transform 450ms ease-in;
   }
+  .primary-header .mobile-nav-toggle[aria-expanded=true] {
+    background-image: url("../../assets/toggle-close.png");
+    transform: rotate(90deg);
+    transition: transform 450ms ease-in;
+  }
   .primary-header .primary-navigation {
-    flex-direction: column;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -542,7 +538,6 @@ h2 .link:focus-within,
     bottom: 0;
     left: 0;
     right: 0;
-    inset: -50 0 0 0;
     display: flex;
     padding: 7rem 1rem;
     background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
@@ -551,12 +546,7 @@ h2 .link:focus-within,
     z-index: 10;
     transition: translate 450ms ease-in;
   }
-  .primary-header .nav-open .mobile-nav-toggle {
-    background-image: url("../../assets/toggle-close.png");
-    transform: rotate(90deg);
-    transition: transform 450ms ease-in;
-  }
-  .primary-header .nav-open .primary-navigation {
+  .primary-header .mobile-nav-toggle[aria-expanded=true] + .primary-navigation {
     translate: 0%;
     transition: translate 450ms ease-in;
   }
@@ -749,7 +739,7 @@ h2 .link:focus-within,
 
 .layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 2rem;
 }
 

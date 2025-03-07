@@ -1,0 +1,26 @@
+---
+title: Video Tutorials | Allison Leggett
+layout: 'base.njk'
+---
+
+<section class="container">
+    <div class="deco">
+        <header class="page-header">
+            <h1 class="heading uppercase">Video Tutorials</h1>
+            <p>Tutorials on modern web development </p>
+        </header>
+    
+        <div class="page-subtitle">
+            <h2 class="ff-heading fs-600 uppercase">Recent Videos</h2>
+        </div>
+        <div class="layout video">
+            {%- for video in collections.video | reverse -%}
+
+                {% include 'video-card.njk' %}
+               
+            {%- endfor -%}
+        </div>
+       
+    </div>
+</section>
+   

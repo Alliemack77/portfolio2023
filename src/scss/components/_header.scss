@@ -4,14 +4,10 @@
 
 .primary-header {
     // position: sticky;
-    top: 0;
-    z-index: 100;
+    // top: 0;
+    // z-index: 100;
     padding: 1em 0 2em; 
     background-color: $clr-white;
-
-    h1 {
-        margin-block-start: 1em;
-    }
 
     .logo-mobile,
     .mobile-nav-toggle {
@@ -34,7 +30,7 @@
         font-size: $fs-500;
     }
 
-    .hover-indicators > li {
+    .hover-indicators > li a{
         color: $clr-dark-blue;
         
         &:hover, 
@@ -48,9 +44,9 @@
             text-decoration: none;
         }
 
-        a:visited {
-            color: $clr-dark-blue;
-        }
+        // a:visited {
+        //     color: $clr-dark-blue;
+        // }
     } 
 
 
@@ -59,9 +55,7 @@
          
         .logo-mobile {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-block-end: 2em;
+            margin-block-end: 1em;
 
             img {
                 max-width: 50px;
@@ -94,8 +88,13 @@
             @include transition-450-easein(transform);
         }
 
+        .mobile-nav-toggle[aria-expanded="true"] {
+            background-image: url('../../assets/toggle-close.png');
+            transform: rotate(90deg);
+            @include transition-450-easein(transform);
+        }
+
         .primary-navigation {
-            flex-direction: column;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -105,10 +104,8 @@
             bottom: 0;
             left: 0;
             right: 0;
-            inset: -50 0 0 0;
             display: flex;
             padding: 7rem 1rem;
-            // background-color: $clr-dark-blue;
             background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
             color: $clr-dark-blue;
             translate: 100%;
@@ -116,16 +113,7 @@
             @include transition-450-easein(translate);
         }
 
-        .nav-open .mobile-nav-toggle {
-            background-image: url('../../assets/toggle-close.png');
-            transform: rotate(90deg);
-            @include transition-450-easein(transform);
-        }
-
-        .nav-open .primary-navigation {
-            // flex-direction: column;
-            // justify-content: center;
-            // align-items: center;
+        .mobile-nav-toggle[aria-expanded="true"] + .primary-navigation {
             translate: 0%;
             @include transition-450-easein(translate);
         }
