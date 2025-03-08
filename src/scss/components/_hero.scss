@@ -22,7 +22,7 @@
         z-index: 1; 
         
 
-        h2 {
+        h3 {
             margin-block: 1rem;
             line-height: 1.2;
         }
@@ -51,7 +51,9 @@
 }
 
 .hero-video {
-    margin-block-end: 6rem;
+    margin-block-end: 6em;
+    margin-block-start: 5em;
+
     figure {
         padding: 2rem;
         background-color: $clr-dark-blue;
@@ -72,10 +74,10 @@
     }
 
     &__details {
-        margin-block: 2rem;
+        margin-block: 2em;
         max-width: 60ch;
 
-        h2 {
+        h3 {
             color: $clr-dark-blue;
             margin-block: 1rem;
             line-height: 1.2;

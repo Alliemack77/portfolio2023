@@ -20,22 +20,21 @@
 
 </head>
 <body>
+    
     <header class="primary-header">
     <div class="container">
-        <a href="/" class="logo-mobile">
-            <img src="/assets/art-deco-1.png" alt=""/>
-            <span class="sr-only">Home</span>
-        </a>
-        <h1 class="name fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span></h1>
+        <span class="name fs-500 fw-600" aria-hidden="true">
+            Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span>
+        </span>
         <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <a href="/" class="logo-desktop">
-                <img src="/assets/art-deco-1.png" alt=""/>
+            <a href="/" class="logo">
+                <img src="/assets/art-deco-1.png" alt="" width="50"/>
                 <span class="sr-only">Home</span>
             </a>
-            <nav aria-labelledby="site-navigation">
-                <span  class="sr-only" id="site-navigation">Site navigation</span>
+            <nav aria-labelledby="nav-label">
+                <span  class="sr-only" id="nav-label">Site</span>
                 <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-                    <span class="sr-only">Navigation</span>
+                    <span class="sr-only">Menu</span>
                 </button>
                 <ul role="list" id="primary-navigation" class="primary-navigation hover-indicators flex">
                     <li class="nav-link"><a href="/">Featured</a></li>

@@ -27,7 +27,7 @@
 }
 
 .page-header {
-  margin: 4rem auto;
+  margin: 1rem auto;
   width: max-content;
 }
 .page-header img {
@@ -38,7 +38,7 @@
   font-family: "Playfair Display", serif;
   font-size: clamp(1.5rem, 7vw, 6.25rem);
 }
-@media (width > 48em) {
+@media (min-width: 48em) {
   .page-header {
     margin-block-end: 9rem;
   }
@@ -52,7 +52,7 @@
 }
 
 .deco {
-  padding: 3em 0em;
+  padding: 1em 0em 3em;
 }
 @media (min-width: 48em) {
   .deco {

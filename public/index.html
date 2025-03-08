@@ -19,22 +19,21 @@
 
 </head>
 <body>
+    
     <header class="primary-header">
     <div class="container">
-        <a href="/" class="logo-mobile">
-            <img src="/assets/art-deco-1.png" alt=""/>
-            <span class="sr-only">Home</span>
-        </a>
-        <h1 class="name fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span></h1>
+        <span class="name fs-500 fw-600" aria-hidden="true">
+            Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span>
+        </span>
         <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <a href="/" class="logo-desktop">
-                <img src="/assets/art-deco-1.png" alt=""/>
+            <a href="/" class="logo">
+                <img src="/assets/art-deco-1.png" alt="" width="50"/>
                 <span class="sr-only">Home</span>
             </a>
-            <nav aria-labelledby="site-navigation">
-                <span  class="sr-only" id="site-navigation">Site navigation</span>
+            <nav aria-labelledby="nav-label">
+                <span  class="sr-only" id="nav-label">Site</span>
                 <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-                    <span class="sr-only">Navigation</span>
+                    <span class="sr-only">Menu</span>
                 </button>
                 <ul role="list" id="primary-navigation" class="primary-navigation hover-indicators flex">
                     <li class="nav-link"><a href="/">Featured</a></li>
@@ -48,6 +47,8 @@
 </header>
     <main>
         
+<h1 class="sr-only">Allison Leggett Frontend Developer</h1>
+
 <section class="container">
   
     <header class="page-header">
@@ -71,111 +72,111 @@
             <div class="hero-video__details">
                 <p class=" tag">Component</p>
         
-                <h2 class="fs-800 fw-700 ff-heading text-white">
+                <h3 class="fs-800 fw-700 ff-heading text-white">
                     <a href="/projects/view-transitions">The View Transition API: Smooth Transitions for Better UX</a>
-                </h2>
+                </h3>
                 <p class="text-white">Slide on in and explore the coolest API since, well ever. In this video tutorial I demonstrate how to create the buttery smooth transitions in the image gallery. Whether you're using the default crossfade or custom CSS animations, this API is like a salve for your animation weary soul.</p>
             </div>
         </div>
         <div class="layout">
     <div class="card">
         <div class="image-zoom-wrapper">
-            <a href="/projects/text-to-speech/">
+            
                 <img class="card__image" src=/assets/text-to-speech-tablet.jpg alt=>
-            </a>
+            
         </div>
         <p class="tag">Web App</p>
         <div class="card__details">
-            <h2>
+            <h3>
                 <a class="link" href="/projects/text-to-speech/">
                     Exploring the Possibilities with OpenAI&#39;s Text to Speech API
                 </a>
-            </h2>
+            </h3>
             <p>OpenAI&#39;s powerful API can generate just about anything! Add an Express backend and a React frontend and you&#39;ve got entertainment for hours!</p>
         </div>
     </div>
 
     <div class="card">
         <div class="image-zoom-wrapper">
-            <a href="/projects/goucher-grad-studies/">
+            
                 <img class="card__image" src=/assets/goucher-grad-studies-tablet.png alt=>
-            </a>
+            
         </div>
         <p class="tag">website</p>
         <div class="card__details">
-            <h2>
+            <h3>
                 <a class="link" href="/projects/goucher-grad-studies/">
                     Leveraging the Power of Eleventy in Higher Education Marketing
                 </a>
-            </h2>
+            </h3>
             <p>Content management is fun again when you use the best static site generator in the world, Eleventy! Going back to school never felt so good.</p>
         </div>
     </div>
 
     <div class="card">
         <div class="image-zoom-wrapper">
-            <a href="/projects/dictionary/">
+            
                 <img class="card__image" src=/assets/dictionary-tablet.jpg alt=>
-            </a>
+            
         </div>
         <p class="tag">web app</p>
         <div class="card__details">
-            <h2>
+            <h3>
                 <a class="link" href="/projects/dictionary/">
                     Using React Context for Data Sharing in this Dictionary Web App
                 </a>
-            </h2>
+            </h3>
             <p>React Context shines in this jaunty web app that uses the Free Dictionary API to search for all your favorite words. Give it a go!</p>
         </div>
     </div>
 
     <div class="card">
         <div class="image-zoom-wrapper">
-            <a href="/projects/staff-listing/">
+            
                 <img class="card__image" src=/assets/staff-listing-tablet.jpg alt=>
-            </a>
+            
         </div>
         <p class="tag">component</p>
         <div class="card__details">
-            <h2>
+            <h3>
                 <a class="link" href="/projects/staff-listing/">
                     Building Flexible Components with Grid &amp; Container Queries
                 </a>
-            </h2>
+            </h3>
             <p>CSS container queries and grid layout are the perfect tools to use when you want to write modern, flexible, and readable CSS.</p>
         </div>
     </div>
 
     <div class="card">
         <div class="image-zoom-wrapper">
-            <a href="/projects/github-search/">
+            
                 <img class="card__image" src=/assets/github-tablet.jpg alt=>
-            </a>
+            
         </div>
         <p class="tag">web app</p>
         <div class="card__details">
-            <h2>
+            <h3>
                 <a class="link" href="/projects/github-search/">
                     Container Queries, React Context, &amp; GitHub API, Oh My!
                 </a>
-            </h2>
+            </h3>
             <p>React context, Sass mixins, container queries...they all come together nicely in this fun web app. Search for yourself, I know you want to!</p>
         </div>
     </div>
 
     <div class="card">
         <div class="image-zoom-wrapper">
-            <a href="/projects/comments-section/">
+            
                 <img class="card__image" src=/assets/comment-bubble-tablet.jpg alt=>
-            </a>
+            
         </div>
         <p class="tag">component</p>
         <div class="card__details">
-            <h2>
+            <h3>
                 <a class="link" href="/projects/comments-section/">
                     A Fully Responsive Comments Section Using Custom React Hooks
                 </a>
-            </h2>
+            </h3>
             <p>A compact component, built in React and using the Comments Section API I created. Styling is done using my favorite pre-processor, Sass.</p>
         </div>
     </div>
@@ -198,92 +199,92 @@
    <div class="layout container text-white">    <div class="card video">
         <div class="image-zoom-wrapper">
             
-            <a href="https://youtu.be/DbP1ahk6WsQ" target="_blank" rel="noreferrer">
+            
                 <img src="/assets/progressive-enhancements-tn.jpg" alt="">
-            </a>
+            
         </div>
         <p class="tag">Video</p>
         <div class="card__details">
-            <h2 class="fs-700">
+            <h3 class="fs-700">
                 <a class="link" href="https://youtu.be/DbP1ahk6WsQ">
                     How to Use Progressive Enhancements to Easily Build Accessible Tabs
                 </a>
-            </h2>
+            </h3>
         </div>
     </div>    <div class="card video">
         <div class="image-zoom-wrapper">
             
-            <a href="https://www.youtube.com/watch?v=-mtLDrLoxXA" target="_blank" rel="noreferrer">
+            
                 <img src="/assets/responsive-layouts-tn-c.jpg" alt="">
-            </a>
+            
         </div>
         <p class="tag">Video</p>
         <div class="card__details">
-            <h2 class="fs-700">
+            <h3 class="fs-700">
                 <a class="link" href="https://www.youtube.com/watch?v=-mtLDrLoxXA">
                     How to Build a Responsive Layout with HTML, CSS, &amp; JavaScript - Part 3 - Article Section
                 </a>
-            </h2>
+            </h3>
         </div>
     </div>    <div class="card video">
         <div class="image-zoom-wrapper">
             
-            <a href="https://www.youtube.com/watch?v=8qNubdMMDRs&amp;t=3s" target="_blank" rel="noreferrer">
+            
                 <img src="/assets/responsive-layouts-tn-b.jpg" alt="">
-            </a>
+            
         </div>
         <p class="tag">Video</p>
         <div class="card__details">
-            <h2 class="fs-700">
+            <h3 class="fs-700">
                 <a class="link" href="https://www.youtube.com/watch?v=8qNubdMMDRs&amp;t=3s">
                     How to Build a Responsive Layout with HTML, CSS, &amp; JavaScript - Part 2 - Hero Layout with Subgrid
                 </a>
-            </h2>
+            </h3>
         </div>
     </div>    <div class="card video">
         <div class="image-zoom-wrapper">
             
-            <a href="https://www.youtube.com/watch?v=NkxXterRidg" target="_blank" rel="noreferrer">
+            
                 <img src="/assets/responsive-layouts-tn-a.jpg" alt="">
-            </a>
+            
         </div>
         <p class="tag">Video</p>
         <div class="card__details">
-            <h2 class="fs-700">
+            <h3 class="fs-700">
                 <a class="link" href="https://www.youtube.com/watch?v=NkxXterRidg">
                     How to Build a Responsive Layout with HTML, CSS, &amp; JavaScript - Part 1 - Accessible Navigation Menu
                 </a>
-            </h2>
+            </h3>
         </div>
     </div>    <div class="card video">
         <div class="image-zoom-wrapper">
             
-            <a href="https://youtu.be/zqjKE_zcWzE" target="_blank" rel="noreferrer">
+            
                 <img src="/assets/scroll-animations.jpg" alt="">
-            </a>
+            
         </div>
         <p class="tag">Video</p>
         <div class="card__details">
-            <h2 class="fs-700">
+            <h3 class="fs-700">
                 <a class="link" href="https://youtu.be/zqjKE_zcWzE">
                     CSS Only Scroll Animations Are AMAZING!
                 </a>
-            </h2>
+            </h3>
         </div>
     </div>    <div class="card video">
         <div class="image-zoom-wrapper">
             
-            <a href="https://youtu.be/gS-WqvK5U9k" target="_blank" rel="noreferrer">
+            
                 <img src="/assets/wrapper-alternatives.jpg" alt="">
-            </a>
+            
         </div>
         <p class="tag">Video</p>
         <div class="card__details">
-            <h2 class="fs-700">
+            <h3 class="fs-700">
                 <a class="link" href="https://youtu.be/gS-WqvK5U9k">
                     Build Flexible Layouts (Without Wrapper Classes) Using CSS Grid
                 </a>
-            </h2>
+            </h3>
         </div>
     </div></div>
    <a class="link ff-heading fw-500 text-white uppercase" href="https://www.youtube.com/@CSSdeCoder">Check out more videos</a>
@@ -301,7 +302,7 @@
         <div class="body flex">
             <div>
                 <p class="tag">component</p>
-                <h2 class="ff-heading fs-500 fw-700">Gradient Border</h2>
+                <h3 class="ff-heading fs-500 fw-700">Gradient Border</h3>
             </div>
             <p class="ff-heading text-accent fs-900">02</p>
         </div>
@@ -312,7 +313,7 @@
         <div class="body flex">
             <div>
                 <p class="tag">Web App</p>
-                <h2 class="ff-heading fs-500 fw-700">Web Scraper</h2>
+                <h3 class="ff-heading fs-500 fw-700">Web Scraper</h3>
             </div>
             <p class="ff-heading text-accent fs-900">04</p>
         </div>
@@ -323,7 +324,7 @@
         <div class="body flex">
             <div>
                 <p class="tag">Mock API</p>
-                <h2 class="ff-heading fs-500 fw-700">Doctor Who API</h2>
+                <h3 class="ff-heading fs-500 fw-700">Doctor Who API</h3>
             </div>
             <p class="ff-heading text-accent fs-900">05</p>
         </div>

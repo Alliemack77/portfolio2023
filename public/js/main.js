@@ -1,10 +1,11 @@
 const navToggle = document.querySelector('.mobile-nav-toggle')
 const navContent = document.querySelector('.primary-navigation')
-// navContent.setAttribute('inert', 'true')
+const header = document.querySelector('.primary-header')
 
 const viewportWidth = window.innerWidth
 if(viewportWidth <= 768) {
     navContent.setAttribute('inert', 'true')
+    navContent.setAttribute('aria-hidden', 'true')
 }
 
 function ToggleNavMenu() {
@@ -19,6 +20,17 @@ function ToggleNavMenu() {
     }
 }
 
+// function focusIsInside(element) {
+//     return element.contains(document.activeElement)
+// }
+
+// function collapseAll() {
+//     navToggle.setAttribute('aria-expanded', 'false')
+//     navContent.setAttribute('aria-hidden', 'true')
+//     navContent.setAttribute('inert', 'true')
+// }
+
+
 navToggle.addEventListener('click', () => {
     ToggleNavMenu()
 })
@@ -32,6 +44,14 @@ navToggle.addEventListener('keydown', (e) => {
         navToggle.focus()
     }
 })
+
+// document.addEventListener('keyup', (e) => {
+//     // tab
+//     if(e.keyCode === 9 && !focusIsInside(navContent)) {
+//         collapseAll()
+//         navToggle.focus()
+//     }
+// })
 
 
 

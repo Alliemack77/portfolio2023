@@ -19,22 +19,21 @@
 
 </head>
 <body>
+    
     <header class="primary-header">
     <div class="container">
-        <a href="/" class="logo-mobile">
-            <img src="/assets/art-deco-1.png" alt=""/>
-            <span class="sr-only">Home</span>
-        </a>
-        <h1 class="name fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span></h1>
+        <span class="name fs-500 fw-600" aria-hidden="true">
+            Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span>
+        </span>
         <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <a href="/" class="logo-desktop">
-                <img src="/assets/art-deco-1.png" alt=""/>
+            <a href="/" class="logo">
+                <img src="/assets/art-deco-1.png" alt="" width="50"/>
                 <span class="sr-only">Home</span>
             </a>
-            <nav aria-labelledby="site-navigation">
-                <span  class="sr-only" id="site-navigation">Site navigation</span>
+            <nav aria-labelledby="nav-label">
+                <span  class="sr-only" id="nav-label">Site</span>
                 <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-                    <span class="sr-only">Navigation</span>
+                    <span class="sr-only">Menu</span>
                 </button>
                 <ul role="list" id="primary-navigation" class="primary-navigation hover-indicators flex">
                     <li class="nav-link"><a href="/">Featured</a></li>
@@ -51,10 +50,13 @@
 <section class="container">
     <div class="deco">
         <header class="page-header">
-            
             <h1 class="heading uppercase">Experiments</h1>
             <p>Small studies in frontend development</p>
         </header>
+
+        <div class="page-subtitle">
+            <h2 class="ff-heading fs-600 uppercase">Tests for Larger Projects</h2>
+        </div>
     
         <div class="layout"><a href="https://codepen.io/alliemack/pen/xxpBReN" target="_blank" rel="noreferrer">
     <div class="card experiment flex direction-column">
@@ -62,7 +64,7 @@
         <div class="body flex">
             <div>
                 <p class="tag">component</p>
-                <h2 class="ff-heading fs-500 fw-700">Character Cards</h2>
+                <h3 class="ff-heading fs-500 fw-700">Character Cards</h3>
             </div>
             <p class="ff-heading text-accent fs-900">01</p>
         </div>
@@ -73,7 +75,7 @@
         <div class="body flex">
             <div>
                 <p class="tag">component</p>
-                <h2 class="ff-heading fs-500 fw-700">Gradient Border</h2>
+                <h3 class="ff-heading fs-500 fw-700">Gradient Border</h3>
             </div>
             <p class="ff-heading text-accent fs-900">02</p>
         </div>
@@ -84,7 +86,7 @@
         <div class="body flex">
             <div>
                 <p class="tag">Web App</p>
-                <h2 class="ff-heading fs-500 fw-700">Crypto Converter</h2>
+                <h3 class="ff-heading fs-500 fw-700">Crypto Converter</h3>
             </div>
             <p class="ff-heading text-accent fs-900">03</p>
         </div>
@@ -95,7 +97,7 @@
         <div class="body flex">
             <div>
                 <p class="tag">Web App</p>
-                <h2 class="ff-heading fs-500 fw-700">Web Scraper</h2>
+                <h3 class="ff-heading fs-500 fw-700">Web Scraper</h3>
             </div>
             <p class="ff-heading text-accent fs-900">04</p>
         </div>
@@ -106,7 +108,7 @@
         <div class="body flex">
             <div>
                 <p class="tag">Mock API</p>
-                <h2 class="ff-heading fs-500 fw-700">Doctor Who API</h2>
+                <h3 class="ff-heading fs-500 fw-700">Doctor Who API</h3>
             </div>
             <p class="ff-heading text-accent fs-900">05</p>
         </div>

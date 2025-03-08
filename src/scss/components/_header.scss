@@ -3,27 +3,24 @@
 @use '../abstracts/mixins' as *;
 
 .primary-header {
-    // position: sticky;
-    // top: 0;
-    // z-index: 100;
     padding: 1em 0 2em; 
     background-color: $clr-white;
 
-    .logo-mobile,
+    // .logo-mobile,
     .mobile-nav-toggle {
         display: none;
+    }
+
+    .logo {
+        display: grid;
+        align-items: end;
+        max-width: 50px;
+        padding: .5rem;
     }
 
     #navigation-container {
         position: relative;
         margin-block-start: 4rem;
-    }
-    
-    .logo-desktop {
-        display: grid;
-        align-items: end;
-        max-width: 50px;
-        padding: .5rem;
     }
 
     .primary-navigation {
@@ -32,42 +29,26 @@
 
     .hover-indicators > li a{
         color: $clr-dark-blue;
+        padding: .5em;
+        text-decoration: none;
         
         &:hover, 
         &:focus {
             color: $clr-accent;
             transition: color 450ms ease-out;
         }
-        
-        & a {
-            padding: .5em;
-            text-decoration: none;
-        }
-
-        // a:visited {
-        //     color: $clr-dark-blue;
-        // }
     } 
 
 
 
     @media (max-width: 48rem) {
-         
-        .logo-mobile {
-            display: flex;
-            margin-block-end: 1em;
 
-            img {
-                max-width: 50px;
-            }
+        .name {
+            display: none;
         }
-
+        
         #navigation-container {
             margin-block-start: 0;
-        }
-
-        .logo-desktop {
-            display: none;
         }
 
         .mobile-nav-toggle {
@@ -76,7 +57,7 @@
             border: none;
             background: transparent;
             position: absolute;
-            top: -54px;
+            top: -9px;
             right: 0;
             z-index: 100;
             background-image: url('../../assets/toggle-open.png');
@@ -88,12 +69,6 @@
             @include transition-450-easein(transform);
         }
 
-        .mobile-nav-toggle[aria-expanded="true"] {
-            background-image: url('../../assets/toggle-close.png');
-            transform: rotate(90deg);
-            @include transition-450-easein(transform);
-        }
-
         .primary-navigation {
             flex-direction: column;
             justify-content: center;
@@ -101,9 +76,10 @@
             font-size: $fs-800;
             position: fixed;
             top: 0;
-            bottom: 0;
+            bottom:0;
             left: 0;
             right: 0;
+            // inset: 0;
             display: flex;
             padding: 7rem 1rem;
             background-image: linear-gradient(hsl(235deg, 24%, 50%), hsl(0deg, 0%, 100%));
@@ -113,10 +89,17 @@
             @include transition-450-easein(translate);
         }
 
+        .mobile-nav-toggle[aria-expanded="true"] {
+            background-image: url('../../assets/toggle-close.png');
+            transform: rotate(90deg);
+            @include transition-450-easein(transform);
+        }
+
         .mobile-nav-toggle[aria-expanded="true"] + .primary-navigation {
             translate: 0%;
             @include transition-450-easein(translate);
         }
+
     }
 
     

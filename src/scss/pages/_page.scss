@@ -4,7 +4,7 @@
 
 
 .page-header {
-    margin: 4rem auto;
+    margin: 1rem auto;
     width: max-content;
 
     img {
@@ -17,7 +17,7 @@
         font-size: $fs-1000;
     }
 
-    @media (width > 48em) {
+    @media (min-width: 48em) {
         margin-block-end: 9rem;
     }
 }
@@ -31,7 +31,7 @@
 }
 
 .deco {
-    padding: 3em 0em;
+    padding: 1em 0em 3em;
 
     @media (min-width: 48em) {
         border-left: solid $clr-light-blue-50 1px;

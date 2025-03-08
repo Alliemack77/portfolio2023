@@ -1,4 +1,5 @@
 .row {
+    margin-block-end: 10em;
 
     @media (min-width: 900px) {
         display: grid;
@@ -7,6 +8,10 @@
         margin-block-end: 2rem;
     }
     
+}
+
+.row-video {
+    margin-block-end: 10em;
 }
 
 

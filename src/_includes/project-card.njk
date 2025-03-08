@@ -1,17 +1,17 @@
 
     <div class="card">
         <div class="image-zoom-wrapper">
-            <a href="{{ project.url }}">
+            {# <a href="{{ project.url }}"> #}
                 <img class="card__image" src={{ project.data.imageTablet }} alt={{ project.data.imageAlt }}>
-            </a>
+            {# </a> #}
         </div>
         <p class="tag">{{ project.data.eyebrow }}</p>
         <div class="card__details">
-            <h2>
+            <h3>
                 <a class="link" href="{{ project.url }}">
                     {{ project.data.cardTitle}}
                 </a>
-            </h2>
+            </h3>
             <p>{{ project.data.blurb }}</p>
         </div>
     </div>

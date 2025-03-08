@@ -1,15 +1,15 @@
 <div class="card">
-    <a href={{portfolio.data.urls[0]}}>
+    {# <a href={{portfolio.data.urls[0]}}> #}
         <img class="card__image" src={{ portfolio.data.imageTablet }} alt="">
-    </a>
+    {# </a> #}
     <div class="card__details">
         <div class="icon-wrapper">
             <i class="fa-brands {{portfolio.data.icons[1]}}"></i>
             <i class="fa-brands {{portfolio.data.icons[0]}}"></i>
         </div>
-        <h2>
+        <h3>
             <a class="link" href={{portfolio.data.urls[0]}}>{{ portfolio.data.cardTitle}}</a>
-        </h2>
+        </h3>
         <p>{{portfolio.data.blurb}}</p>
     </div>
 </div>

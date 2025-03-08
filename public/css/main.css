@@ -342,13 +342,13 @@ h2 .link:focus-within,
   max-width: 70ch;
 }
 
-.card__details h2 {
+.card__details h3 {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   line-height: 1.2;
 }
 
-.card__details h2 a {
+.card__details h3 a {
   color: hsl(235deg, 100%, 19%);
 }
 
@@ -457,21 +457,20 @@ h2 .link:focus-within,
   background-color: hsl(0deg, 0%, 100%);
 }
 
-.primary-header .logo-mobile,
 .primary-header .mobile-nav-toggle {
   display: none;
+}
+
+.primary-header .logo {
+  display: grid;
+  align-items: end;
+  max-width: 50px;
+  padding: 0.5rem;
 }
 
 .primary-header #navigation-container {
   position: relative;
   margin-block-start: 4rem;
-}
-
-.primary-header .logo-desktop {
-  display: grid;
-  align-items: end;
-  max-width: 50px;
-  padding: 0.5rem;
 }
 
 .primary-header .primary-navigation {
@@ -480,6 +479,8 @@ h2 .link:focus-within,
 
 .primary-header .hover-indicators > li a {
   color: hsl(235deg, 100%, 19%);
+  padding: 0.5em;
+  text-decoration: none;
 }
 
 .primary-header .hover-indicators > li a:hover, .primary-header .hover-indicators > li a:focus {
@@ -487,24 +488,12 @@ h2 .link:focus-within,
   transition: color 450ms ease-out;
 }
 
-.primary-header .hover-indicators > li a a {
-  padding: 0.5em;
-  text-decoration: none;
-}
-
 @media (max-width: 48rem) {
-  .primary-header .logo-mobile {
-    display: flex;
-    margin-block-end: 1em;
-  }
-  .primary-header .logo-mobile img {
-    max-width: 50px;
+  .primary-header .name {
+    display: none;
   }
   .primary-header #navigation-container {
     margin-block-start: 0;
-  }
-  .primary-header .logo-desktop {
-    display: none;
   }
   .primary-header .mobile-nav-toggle {
     display: block;
@@ -512,7 +501,7 @@ h2 .link:focus-within,
     border: none;
     background: transparent;
     position: absolute;
-    top: -54px;
+    top: -9px;
     right: 0;
     z-index: 100;
     background-image: url("../../assets/toggle-open.png");
@@ -521,11 +510,6 @@ h2 .link:focus-within,
     width: 4rem;
     aspect-ratio: 1;
     transform: rotate(-180deg);
-    transition: transform 450ms ease-in;
-  }
-  .primary-header .mobile-nav-toggle[aria-expanded=true] {
-    background-image: url("../../assets/toggle-close.png");
-    transform: rotate(90deg);
     transition: transform 450ms ease-in;
   }
   .primary-header .primary-navigation {
@@ -545,6 +529,11 @@ h2 .link:focus-within,
     translate: 100%;
     z-index: 10;
     transition: translate 450ms ease-in;
+  }
+  .primary-header .mobile-nav-toggle[aria-expanded=true] {
+    background-image: url("../../assets/toggle-close.png");
+    transform: rotate(90deg);
+    transition: transform 450ms ease-in;
   }
   .primary-header .mobile-nav-toggle[aria-expanded=true] + .primary-navigation {
     translate: 0%;
@@ -571,7 +560,7 @@ h2 .link:focus-within,
   z-index: 1;
 }
 
-.hero__details h2 {
+.hero__details h3 {
   margin-block: 1rem;
   line-height: 1.2;
 }
@@ -597,7 +586,8 @@ h2 .link:focus-within,
   }
 }
 .hero-video {
-  margin-block-end: 6rem;
+  margin-block-end: 6em;
+  margin-block-start: 5em;
 }
 
 .hero-video figure {
@@ -618,11 +608,11 @@ h2 .link:focus-within,
 }
 
 .hero-video__details {
-  margin-block: 2rem;
+  margin-block: 2em;
   max-width: 60ch;
 }
 
-.hero-video__details h2 {
+.hero-video__details h3 {
   color: hsl(235deg, 100%, 19%);
   margin-block: 1rem;
   line-height: 1.2;
@@ -670,7 +660,7 @@ h2 .link:focus-within,
 }
 
 .page-header {
-  margin: 4rem auto;
+  margin: 1rem auto;
   width: max-content;
 }
 
@@ -684,7 +674,7 @@ h2 .link:focus-within,
   font-size: clamp(1.5rem, 7vw, 6.25rem);
 }
 
-@media (width > 48em) {
+@media (min-width: 48em) {
   .page-header {
     margin-block-end: 9rem;
   }
@@ -698,7 +688,7 @@ h2 .link:focus-within,
 }
 
 .deco {
-  padding: 3em 0em;
+  padding: 1em 0em 3em;
 }
 
 @media (min-width: 48em) {
@@ -780,6 +770,10 @@ h2 .link:focus-within,
   align-items: center;
 }
 
+.row {
+  margin-block-end: 10em;
+}
+
 @media (min-width: 900px) {
   .row {
     display: grid;
@@ -788,6 +782,10 @@ h2 .link:focus-within,
     margin-block-end: 2rem;
   }
 }
+.row-video {
+  margin-block-end: 10em;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

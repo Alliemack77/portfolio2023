@@ -35,6 +35,9 @@
   align-items: center;
 }
 
+.row {
+  margin-block-end: 10em;
+}
 @media (min-width: 900px) {
   .row {
     display: grid;
@@ -42,6 +45,10 @@
     gap: 2rem;
     margin-block-end: 2rem;
   }
+}
+
+.row-video {
+  margin-block-end: 10em;
 }
 
 .sr-only {

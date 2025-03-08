@@ -19,22 +19,21 @@
 
 </head>
 <body>
+    
     <header class="primary-header">
     <div class="container">
-        <a href="/" class="logo-mobile">
-            <img src="/assets/art-deco-1.png" alt=""/>
-            <span class="sr-only">Home</span>
-        </a>
-        <h1 class="name fs-500 fw-600">Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span></h1>
+        <span class="name fs-500 fw-600" aria-hidden="true">
+            Allison Leggett | <span class="fs-400 fw-400">Frontend Developer</span>
+        </span>
         <div id="navigation-container" class="flex align-items-center jusify-center" >
-            <a href="/" class="logo-desktop">
-                <img src="/assets/art-deco-1.png" alt=""/>
+            <a href="/" class="logo">
+                <img src="/assets/art-deco-1.png" alt="" width="50"/>
                 <span class="sr-only">Home</span>
             </a>
-            <nav aria-labelledby="site-navigation">
-                <span  class="sr-only" id="site-navigation">Site navigation</span>
+            <nav aria-labelledby="nav-label">
+                <span  class="sr-only" id="nav-label">Site</span>
                 <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-                    <span class="sr-only">Navigation</span>
+                    <span class="sr-only">Menu</span>
                 </button>
                 <ul role="list" id="primary-navigation" class="primary-navigation hover-indicators flex">
                     <li class="nav-link"><a href="/">Featured</a></li>
@@ -59,7 +58,7 @@
             <h1 class="fs-900 ff-heading">Exploring the Possibilities with OpenAI&#39;s Text to Speech API</h1>
             <img class="article__image" src="/assets/text-to-speech-breakout.jpg" alt="">
             <div class="article__details">
-                <p>I built this project because I was curious about what it was like to work with OpenAI&#39;s API. In this mini app, users input a string of text, hit generate and get back audio spoken by OpenAI&#39;s Alloy. Once a user hits &#39;generate&#39;, React sends the collected form data to the Express backend, which then passes the request on to OpenAI. It may be overkill for this small project, but I knew that accessing OpenAI&#39;s API would involve an API key, so I wanted to create a secure place to store it (especially since it costs real money to use the API). Plus setting up a server and establishing routes is fun and easy with Express! Take a look at the readme file on GitHub to see a gif of this app in action.</p>
+                <p>I built this project because I was curious about what it was like to work with OpenAI&#39;s API. In this mini app, users input a string of text, hit generate and get back audio spoken by OpenAI&#39;s Alloy. Once a user hits &#39;generate&#39;, React sends the collected form data to the Express backend, which then passes the request body on to OpenAI. It may be overkill for this small project, but I knew that accessing OpenAI&#39;s API would involve an API key, so I wanted to create a secure place to store it (especially since it costs real money to use the API). Plus setting up a server and establishing routes is fun and easy with Express! Take a look at the readme file on GitHub to see a gif of this app in action.</p>
                 <div class="button-container">
                     <a class="btn" href="https://github.com/Alliemack77/open-ai-text-to-speech">Github Repo</a>
                     <a class="btn" href="https://platform.openai.com/docs/api-reference/introduction">OpenAI Docs</a>
